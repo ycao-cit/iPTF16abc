@@ -63,10 +63,8 @@
   \procspie, Vol. 4841, Instrument Design and Performance for Optical/Infrared
   Ground-based Telescopes, ed. M.~{Iye} \& A.~F.~M. {Moorwood}, 1657--1669
 
-\bibitem[{{Firth} {et~al.}(2015){Firth}, {Sullivan}, {Gal-Yam}, {Howell},
-  {Maguire}, {Nugent}, {Piro}, {Baltay}, {Feindt}, {Hadjiyksta}, {McKinnon},
-  {Ofek}, {Rabinowitz}, \& {Walker}}]{2015MNRAS.446.3895F}
-{Firth}, R.~E., {Sullivan}, M., {Gal-Yam}, A., {et~al.} 2015, \mnras, 446, 3895
+\bibitem[{{Fitzpatrick}(1999)}]{1999PASP..111...63F}
+{Fitzpatrick}, E.~L. 1999, \pasp, 111, 63
 
 \bibitem[{{Foley} {et~al.}(2012){Foley}, {Challis}, {Filippenko},
   {Ganeshalingam}, {Landsman}, {Li}, {Marion}, {Silverman}, {Beaton},
@@ -83,18 +81,6 @@
   {Smartt}}]{2016A&A...593A..68F}
 {Fremling}, C., {Sollerman}, J., {Taddia}, F., {et~al.} 2016, \aap, 593, A68
 
-\bibitem[{{Ganeshalingam} {et~al.}(2011){Ganeshalingam}, {Li}, \&
-  {Filippenko}}]{2011MNRAS.416.2607G}
-{Ganeshalingam}, M., {Li}, W., \& {Filippenko}, A.~V. 2011, \mnras, 416, 2607
-
-\bibitem[{{Gonz{\'a}lez-Gait{\'a}n} {et~al.}(2012){Gonz{\'a}lez-Gait{\'a}n},
-  {Conley}, {Bianco}, {Howell}, {Sullivan}, {Perrett}, {Carlberg}, {Astier},
-  {Balam}, {Balland}, {Basa}, {Fouchez}, {Fourmanoit}, {Graham}, {Guy},
-  {Hardin}, {Hook}, {Lidman}, {Pain}, {Palanque-Delabrouille}, {Pritchet},
-  {Regnault}, {Rich}, \& {Ruhlmann-Kleider}}]{2012ApJ...745...44G}
-{Gonz{\'a}lez-Gait{\'a}n}, S., {Conley}, A., {Bianco}, F.~B., {et~al.} 2012,
-  \apj, 745, 44
-
 \bibitem[{{Goobar} {et~al.}(2015){Goobar}, {Kromer}, {Siverd}, {Stassun},
   {Pepper}, {Amanullah}, {Kasliwal}, {Sollerman}, \&
   {Taddia}}]{2015ApJ...799..106G}
@@ -107,18 +93,11 @@
   {Ruhlmann-Kleider}}]{2007A&A...466...11G}
 {Guy}, J., {Astier}, P., {Baumont}, S., {et~al.} 2007, \aap, 466, 11
 
-\bibitem[{{Hayden} {et~al.}(2010{\natexlab{a}}){Hayden}, {Garnavich}, {Kasen},
-  {Dilday}, {Frieman}, {Jha}, {Lampeitl}, {Nichol}, {Sako}, {Schneider},
-  {Smith}, {Sollerman}, \& {Wheeler}}]{2010ApJ...722.1691H}
-{Hayden}, B.~T., {Garnavich}, P.~M., {Kasen}, D., {et~al.} 2010{\natexlab{a}},
-  \apj, 722, 1691
-
-\bibitem[{{Hayden} {et~al.}(2010{\natexlab{b}}){Hayden}, {Garnavich},
-  {Kessler}, {Frieman}, {Jha}, {Bassett}, {Cinabro}, {Dilday}, {Kasen},
-  {Marriner}, {Nichol}, {Riess}, {Sako}, {Schneider}, {Smith}, \&
-  {Sollerman}}]{2010ApJ...712..350H}
-{Hayden}, B.~T., {Garnavich}, P.~M., {Kessler}, R., {et~al.}
-  2010{\natexlab{b}}, \apj, 712, 350
+\bibitem[{{Hayden} {et~al.}(2010){Hayden}, {Garnavich}, {Kasen}, {Dilday},
+  {Frieman}, {Jha}, {Lampeitl}, {Nichol}, {Sako}, {Schneider}, {Smith},
+  {Sollerman}, \& {Wheeler}}]{2010ApJ...722.1691H}
+{Hayden}, B.~T., {Garnavich}, P.~M., {Kasen}, D., {et~al.} 2010, \apj, 722,
+  1691
 
 \bibitem[{{Hook} {et~al.}(2004){Hook}, {J{\o}rgensen}, {Allington-Smith},
   {Davies}, {Metcalfe}, {Murowinski}, \& {Crampton}}]{2004PASP..116..425H}
@@ -149,15 +128,6 @@
 {Miller}, A.~A., {Laher}, R., {Masci}, F., {et~al.} 2016, The Astronomer's
   Telegram, 8907
 
-\bibitem[{{Nugent} {et~al.}(2011){Nugent}, {Sullivan}, {Cenko}, {Thomas},
-  {Kasen}, {Howell}, {Bersier}, {Bloom}, {Kulkarni}, {Kandrashoff},
-  {Filippenko}, {Silverman}, {Marcy}, {Howard}, {Isaacson}, {Maguire},
-  {Suzuki}, {Tarlton}, {Pan}, {Bildsten}, {Fulton}, {Parrent}, {Sand},
-  {Podsiadlowski}, {Bianco}, {Dilday}, {Graham}, {Lyman}, {James}, {Kasliwal},
-  {Law}, {Quimby}, {Hook}, {Walker}, {Mazzali}, {Pian}, {Ofek}, {Gal-Yam}, \&
-  {Poznanski}}]{2011Natur.480..344N}
-{Nugent}, P.~E., {Sullivan}, M., {Cenko}, S.~B., {et~al.} 2011, \nat, 480, 344
-
 \bibitem[{{Ofek} {et~al.}(2012){Ofek}, {Laher}, {Surace}, {Levitan}, {Sesar},
   {Horesh}, {Law}, {van Eyken}, {Kulkarni}, {Prince}, {Nugent}, {Sullivan},
   {Yaron}, {Pickles}, {Ag{\"u}eros}, {Arcavi}, {Bildsten}, {Bloom}, {Cenko},
@@ -174,6 +144,30 @@
   {Garnavich}, {Tucker}, {Kasen}, {Margheim}, \&
   {Filippenko}}]{2015Natur.521..332O}
 {Olling}, R.~P., {Mushotzky}, R., {Shaya}, E.~J., {et~al.} 2015, \nat, 521, 332
+
+\bibitem[{{Parrent} {et~al.}(2011){Parrent}, {Thomas}, {Fesen}, {Marion},
+  {Challis}, {Garnavich}, {Milisavljevic}, {Vink{\`o}}, \&
+  {Wheeler}}]{2011ApJ...732...30P}
+{Parrent}, J.~T., {Thomas}, R.~C., {Fesen}, R.~A., {et~al.} 2011, \apj, 732, 30
+
+\bibitem[{{Parrent} {et~al.}(2012){Parrent}, {Howell}, {Friesen}, {Thomas},
+  {Fesen}, {Milisavljevic}, {Bianco}, {Dilday}, {Nugent}, {Baron}, {Arcavi},
+  {Ben-Ami}, {Bersier}, {Bildsten}, {Bloom}, {Cao}, {Cenko}, {Filippenko},
+  {Gal-Yam}, {Kasliwal}, {Konidaris}, {Kulkarni}, {Law}, {Levitan}, {Maguire},
+  {Mazzali}, {Ofek}, {Pan}, {Polishook}, {Poznanski}, {Quimby}, {Silverman},
+  {Sternberg}, {Sullivan}, {Walker}, {Xu}, {Buton}, \&
+  {Pereira}}]{2012ApJ...752L..26P}
+{Parrent}, J.~T., {Howell}, D.~A., {Friesen}, B., {et~al.} 2012, \apjl, 752,
+  L26
+
+\bibitem[{{Pereira} {et~al.}(2013){Pereira}, {Thomas}, {Aldering}, {Antilogus},
+  {Baltay}, {Benitez-Herrera}, {Bongard}, {Buton}, {Canto}, {Cellier-Holzem},
+  {Chen}, {Childress}, {Chotard}, {Copin}, {Fakhouri}, {Fink}, {Fouchez},
+  {Gangler}, {Guy}, {Hillebrandt}, {Hsiao}, {Kerschhaggl}, {Kowalski},
+  {Kromer}, {Nordin}, {Nugent}, {Paech}, {Pain}, {P{\'e}contal}, {Perlmutter},
+  {Rabinowitz}, {Rigault}, {Runge}, {Saunders}, {Smadja}, {Tao},
+  {Taubenberger}, {Tilquin}, \& {Wu}}]{2013A&A...554A..27P}
+{Pereira}, R., {Thomas}, R.~C., {Aldering}, G., {et~al.} 2013, \aap, 554, A27
 
 \bibitem[{{Phillips}(1993)}]{1993ApJ...413L.105P}
 {Phillips}, M.~M. 1993, \apjl, 413, L105
@@ -220,6 +214,9 @@
 {Shappee}, B.~J., {Piro}, A.~L., {Holoien}, T.~W.-S., {et~al.}
   2016{\natexlab{b}}, \apj, 826, 144
 
+\bibitem[{{Silverman} \& {Filippenko}(2012)}]{2012MNRAS.425.1917S}
+{Silverman}, J.~M., \& {Filippenko}, A.~V. 2012, \mnras, 425, 1917
+
 \bibitem[{{Starr} {et~al.}(2000){Starr}, {Luppino}, {Cuillandre}, \&
   {Isani}}]{2000SPIE.3965...58S}
 {Starr}, B.~M., {Luppino}, G.~A., {Cuillandre}, J.-C., \& {Isani}, S. 2000, in
@@ -237,6 +234,14 @@
   \& {Martin}}]{2007A&A...465...71T}
 {Theureau}, G., {Hanski}, M.~O., {Coudreau}, N., {Hallet}, N., \& {Martin},
   J.-M. 2007, \aap, 465, 71
+
+\bibitem[{{Thomas} {et~al.}(2011){Thomas}, {Aldering}, {Antilogus}, {Aragon},
+  {Bailey}, {Baltay}, {Bongard}, {Buton}, {Canto}, {Childress}, {Chotard},
+  {Copin}, {Fakhouri}, {Gangler}, {Hsiao}, {Kerschhaggl}, {Kowalski}, {Loken},
+  {Nugent}, {Paech}, {Pain}, {Pecontal}, {Pereira}, {Perlmutter}, {Rabinowitz},
+  {Rigault}, {Rubin}, {Runge}, {Scalzo}, {Smadja}, {Tao}, {Weaver}, {Wu},
+  {Brown}, {Milne}, \& {Nearby Supernova Factory}}]{2011ApJ...743...27T}
+{Thomas}, R.~C., {Aldering}, G., {Antilogus}, P., {et~al.} 2011, \apj, 743, 27
 
 \bibitem[{{Vernet} {et~al.}(2011){Vernet}, {Dekker}, {D'Odorico}, {Kaper},
   {Kjaergaard}, {Hammer}, {Randich}, {Zerbi}, {Groot}, {Hjorth}, {Guinouard},
@@ -257,6 +262,14 @@
 
 \bibitem[{{Whelan} \& {Iben}(1973)}]{1973ApJ...186.1007W}
 {Whelan}, J., \& {Iben}, Jr., I. 1973, \apj, 186, 1007
+
+\bibitem[{{Zheng} \& {Filippenko}(2016)}]{2016arXiv161202097Z}
+{Zheng}, W., \& {Filippenko}, A.~V. 2016, ArXiv e-prints, arXiv:1612.02097
+
+\bibitem[{{Zheng} {et~al.}(2016){Zheng}, {Kelly}, \&
+  {Filippenko}}]{2016arXiv161202725Z}
+{Zheng}, W., {Kelly}, P.~L., \& {Filippenko}, A.~V. 2016, ArXiv e-prints,
+  arXiv:1612.02725
 
 \bibitem[{{Zheng} {et~al.}(2013){Zheng}, {Silverman}, {Filippenko}, {Kasen},
   {Nugent}, {Graham}, {Wang}, {Valenti}, {Ciabattari}, {Kelly}, {Fox},

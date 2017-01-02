@@ -148,7 +148,7 @@
 
 \begin{document}
 
-\title{iPTF16abc}
+\title{Optifcal Observations of an Extraordinarily Young Type Ia Supernova iPTF16abc}
 
 %% LaTeX will automatically break titles if they run longer than
 %% one line. However, you may use \\ to force a line break if
@@ -296,22 +296,53 @@ only up to $\sim 10\%$ of events from the single-degenerate channel
 have the preferred binary geometry for us to see the collision
 signatures.
 
+More commonly, the only observed light curve of a SN Ia is purely
+powered by the radioactive decay of synthesized $^{56}$Ni. Since
+$^{56}$Ni atoms are synthesized, mixed and deposited into different
+layers inside the ejecta, the SN may experience a dark period after
+the SN shock breakout and before the radioactive energy diffuses to
+the photosphere \citep{2014ApJ...784...85P}. In the case of strong
+mixing, $^{56}$Ni energy can reach the photosphere rapidly. As such,
+the dark period is very short and the light curve shows a fast initial
+rise. In the opposite case, it may take up to a couple of days for
+the $^{56}$Ni energy to diffuse to the photosphere. The initial rise
+of the light curve is then moderate \citep{2016ApJ...826...96P}. To
+summarize, the initial rise of the light curve of a SN Ia conveys
+information on distribution of synthesized $^{56}$Ni. 
 
-A transient, designated as iPTF16abc, was discovered by the
-intermediate Palomar Transient Factory on 2016 April
-$3.36$\footnote{all times in this paper are in UTC.} at
-$\textrm{R.A.}=13^h34^m45.49^s$, $\textrm{Dec.}=+13^d51^m14.3^s$
-(J2000) with a $g$-band magnitude of $21.31\pm0.27$
-\citep{2016PASP..128k4502C,2016ATel.8907....1M}. The transient is
-spatially coincident with a tidal tail of the galaxy NGC\,5221 at
-100\,Mpc. No activity was detected at the same location down to
-$g=22.1$\,mag on April $2.42$. Our spectroscopic follow-up compaign
-classified iPTF16abc as a normal SN Ia \citep{2016ATel.8909....1C}.
+In this paper, we report observations of an extraordinarily young SN
+Ia iPTF16abc, which was discovered by the intermediate Palomar
+Transient Factory on 2016 April $3.36$\footnote{all times in this
+  paper are in UTC.} at $\textrm{R.A.}=13^h34^m45.49^s$,
+$\textrm{Dec.}=+13^d51^m14.3^s$ (J2000) with a $g$-band magnitude of
+$21.31\pm0.27$ \citep{2016PASP..128k4502C,2016ATel.8907....1M}. The
+transient is spatially coincident with a tidal tail of the galaxy
+NGC\,5221 at 100\,Mpc. No activity was detected at the same location
+down to $g=22.1$\,mag on April $2.42$. Our spectroscopic follow-up
+compaign classified iPTF16abc as a normal SN Ia
+\citep{2016ATel.8909....1C}.
 
-This paper is organized as follows:
+This paper is organized as follows: Section \ref{sec:obs} describes
+photometric and spectroscopic observations of iPTF16abc. Section
+\ref{sec:usual_staff} establishes that iPTF16abc is a normal SN Ia
+in NGC\,5221. Section \ref{sec:first_light} analyzes the early
+light curve and spectra.
 
 \section{Observations}
 \label{sec:obs}
+
+\ycao{TODO: include LCOGT data in both text and figures.}
+
+\begin{figure*}[htb]
+  \centering
+  \includegraphics[width=0.95\textwidth]{lightcurve.pdf}
+  \caption{Multi-band light curves of iPTF16abc are shown. Filters are
+    denoted by different colors and observation instruments by
+    different markers. The $t_{max}$ time is the B-band maximum
+    determined by SALT2 (Section). The black ticks near the top of the
+    figure shows epochs of spectroscopic observations.}
+  \label{fig:lightcurve}
+\end{figure*}
 
 As part of the iPTF transient survey in the 2016 spring quarter, the
 field of iPTF16abc was observed in $g$- or $R$-band every night by the
@@ -323,14 +354,18 @@ point-spread-function (PSF) photometry at the location of the SN. The
 photometry is then calibrated to the PTF photometric catalog
 \citep{2012PASP..124..854O}.
 
-After discovery, we also utilized the rainbow camera of the SED
+After discovery, we utilized the rainbow camera of the SED
 Machine (\ycao{REF}) mounted on the 60-inch telescope at Palomar
-Observatory (P60) to carry out photometric observations in $g$, $r$
+Observatory (P60) to undertake photometric observations in $g$, $r$
 and $i$ filters. The image differencing against the archival SDSS
 images and forced PSF photometry on the subtracted images were
 performed by the Fremling Automated Pipeline
 \citep{2016A&A...593A..68F}. The photometry is also calibrated to the
 SDSS catalog.
+
+Las Cambres Observatory Global Network (LCOGT) also carry out photometric
+observations in the \textit{BVgri} filters with its 1-m telescope network.
+\ycao{Some info about data reduction}
 
 In space, \textit{Swift} observed iPTF16abc for 14 epochs, covering
 from the very early phase to the post-peak phase. Aperture photometry
@@ -346,17 +381,6 @@ emission was detected at the location of the SN by the X-ray Telescope
 The multi-color light curves of iPTF16abc are illustrated in Figure
 \ref{fig:lightcurve}.  For convenience, all magnitudes are in the AB
 system with a zero point of $3631$\,Jy in all filters.
-
-\begin{figure*}[htb]
-  \centering
-  \includegraphics[width=0.95\textwidth]{lightcurve.pdf}
-  \caption{Multi-band light curves of iPTF16abc are shown. Filters are
-    denoted by different colors and observation instruments by
-    different markers. The $t_{max}$ time is the B-band maximum
-    determined by SALT2 (Section). The black ticks near the top of the
-    figure shows epochs of spectroscopic observations.}
-  \label{fig:lightcurve}
-\end{figure*}
 
 Spectroscopic observations of iPTF16abc were undertaken with the
 Gemini Multi-Object Spectrograph (GMOS; \citealt{2004PASP..116..425H})
@@ -394,7 +418,7 @@ low-resolution spectral sequence is shown in Figure
   \enddata
 \end{deluxetable*}
 
-\begin{figure*}[htb]
+\begin{figure*}[!htb]
   \centering
   \includegraphics[width=0.9\textwidth]{spec_sequence.pdf}
   \caption{Low-resolution spectra of iPTF16abc are shown in the
@@ -404,33 +428,36 @@ low-resolution spectral sequence is shown in Figure
   \label{fig:spec_seq}
 \end{figure*}
 
+
 \section{Reddening, Classification and Host Galaxy}
 \label{sec:usual_staff}
 
 \subsection{Reddening}
 \label{sec:reddening}
 
-The foreground Galactic extinctioin along the directionof iPTF16abc ha
-$E(B-V)=0.0279\,\textrm{mag}$ \citep{2011ApJ...737..103S}. 
+The foreground Galactic extinctioin along the directionof iPTF16abc
+has $E(B-V)=0.0279\,\textrm{mag}$ \citep{2011ApJ...737..103S}.
 
-The UVES spectrum of iPTF16abc shows narrow double absorption features
-from \ion{Ca}{2}\,H$+$K and \ion{Na}{1}\,D lines (Figure
-\ref{fig:narrow_features}), indicating two sources of absorption along
-the line of sight. Fitting two Gaussian kernels to each of
-the \ion{Na}{1} doublet simultaneously leads to redshifts of
-$0.02313820\pm0.00000032$ and $0.02322408\pm0.00000033$. The total
-equivalent widths of the \ion{Na}{1}\,D1 and D2 lines are
-$0.595\pm0.009\,\textrm{\AA}$ and $0.609\pm0.008\,\textrm{\AA}$.
-Using the empirical relation in \citet{2012MNRAS.426.1465P}, we derive
-a total extinction of $E(B-V)=0.361\pm0.025\textrm{mag}$.
+In the highest-resolution spectrum of iPTF16abc by UVES, individual
+components of both \ion{Ca}{2}\,H$+$K and \ion{Na}{1}\,D doublets show
+double-absorption profiles (Figure \ref{fig:narrow_features}),
+indicating two sources of absorption along the line of sight. Fitting
+two Gaussian kernels to each line of the \ion{Na}{1} doublet
+simultaneously leads to redshifts of $0.02313820\pm0.00000032$ and
+$0.02322408\pm0.00000033$. The total equivalent widths of the
+\ion{Na}{1}\,D1 and D2 lines are $0.595\pm0.009\,\textrm{\AA}$ and
+$0.609\pm0.008\,\textrm{\AA}$m, respectively. Using the empirical
+relation between the equivalent width of \ion{Na}{1}\,D lines and
+reddening $E(B-V)$ \citep{2012MNRAS.426.1465P}, we derive
+$E(B-V)=0.361\pm0.025\textrm{mag}$.
 
-The X-shooter spectra of iPTF16abc also shows absorption features at
-\ion{K}{1}\,7665\,\AA and 7699\,\AA. However, the resolution is not
-high enough for the spectra to resolve the two components seen in the
-profiles of \ion{Ca}{2} and \ion{Na}{1} in the UVES spectrum. The
-X-shooter spectra do not show the diffusive interstellar band at
-5780\,\AA as well.  Albeit some arguments (e.g.,
-\citealt{2013ApJ...779...38P}), the extinction derived from
+In the X-shooter spectra of iPTF16abc, we also identify narrow
+absorption features \ion{K}{1}\,7665\,\AA and 7699\,\AA at consistent
+redshifts. However, the resolution of the X-shooter spectra is not
+fine enough to resolve the double-absorption profiles of \ion{Ca}{2}
+and \ion{Na}{1}. The X-shooter spectra do not show the diffusive
+interstellar band at 5780\,\AA as well.  Albeit some debates (e.g.,
+\citealt{2013ApJ...779...38P}), the $E(B-V)$ value derived from
 \ion{Na}{1}\,D absorption provides the best estimate in the case of
 iPTF16abc.
 
@@ -443,7 +470,7 @@ iPTF16abc.
   \label{fig:narrow_features}
 \end{figure}
 
-The \ion{Na}{1}\,D doublet are resolved in multiple spectra spanning
+The \ion{Na}{1}\,D doublet are seen in multiple spectra spanning
 from pre-peak to post-peak phases. Despite the instrumental widening of
 different instrument configurations, we do not detect obvious variation
 in the profiles of the doublet.
@@ -454,57 +481,66 @@ in the profiles of the doublet.
 
 We run Supernova Identification (SNID; \citealt{2007ApJ...666.1024B})
 on the low-resolution spectrum of iPTF16abc at $+18.8$ and found best
-matches to normal SNe Ia. Separately the characteristic features of a
-SN Ia, such as \ion{Si}{2}, \ion{S}{2}, are obviously seen in the
-spectra of iPTF16abc. 
+matches to normal SNe Ia. In fact, the characteristic features of a SN
+Ia, such as \ion{Si}{2}, \ion{S}{2}, can be easily identified in the
+spectra of iPTF16abc (Figure \ref{fig:spec_seq}).
 
-The optical light curves obtained by P48 and P60, after correction for
-extinction, are fitted by the SALT2 template
-\citep{2007A&A...466...11G} with the \texttt{sncosmo} Python
-module\footnote{The \texttt{sncosmo} module is available at
-  \url{https://sncosmo.readthedocs.io/en/v1.4.x/}.}. The fitting
-parameters are $t_{max}=57499.65\pm0.02$, $x_0=0.0275\pm0.0002$,
-$x_1=1.200\pm0.043$, and $c=-0.3353\pm0.0054$. The best-fit model also
-gives an unreddened apparent peak magnitude of
-$m^*_{B}=14.4\,\textrm{mag}$ in the SN rest frame.
+Next we standardize the light curve of iPTF16abc by feeding its P48
+and P60 light curves into the \texttt{sncosmo} module\footnote{The
+  \texttt{sncosmo} Python module is available at
+  \url{https://sncosmo.readthedocs.io/en/v1.4.x/}.} and fit a light
+curve model, which composes of the SALT2 template
+\citep{2007A&A...466...11G} modified by the line-of-sight extinction
+curve \citep{1999PASP..111...63F} with $E(B-V)$ values from Section
+\ref{sec:reddening} and $R_V=3.1$. We obtain the rest-frame
+\textit{B}-band peak time $\textrm{MJD}_{max}=57499.65\pm0.02$, the coefficient
+of the zeroth principle component $x_0=0.0275\pm0.0002$, the
+coefficient of the first principle component $x_1=1.200\pm0.043$, and
+the color term $c=-0.3353\pm0.0054$. The best-fit model also gives an
+unreddened apparent peak magnitude of $m^*_{B}=14.4\,\textrm{mag}$ in
+the SN rest frame.
 
-For convenicne, in the following anlaysis and discussion, we define
-$t=MJD - 57499.65\,\textrm{days}$, i.e., the time with respect to the
-best-fit $t_{max}$. 
+For convenience, in the following sections, we define the best-fit
+value $\textrm{MJD}_{max}=57499.65$ as phase $t=0$.
 
 \subsection{Host Galaxy}
 \label{sec:host}
 
 After establishing iPTF16abc as a normal SN ia, we use the latest
 calibration \citep{2014A&A...568A..22B} of the Phillips relation
-\citep{1993ApJ...413L.105P} with $m^*_{B}$, $x_1$ and $c$ to derive a
-distance modulus $\mu=34.66\pm0.03\,\textrm{mag}$, provided that the
-host galaxy of iPTF16abc has a stellar mass less than $10^{10}\sm$.
+\citep{1993ApJ...413L.105P} using $m^*_{B}$, $x_1$ and $c$ to derive a
+distance modulus $\mu=34.66\pm0.03\,\textrm{mag}$ to the SN, provided
+that the host galaxy of iPTF16abc has a stellar mass less than
+$10^{10}\sm$.
 
 The location of iPTF16abc is spatially coincident with a tidal tail of
-galaxy NGC\,5221. \citet{2007A&A...465...71T} observed this galaxy in
-the near-infrared and derived a distance modulus of $35.0\pm0.4\,\textrm{mag}$
-from the Tully-Fisher relation. This distance modulus is consistent
-with that of iPTF16abc.
+galaxy NGC\,5221. \citet{2007A&A...465...71T} derived a distance
+modulus of $35.0\pm0.4\,\textrm{mag}$ from the Tully-Fisher
+relation. This distance modulus is consistent with that of iPTF16abc.
 
-Separately, \cite{1998A&AS..130..333T} observed
-the 21-cm line in this galaxy and measured a redshift of $0.0233303\pm0.000027$.
-The two components in the \ion{Na}{1}\,D have a relative velocity of
+Separately, \citet{1998A&AS..130..333T} observed the 21-cm line in
+this galaxy and measured a redshift of $0.0233303\pm0.000027$.  The
+two components in the \ion{Na}{1}\,D have a relative velocity of
 $-57.6\pm8.1\,\textrm{km}\,\textrm{s}^{-1}$ and
-$-31.8\pm8.1\,\textrm{km}\,\textrm{s}^{-1}$, suggesting that both absorption
-resources are probaly located on the tidal tail of NGC\,5221. 
+$-31.8\pm8.1\,\textrm{km}\,\textrm{s}^{-1}$, suggesting that both
+absorption resources are probaly located on the tidal tail of
+NGC\,5221.
 
 
-\section{First Light And Early Rise}
-\label{sec:early_phases}
+\section{First Light And Explosion Time}
+\label{sec:first_light}
 
-In this section, we analyze the early light curve and spectra of iPTF16abc.
+In this section, we estimate the first light and explosion time of
+iPTF16abc.
 
 \subsection{Light Curve Fit}
 \label{sec:lc_fit}
 
-In order to estimate the start time of the observed light curve, denoted as $t_0$,
-we fit a power-law model
+Extrapolation of the earliest-phase light curve with a simple model is
+usually used to estimate the first light time. In theory,
+\citet{1982ApJ...253..785A} derived a quadratic law for an expanding
+fireball with a constant temperature. In order to account for the
+temperature change, here we utilize a power-law model
 \begin{equation}
   \label{eq:broken_power_law}
   f(t) \left\{
@@ -512,79 +548,86 @@ we fit a power-law model
       = 0,\ \textrm{when}\ t<t_0 \\
       \propto (t-t_0)^{\alpha},\ \textrm{when}\ t>t_0
     \end{array}
-  \right.
+  \right.\ .
 \end{equation}
-to the early-phase \textit{g}-band light curve. We experiment the
-fitting procedure with different time windows and find that the light
-curve between $t=-18\,\textrm{days}$ and $t=-14\,\textrm{days}$
-increases approximately linearly. The best fit model of
-$\alpha = 0.97$ and $t_0=-18.47$ is shown in the left panel of
-Figure \ref{fig:early_lc_fit} and the join probability distribution of
-$\alpha$ and $t_0$ is in the right panel of the same figure.  With the
-best-fit $t_0$, our first observation was made only
-$0.18\,\textrm{day}$ after the rise of the light curve.
+Since the first few detections of the SN were made in the \textit{g}
+band, we perform the fit only to the \textit{g}-band light curve. We
+experiment the fitting procedure with different time windows and find
+that the SN flux between $t=-19\,\textrm{days}$ and
+$t=-15\,\textrm{days}$ rises approximately linearly. The joint
+distribution of $\alpha$ and $t_0$ for this time window is given in
+the left panel of Figure \ref{fig:early_lc_fit} and the best fit model
+with $\alpha = 0.94$ and $t_0=-18.47$ is shown in the right
+panel. With this best-fit value of $t_0$, our first observation was
+made only $0.18\,\textrm{day}$ after the first light of the SN. The
+total rise time to the \textit{B}-band peak is $18.47$ days.
 
 \begin{figure*}[htb]
   \centering
-  \includegraphics[width=0.45\textwidth]{early_lc.pdf}
   \includegraphics[width=0.45\textwidth]{rise_time_power_law_index.pdf}
+  \includegraphics[width=0.45\textwidth]{early_lc.pdf}
   \caption{Broken Power low fitting to the early $g$-band light
-    curve. \textit{Left:} the best-fit model of $\alpha=0.94$ and
-    $t_0=-18.47\,\textrm{days}$ is illustrated against the
-    data. \textit{Right:} the joint distribution of $t_0$ and
+    curve.
+    \textit{Left:} the joint distribution of $t_0$ and
     $\alpha$. The cross marker denotes the best-fit parameters. The
     inner and outer contours represent the $68\%$ and $99.7\%$
-    confidence levels.}
+    confidence levels.
+    \textit{Right:} the best-fit model of $\alpha=0.94$ and
+    $t_0=-18.47\,\textrm{days}$ is illustrated against the
+    data.
+  }
   \label{fig:early_lc_fit}
 \end{figure*}
 
-The \textit{g}-band light curve beyond $t=-14\,\textrm{days}$ rises
+Since $t=-15\,\textrm{days}$, the \textit{g}-band light curve rises
 significantly faster than the best-fit model above, indicating a
-larger value of $\alpha$. In fact, if we fit the light curve between
-$t=-14$ and $t=-8$\,days to another power law, we find the best fit at
-a power-law index of $1.40$ (Figure \ref{fig:against_sn2012cg}).
+greater value of the power-law index $\alpha$. In fact, the
+light curve between $t=-14$ and $t=-8$\,days can be fitted with a
+power law of index $1.40$.
 
-Although the early rise behavior of iPTF16abc is distinct from that of
-SN2011fe \citep{2011Natur.480..344N} which follows the $t^2$ Arnett
-law \citep{1982ApJ...253..785A}, we have seen rise behavior similar to
-iPTF16abc (i.e., a steep initial rise followed by a more gradual and
-steadier rise) in a few nearby events that were observed at extremely
-young phases, such as, SN2013dy \citep{2013ApJ...778L..15Z}, SN2014J
-\citep{2014ApJ...783L..24Z}, and ASASSN-14lp
-\citep{2016ApJ...826..144S}.
+A more sophisticated broken power-law model has also been used to fit
+SN early-phase light curves (e.g.,
+\citealt{2013ApJ...778L..15Z,2014ApJ...783L..24Z,
+  2016arXiv161202097Z,2016arXiv161202097Z}). Our above result has
+indicates that the \textit{g}-band light curve of iPTF16abc can also
+be fitted by a broken-power law with a power index changing from
+$0.94$ to $1.40$. In fact, many young SNe, including SN2011fe
+\cite{2016arXiv161202097Z} and iPTF16abc, have early light curves that
+follow broken power-laws \citep{2016arXiv161202725Z}). Our above
+result has indicates that the \textit{g}-band light curve of iPTF16abc
+can also be fitted by a broken-power law with a power index changing
+from $0.94$ to $1.40$.
 
-We also note statistical studies on rise
-behavior of SNe Ia (e.g., \citealt{2010ApJ...712..350H, 2011MNRAS.416.2607G,
-  2012ApJ...745...44G, 2015MNRAS.446.3895F}) which suggest a power-law
-index $\gtrapprox2$. However, these studies are not sensitive to SNe Ia
-at extremely early phases, so the initial quasi-linear rise of iPTF16abc
-is not comparable to their conclusions. On the other hand, the subsequent
-$t^{1.40}$ rise of iPTF16abc is roughly consistent with these samples.
+The initial rise of a SN depends on the distribution of $^{56}$Ni
+in the ejecta. Comparing the rapid initial rise of iPTF16abc to
+theoretical calculations in \citet{2016ApJ...826...96P} suggests
+strong mixing of $^{56}$Ni in the iPTF16abc ejecta. The radioactive
+energy from $^{56}$Ni can quickly diffuse to the SN photosphere and
+power its light curve after the SN explosion. 
 
 \subsection{Expansion Velocity Fit}
 \label{sec:early_vel}
 
-As pointed out by \citet{2014ApJ...784...85P}, if a SN light curve is
-purely powered by radioactive decay of $^{56}$Ni, the SN may
-experience a dark period between the explosion time of the SN
-$t_{exp}$ and the rise time of its light curve $t_0$, because it takes
-time for radioactive energy to diffuse from where $^{56}$Ni is
-deposited in the ejecta and the SN photosphere. Therefore,
-\citet{2014ApJ...784...85P} suggests to use the early-phase spectra to
-measure line velocities and then estimate $t_{exp}$ by assuming that
-$v\propto (t-t_{exp})^{-0.22}$.
+The first light of a SN is not necessarily its explotion time
+$t_{exp}$.  Thanks to different deposition of $^{56}$Ni in the SN
+ejecta, as pointed out in \citet{2014ApJ...784...85P}, the SN may
+experience a dark period before the radioactive energy from the
+shallowest $^{56}$Ni layer escapes the ejecta. Therefore, 
+\citet{2014ApJ...784...85P} suggests to examine evolution of absorption
+line velocities, because the velocities do not depend on the $^{56}$Ni
+mixing and are expected to evolve roughly as $v\propto(t-t_{exp})^{-0.22}$. 
 
-We follow the same procedure and
-measure the velocities of the \ion{Si}{2}\,6355 line. Because we do
-not see signals of multiple velocity components in the
-\ion{Si}{2}\,6355 line, and because the \ion{Si}{2}\,6355 line is
-partially blended with the \ion{C}{1}\,6580 line, we fit two gaussian
-kernels and a linear term simultaneously to spectra between about
-6100\,\AA and about 6600\,\AA in the rest frame. Then the velocity is
-measured at the minimum of the Gaussian kernel that corresponds to the
-\ion{Si}{2} feature.
+We focus on measuring velocities of the strongest \ion{Si}{2}\,6355
+line, as the second most commonly used \ion{Ca}{2} IR triplet is very
+weak in iPTF16abc. Visual inspection of the early-phase spectra shows
+no sign of any high-velocity component of the \ion{Si}{2} line and
+that the red wing of \ion{Si}{2} overlaps the \ion{C}{2}\,6580
+line. Therefore, we fit simultaneously two gaussian kernels for the
+two lines and a linear term to account for the continuum component.
+Then the velocities are calculated at the minimum of the \ion{Si}{2}
+gaussian kernel.
 
-\begin{figure*}[htb]
+\begin{figure*}[!thb]
   \centering
   \includegraphics[width=0.45\textwidth]{exp_date_chi2.pdf}
   \includegraphics[width=0.45\textwidth]{SiIIVelocity.pdf}
@@ -600,62 +643,112 @@ measured at the minimum of the Gaussian kernel that corresponds to the
   \label{fig:velocity_t_exp}
 \end{figure*}
 
-The expansion velocity fit (Figure \ref{fig:velocity_t_exp}) shows
-that the best-fit explosion time $t_{exp}=-17.95\,\textrm{days}$ with
-a 3-$\sigma$ confidence interval between $-17.25\,\textrm{days}$ and
-$-18.65\,\textrm{days}$.
+Fitting the measured velocities of \ion{Si}{2}\,6355 line to the
+$v\propto(t-t_{exp})^{-0.22}$ model leads to the best-fit explosion
+time $t_{exp}=-17.95\,\textrm{days}$ with a 3-$\sigma$ confidence
+interval between $-17.4\,\textrm{days}$ and $-18.3\,\textrm{days}$
+(Figure \ref{fig:velocity_t_exp}). We further test the robustness of
+a fixed power-law index by altering the index to $-0.20$ and $-0.24$
+and find consistent results within respective 3-$\sigma$ confidence
+intervals.
 
-We further test our assumption $v\propto (t-t_{exp})^{-0.22}$ by
-altering the power-law index to $-0.20$ and $-0.24$ (Figure
-\ref{fig:velocity_t_exp}).  The best-fit value of $t_0$ varies within
-the 3-$\sigma$ confidence interval and the $\chi^2$ value of the
-best-fit model varies very little. This test verifies the robustness
-of the assumed power-law index of $-0.22$.
+The derived $t_{exp}$ is roughly consistent to $t_0$ estimated in
+Section \ref{sec:lc_fit}, confirming that the dark period of iPTF16abc
+is very short. This conclusion is consistent with the inference from the
+rapid initial rise of iPTF16abc in Section \ref{sec:lc_fit}. 
 
-Comparing $t_{exp}$ and $t_0$ (Section \ref{sec:lc_fit}), we conclude
-that the dark phase of the SN, if exists, is very brief. In the
-following analysis, it is reasonable to assume $t_{exp}\simeq t_0$.
+Among the several SNe with measurements of $t_{exp}$ and $t_0$
+\citep{2014ApJ...784...85P,2016ApJ...826..144S}, iPTF16abc has the
+shortest dark period and longest rise time ($18.47$ days). In
+comparison, SN2011fe is inferred to have a dark period of $\sim 1$
+day \citep{2014ApJ...784...85P} and a rise time of $17.7$ days
+\citep{2013A&A...554A..27P}; ASASSN-14lp has a dark period of a couple
+of days and a rise time of $16.94$ days. This seems to suggest that
+the time difference between SN explosion and the \textit{B}-band maximum,
+which equals to summation of the dark period and the rise time, is a
+constant for a SN Ia. This is perhaps because the \textit{B}-band maximum
+time only depends on the total amount of $^{56}$Ni. 
 
-\subsection{Light Curve Energy Resources}
+\subsection{Strong and Short-Lived Carbon Features}
+\label{sec:carbon}
+
+Interestingly, the first few spectra of iPTF16abc show clear detection
+of \ion{C}{2}\,6580 and \ion{C}{2}\,7234 lines. Their velocity
+evolution is shown in Figure \ref{fig:velocity_t_exp} as well.
+
+The \ion{C}{2} lines only appear in the very early phases. The
+equivalent widths of detected \ion{C}{2}\,6580 and \ion{C}{2}\,7234
+lines are shown in Figure \ref{fig:ew}, and are compared to that of
+the \ion{Si}{2}\,6355 line. Especially in the first spectrum taken at
+$t=-15.8$ days, the \ion{C}{2} equivalent widths are stronger than
+that of \ion{Si}{2}.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.45\textwidth]{EW.pdf}
+  \caption{Equivalent Width of \ion{Si}{2}\,6355, \ion{C}{2}\,6580 and
+    \ion{C}{2}\,7234 lines}
+  \label{fig:ew}
+\end{figure}
+
+The strong and short-lived \ion{C}{2} features suggest that
+the outermost layers of the ejecta contain a certain amount of
+carbon which is responsible for the \ion{C}{2} absorption. The
+abundance of carbon drops dramatically into the inner layers
+of the ejecta.
+
+Carbon signatures are seen in over $1/4$ of all normal SNe Ia before
+maxima
+\citep{2011ApJ...732...30P,2012MNRAS.425.1917S,2011ApJ...743...27T},
+but the signatures are usually weak. Even in SN2011fe, the \ion{C}{2}
+features are not strong in the first spectra
+\citep{2012ApJ...752L..26P}.  The only normal SN Ia known to have
+strong \ion{C}{2} features at very early phases is SN2013dy
+\citep{2013ApJ...778L..15Z}. Unlike iPTF16abc, the equivalent widths
+of \ion{C}{2} features in SN2013dy are as large as that of
+\ion{Si}{2}\,6355.
+
+
+\subsection{Discussions and Physical Constraints}
 \label{sec:lc_energy}
 
-The early portion of a SN light curve may have multiple resources: SN
+The early radiation of a SN Ia may have multiple resources: SN
 shockbreakout, SN-companion collision, and radioactive activity. Since
 each provides interesting constraints on the progenitor properties, we
 explore all the three posibilities.
 
-First, the shock breakout of a SN Ia lasts for a fraction of a second
-due to the small size of the exploding star. However, the subsequent
-cooling phase may last longer (e.g., \citealt{2010ApJ...708..598P}).
+\subsubsection{SN Shock Breakout}
+
+The shock breakout of a SN Ia lasts for a fraction of a second due to
+the small size of the exploding star. However, the subsequent cooling
+phase may last longer (e.g., \citealt{2010ApJ...708..598P}).
 Following the analysis of SN2011fe in \citet{2012ApJ...744L..17B}, we
 compare the early-phase \textit{g}-band light curve of iPTF16abc with
 two cooling models \citep{2011ApJ...728...63R, 2010ApJ...708..598P}
 and reach a not very constraining conclusion that the radius of the
 progenitor star of iPTF16abc should be $<1\sr$. In fact, the cooling
-emission is negligible at the time of the first detection of iPTF16abc.
+emission is negligible at the time of the first detection of
+iPTF16abc.
 
-Second, if iPTF16abc is born in a single-degenerate channel, with a
-chance of $\lesssim10\%$, we expect to see emission produced by SN
-ejecta slamming into the companion. In the following we argue from a
-statistical \ycao{TBW}
+\subsubsection{SN companion}
 
-In the case of SN2012cg, \citet{2016ApJ...820...92M} fitted power-law
-models to its light curves between $t=-14$ days and $t=-8$ days and
-extrapolated backwards to illustrate excess fluxes at $t<-14$
-days. The authors further attempted to explain the excess fluxes as
-collisional signatures between the SN ejecta and a non-degenerate
-companion \citep{2010ApJ...708.1025K}. If we perform the same practice
-to the iPTF16abc data, then we find similar excess fluxes at earlier
-phases (Figure \ref{fig:against_sn2012cg}). In fact, for any SN whose
-light curve can be approximated by a broken-power law, i.e.,
-\begin{equation}
-  \label{eq:broken-pow}
-  f(t) = t^{\alpha}(1 + t^{s(\beta - \alpha)})^{1/s}\ ,
-\end{equation}
-one can always fit the relative late part of the light curve with a
-power law model and find an excess in the early phases.
+If iPTF16abc is born in a single-degenerate channel, with an odd of
+$\lesssim10\%$, we expect to see emission produced by SN ejecta
+slamming into the companion. However, according to calculations by
+\citet{2010ApJ...708.1025K}, collision between SN ejecta and the
+companion star produces thermal emission with a spectrum that peaks
+in the ultraviolet, and the Rayleigh-Jeans tail emission in the \textit{g}
+band is very weak. 
 
-\begin{figure}[htb]
+In the case of SN2012cg, in order to illustrate a blue excess in the
+early light curve, \citet{2016ApJ...820...92M} fitted a power-law
+model to its light curves between $t=-14$ days and $t=-8$ days and
+subtracted the extrapolated fluxes at early epochs. Then these authors
+attribute the excess to SN-companion collision. In our iPTF16abc, we
+follow the same procedure and also find a similar excess
+(Figure \ref{fig:against_sn2012cg}).
+
+\begin{figure}[!htb]
   \centering
   \includegraphics[width=0.45\textwidth]{another_early_lc.pdf}
   \caption{The early-phase \textit{g}-band light curve of iPTF16abc is
@@ -665,18 +758,44 @@ power law model and find an excess in the early phases.
   \label{fig:against_sn2012cg}
 \end{figure}
 
-As a result of the above analysis, we conclude that the early light
-curve of iPTF16abc is probably powered dominantly by radioactive decay
-of $^{56}$Ni.  According to calculations in
-\citet{2016ApJ...826...96P}, when synthesized $^{56}$Ni is mixed
-sufficiently in the ejecta, the dark period is short and the initial
-light curve rises quickly. In the opposite situation when $^{56}$Ni is
-located deeply inside the ejecta, then the dark period can be as long
-as a couple days and the initial light curve rises relatively
-slowly. The fast initial rise of iPTF16abc and the negligible length
-of the dark period both support that $^{56}$Ni is sufficiently mixed
-in the ejecta.
+Actually, for any early light curve that can be approximated by a
+broken power law, as long as the asymptotic power-law index near $t=0$
+is less than that at late time, one can always find such an excess
+near $t=0$. There are not many SNe that were observed at
+extraordinarily early phases. The odd that both SN2012cg and iPTF16abc
+show SN-companion collision signautres is very small.
 
+Separately, our first \textit{Swift} observation of iPTF16abc was made
+about two days after explosion. However, the ultraviolet light curve of
+iPTF16abc does not show any excess. 
+
+\subsubsection{Explosion Mechanism}
+
+Our extraordinarily early observations of iPTF16abc put two constraints
+on the mechanism of the SN explosion: first, during the SN explosion,
+synthesized $^{56}$Ni should be strongly mixed in the ejecta; second,
+unburned carbon atoms are accelerated to very high velocities in the ejecta.
+In addition, the commonly seen \ion{Ca}{2} IR triplet is weak in iPTF16abc,
+implying a little amount of calsium in the ejecta. 
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+In this paper, we present observations of a normal Type Ia supernova
+iPTF16abc, which is located at one tidal tail of NGC\,5221. Our extraordinarily
+early-phase optical observations of this supernova show that:
+\begin{itemize}
+\item Extrapolation of the early light curve shows that our first observation
+  was made only $0.18$ days after the first light of the SN.
+\item The rapid initial rise and analysis of the line velocity both shows that
+  the dark period of iPTF16abc is very short. Hence, the first light time of
+  the SN is a good approximation to the time of the SN explosion.
+\item Strong and short-lived carbon features in the early spectra of iPTF16abc
+  indicates concentration of unburned carbon in the fastest-moving part of the
+  ejecta.
+\end{itemize}
+
+\acknowledgements
 
 \bibliographystyle{aasjournal}
 \bibliography{ref}
