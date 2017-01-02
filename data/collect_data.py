@@ -13,13 +13,9 @@ file.
 
 
 import numpy as np
-import os
 import tables
 from astropy.io import ascii
 from astropy.time import Time
-
-# global const
-T_MAX = 57499.65
 
 
 # define photometry columns
@@ -34,41 +30,31 @@ class Photometry(tables.IsDescription):
     filter_name = tables.StringCol(16)
 
 
-# define transmission curve columns
-class TransmissionCurve(tables.IsDescription):
+class Spectroscopy(tables.IsDescription):
     wavelength = tables.Float32Col()
-    transmission = tables.Float32Col()
+    flux_lambda = tables.Float32Col()
 
 
 # supernova data set
 class SupernovaData(object):
-    def __init__(self, filename, clobber=False, title=None):
-        if os.path.isfile(filename) and not clobber:
-            msg = ("%s: file exists. Change the filename "
-                   "or set clobber=True") % filename
-            raise FileError(msg)
+    def __init__(self, filename):
         self._filename = filename
-        self._fp = tables.open_file(filename, mode="a", title=title)
+        self._fp = tables.open_file(filename, mode="a")
 
-        self._phot_group = self._fp.create_group(
-            self._fp.root, "photometry", "Photometric Data")
-        self._lc_table = self._fp.create_table(
-            self._phot_group, "lc", Photometry, "Light Curves")
-        self._lc_table.attrs.FIELD_0_UNIT = "day"
-        self._lc_table.attrs.FIELD_1_UNIT = "Jy"
-        self._lc_table.attrs.FIELD_2_UNIT = "Jy"
-        self._lc_table.attrs.FIELD_3_UNIT = "AB mag"
-        self._lc_table.attrs.FIELD_4_UNIT = "AB mag"
-
-        self._filters_group = self._fp.create_filters(
-            self._phot_group, "filters", "Filter Transmission Curves")
+        self._phot_table = self._fp.create_table(
+            self._fp.root, "photometry", Photometry, "Photometric Data")
+        self._phot_table.attrs.FIELD_0_UNIT = "day"
+        self._phot_table.attrs.FIELD_1_UNIT = "Jy"
+        self._phot_table.attrs.FIELD_2_UNIT = "Jy"
+        self._phot_table.attrs.FIELD_3_UNIT = "AB mag"
+        self._phot_table.attrs.FIELD_4_UNIT = "AB mag"
 
         self._spec_group = self._fp.create_group(
             self._fp.root, "spectroscopy", "Spectroscopic Data")
 
-    def load_photometry(self, time, filter_name, flux, flux_err,
-                        mag, mag_err, telescope, instrument):
-        row = self._lc_tables.row
+    def add_photometry(self, time, filter_name, flux, flux_err,
+                       mag, mag_err, telescope, instrument):
+        row = self._phot_table.row
         row["time"] = time
         row["filter_name"] = filter_name
         row["flux"] = flux
@@ -79,8 +65,28 @@ class SupernovaData(object):
         row["instrument"] = instrument
         row.append()
 
+    def add_spec(self, time, telescope, instrument,
+                 wavelength, flux):
+        if len(wavelength) != len(flux):
+            raise InputError("len(wavelength) != "
+                             "len(flux)")
+        table_name = "%s_%i" % (instrument.replace("-", "_"), int(time))
+        tbl = self._fp.create_table(self._spec_group,
+                                    table_name,
+                                    Spectroscopy)
+        tbl.attrs.FIELD_0_UNIT = "Angstrom"
+        tbl.attrs.FIELD_1_UNIT = "Arbitrary Unit"
+        tbl.attrs.OBS_DATE = time
+        tbl.attrs.TELESCOPE = telescope
+        tbl.attrs.INSTRUMENT = instrument
+        row = tbl.row
+        for w, f in zip(wavelength, flux):
+            row["wavelength"] = w
+            row["flux_lambda"] = f
+            row.append()
 
-class FileError(object):
+
+class InputError(Exception):
 
     def __init__(self, msg):
         self.msg = msg
@@ -89,7 +95,9 @@ class FileError(object):
         return self.msg
 
 
-def load_photometry_data(DataObject):
+def main():
+    file_object = SupernovaData("iPTF16abc.h5")
+
     # P48
     data_dict = {"g": "lc/forcepsffitdiff_d100151_f1_c11.out",
                  "R": "lc/forcepsffitdiff_d3381_f2_c10.out"}
@@ -99,7 +107,7 @@ def load_photometry_data(DataObject):
             if item["MJD"] < 57470:
                 continue
             if item["flux"] >= 5. * item["sigflux"]:
-                DataObject.load_photometry(
+                file_object.add_photometry(
                     item["MJD"],
                     filter_name,
                     item["flux"] * 10**(-item["zpmag"] / 2.5) * 3631,
@@ -112,7 +120,7 @@ def load_photometry_data(DataObject):
                     "P48",
                     "CFH12K")
             else:
-                DataObject.load_photometry(
+                file_object.add_photometry(
                     item["MJD"],
                     filter_name,
                     item["flux"] * 10**(-item["zpmag"] / 2.5) * 3631,
@@ -137,7 +145,7 @@ def load_photometry_data(DataObject):
             mag_err = float(items[5])
             if mag > 90.:
                 continue
-            DataObject.load_photometry(
+            file_object.add_photometry(
                 float(items[1]) - 2400000.5,
                 filter_name,
                 10**(-mag/2.5) * 3631,
@@ -153,7 +161,7 @@ def load_photometry_data(DataObject):
             items = item[:-1].split()
             MJD = float(items[1]) - 2400000.5
             mag = float(items[2])
-            mag_err = float(item[3])
+            mag_err = float(items[3])
             filter_name = items[5]
             if filter_name == "B":
                 flux = 10**(-mag / 2.5) * 4063  # Jy
@@ -162,7 +170,7 @@ def load_photometry_data(DataObject):
             else:
                 flux = 10**(-mag / 2.5) * 3631
             flux_err = flux * 0.921 * mag_err
-            DataObject.load_photometry(
+            file_object.add_photometry(
                 MJD,
                 filter_name,
                 flux,
@@ -173,55 +181,145 @@ def load_photometry_data(DataObject):
                 "Sinistro")
 
     # Swift Data
-    with open("swift_phot.txt", "r") as fp_txt:
+    with open("lc/swift_phot.txt", "r") as fp_txt:
         for item in fp_txt:
             if item.startswith("#"):
                 continue
             items = item.split("\t")
             obs_time = Time(items[1], format="iso", scale="utc")
-            DataObject.load_photometry(
+            file_object.add_photometry(
                 obs_time.mjd,
                 items[8].strip(),
                 float(items[3]) * 1e-3,
                 float(items[4]) * 1e-3,
                 -2.5 * np.log10(float(items[3]) / 3.631e6),
-                1.0857 * float(items[4]) / float(item[3]),
+                1.0857 * float(items[4]) / float(items[3]),
                 "Swift",
                 "UVOT")
 
-    filter_group = fp.create_group(phot_group, "filters",
-                                   "Filter transmission curves")
-    for filter_name in ["g", "R"]:
-        table = fp.create_table(filter_group,
-                                "P48_" + filter_name, TransmissionCurve,
-                                "P48 %s filter transmission" % filter_name)
-        table.attrs.FIELD_0_UNIT = "Angstrom"
-        table.attrs.FIELD_1_UNIT = "photons per Angstrom"
-        transmission = np.genfromtxt("../filters/P48/P48_%s.dat" % filter_name,
-                                     names=["wavelength", "transmission"])
-        row = table.row
-        for item in transmission:
-            row["wavelength"] = item["wavelength"]
-            row["transmission"] = item["transmission"]
-            row.append()
-    for filter_name in ["g", "r", "i"]:
-        table = fp.create_table(filter_group,
-                                "P60_" + filter_name, TransmissionCurve,
-                                "P60 %s filter transmission" % filter_name)
-        table.attrs.FIELD_0_UNIT = "Angstrom"
-        table.attrs.FIELD_1_UNIT = "photons per Angstrom"
-        transmission = np.genfromtxt(
-            "../filters/SEDm/%sband_eff.dat" % filter_name,
-            names=["wavelength", "transmission"])
-        row = table.row
-        for item in transmission:
-            row["wavelength"] = item["wavelength"]
-            row["transmission"] = item["transmission"]
-            row.append()
+    # Spectra
+    filename = "spec/16abc_20160405_Gemini_N_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(57483.88, "Gemini-North", "GMOS",
+                         curve["wavelength"], curve["flux"])
 
-    fp.close()
+    filename = "spec/16abc_20160406_Keck2_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(57484.51, "Keck-II", "DEIMOS",
+                         curve["wavelength"], curve["flux"])
 
+    filename = "spec/16abc_20160408_Keck2_v2.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(57486.51, "Keck-II", "DEIMOS",
+                         curve["wavelength"], curve["flux"])
 
-def load_spectroscopy_data(data_filename):
-    fp = tables.open_file(data_filename, mode="a")
-    spec_group = fp.create_group(fp.root, "spectroscopy", "Spectral data")
+    filename = "spec/16abc_20160410_Keck1_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(57488.38, "Keck-I", "LRIS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160411_FTN_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-04-11", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160412_FTN_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-04-12", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160413_FTS_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-04-13", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160414_VLT_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(57492.20,
+                         "VLT", "X-shooter",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160416_VLT_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(57494.00,
+                         "VLT", "UVES",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160425_FTN_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-04-25", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160428_NOT_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-04-28", format="iso").mjd,
+                         "NOT", "ALFOSC",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160430_FTN_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-04-30", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160510_Keck1_v2.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(57518.42, "Keck-I", "LRIS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160512_VLT_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(57580.03,
+                         "VLT", "X-shooter",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160521_FTN_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-05-21", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160603_FTN_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-06-03", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160611_FTN_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-06-11", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    filename = "spec/16abc_20160623_FTN_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    file_object.add_spec(Time("2016-06-23", format="iso").mjd,
+                         "LCOGT-2m", "FLOYDS",
+                         curve["wavelength"], curve["flux"])
+
+    return
+
+if __name__ == "__main__":
+    main()
