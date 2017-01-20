@@ -73,7 +73,8 @@ class SupernovaData(object):
         table_name = "%s_%i" % (instrument.replace("-", "_"), int(time))
         tbl = self._fp.create_table(self._spec_group,
                                     table_name,
-                                    Spectroscopy)
+                                    Spectroscopy,
+                                    table_name)
         tbl.attrs.FIELD_0_UNIT = "Angstrom"
         tbl.attrs.FIELD_1_UNIT = "Arbitrary Unit"
         tbl.attrs.OBS_DATE = time
@@ -187,6 +188,8 @@ def main():
                 continue
             items = item.split("\t")
             obs_time = Time(items[1], format="iso", scale="utc")
+            if float(items[3]) < 5. * float(items[4]):
+                continue
             file_object.add_photometry(
                 obs_time.mjd,
                 items[8].strip(),
@@ -198,6 +201,15 @@ def main():
                 "UVOT")
 
     # Spectra
+    filename = "spec/16abc_20160405_DCT_v1.ascii"
+    curve = np.genfromtxt(filename,
+                          names=["wavelength", "flux"])
+    idx = np.logical_and(curve["wavelength"] > 3300,
+                         curve["wavelength"] < 7500)
+    curve = curve[idx]
+    file_object.add_spec(57483.26, "DCT", "DeVeny",
+                         curve["wavelength"], curve["flux"])
+
     filename = "spec/16abc_20160405_Gemini_N_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
@@ -207,12 +219,18 @@ def main():
     filename = "spec/16abc_20160406_Keck2_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
+    idx = np.logical_and(curve["wavelength"] > 5500,
+                         curve["wavelength"] < 8100)
+    curve = curve[idx]
     file_object.add_spec(57484.51, "Keck-II", "DEIMOS",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160408_Keck2_v2.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
+    idx = np.logical_and(curve["wavelength"] > 5500,
+                         curve["wavelength"] < 8100)
+    curve = curve[idx]
     file_object.add_spec(57486.51, "Keck-II", "DEIMOS",
                          curve["wavelength"], curve["flux"])
 
@@ -225,27 +243,39 @@ def main():
     filename = "spec/16abc_20160411_FTN_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-04-11", format="iso").mjd,
+    idx = np.logical_and(curve["wavelength"] > 3300,
+                         curve["wavelength"] < 9000)
+    curve = curve[idx]
+    file_object.add_spec(57489.506,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160412_FTN_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-04-12", format="iso").mjd,
+    idx = np.logical_and(curve["wavelength"] > 3300,
+                         curve["wavelength"] < 10000)
+    curve = curve[idx]
+    file_object.add_spec(57490.396,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160413_FTS_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-04-13", format="iso").mjd,
+    idx = np.logical_and(curve["wavelength"] > 3300,
+                         curve["wavelength"] < 10000)
+    curve = curve[idx]
+    file_object.add_spec(57491.551,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160414_VLT_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
+    idx = np.logical_and(curve["wavelength"] > 3300,
+                         curve["wavelength"] < 30000)
+    curve = curve[idx]
     file_object.add_spec(57492.20,
                          "VLT", "X-shooter",
                          curve["wavelength"], curve["flux"])
@@ -260,13 +290,19 @@ def main():
     filename = "spec/16abc_20160425_FTN_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-04-25", format="iso").mjd,
+    idx = np.logical_and(curve["wavelength"] > 3300,
+                         curve["wavelength"] < 10000)
+    curve = curve[idx]
+    file_object.add_spec(57503.319,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160428_NOT_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
+    idx = np.logical_and(curve["wavelength"] > 3600,
+                         curve["wavelength"] < 8100)
+    curve = curve[idx]
     file_object.add_spec(Time("2016-04-28", format="iso").mjd,
                          "NOT", "ALFOSC",
                          curve["wavelength"], curve["flux"])
@@ -274,7 +310,10 @@ def main():
     filename = "spec/16abc_20160430_FTN_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-04-30", format="iso").mjd,
+    idx = np.logical_and(curve["wavelength"] > 3300,
+                         curve["wavelength"] < 10000)
+    curve = curve[idx]
+    file_object.add_spec(57508.272,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 
@@ -287,35 +326,47 @@ def main():
     filename = "spec/16abc_20160512_VLT_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(57580.03,
+    idx = np.logical_and(curve["wavelength"] > 3300,
+                         curve["wavelength"] < 30000)
+    curve = curve[idx]
+    file_object.add_spec(57520.03,
                          "VLT", "X-shooter",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160521_FTN_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-05-21", format="iso").mjd,
+    idx = np.logical_and(curve["wavelength"] > 4000,
+                         curve["wavelength"] < 9000)
+    curve = curve[idx]
+    file_object.add_spec(57529.405,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160603_FTN_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-06-03", format="iso").mjd,
+    idx = np.logical_and(curve["wavelength"] > 4000,
+                         curve["wavelength"] < 9000)
+    curve = curve[idx]
+    file_object.add_spec(57542.408,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160611_FTN_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-06-11", format="iso").mjd,
+    idx = np.logical_and(curve["wavelength"] > 4000,
+                         curve["wavelength"] < 9000)
+    curve = curve[idx]
+    file_object.add_spec(57550.402,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 
     filename = "spec/16abc_20160623_FTN_v1.ascii"
     curve = np.genfromtxt(filename,
                           names=["wavelength", "flux"])
-    file_object.add_spec(Time("2016-06-23", format="iso").mjd,
+    file_object.add_spec(57562.379,
                          "LCOGT-2m", "FLOYDS",
                          curve["wavelength"], curve["flux"])
 

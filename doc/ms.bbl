@@ -1,6 +1,35 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{{Adelman-McCarthy} {et~al.}(2008){Adelman-McCarthy}, {Ag{\"u}eros},
+  {Allam}, {Allende Prieto}, {Anderson}, {Anderson}, {Annis}, {Bahcall},
+  {Bailer-Jones}, {Baldry}, {Barentine}, {Bassett}, {Becker}, {Beers}, {Bell},
+  {Berlind}, {Bernardi}, {Blanton}, {Bochanski}, {Boroski}, {Brinchmann},
+  {Brinkmann}, {Brunner}, {Budav{\'a}ri}, {Carliles}, {Carr}, {Castander},
+  {Cinabro}, {Cool}, {Covey}, {Csabai}, {Cunha}, {Davenport}, {Dilday}, {Doi},
+  {Eisenstein}, {Evans}, {Fan}, {Finkbeiner}, {Friedman}, {Frieman},
+  {Fukugita}, {G{\"a}nsicke}, {Gates}, {Gillespie}, {Glazebrook}, {Gray},
+  {Grebel}, {Gunn}, {Gurbani}, {Hall}, {Harding}, {Harvanek}, {Hawley},
+  {Hayes}, {Heckman}, {Hendry}, {Hindsley}, {Hirata}, {Hogan}, {Hogg}, {Hyde},
+  {Ichikawa}, {Ivezi{\'c}}, {Jester}, {Johnson}, {Jorgensen}, {Juri{\'c}},
+  {Kent}, {Kessler}, {Kleinman}, {Knapp}, {Kron}, {Krzesinski}, {Kuropatkin},
+  {Lamb}, {Lampeitl}, {Lebedeva}, {Lee}, {French Leger}, {L{\'e}pine}, {Lima},
+  {Lin}, {Long}, {Loomis}, {Loveday}, {Lupton}, {Malanushenko}, {Malanushenko},
+  {Mandelbaum}, {Margon}, {Marriner}, {Mart{\'{\i}}nez-Delgado}, {Matsubara},
+  {McGehee}, {McKay}, {Meiksin}, {Morrison}, {Munn}, {Nakajima}, {Neilsen},
+  {Newberg}, {Nichol}, {Nicinski}, {Nieto-Santisteban}, {Nitta}, {Okamura},
+  {Owen}, {Oyaizu}, {Padmanabhan}, {Pan}, {Park}, {Peoples}, {Pier}, {Pope},
+  {Purger}, {Raddick}, {Re Fiorentin}, {Richards}, {Richmond}, {Riess}, {Rix},
+  {Rockosi}, {Sako}, {Schlegel}, {Schneider}, {Schreiber}, {Schwope}, {Seljak},
+  {Sesar}, {Sheldon}, {Shimasaku}, {Sivarani}, {Allyn Smith}, {Snedden},
+  {Steinmetz}, {Strauss}, {SubbaRao}, {Suto}, {Szalay}, {Szapudi}, {Szkody},
+  {Tegmark}, {Thakar}, {Tremonti}, {Tucker}, {Uomoto}, {Vanden Berk},
+  {Vandenberg}, {Vidrih}, {Vogeley}, {Voges}, {Vogt}, {Wadadekar}, {Weinberg},
+  {West}, {White}, {Wilhite}, {Yanny}, {Yocum}, {York}, {Zehavi}, \&
+  {Zucker}}]{2008ApJS..175..297A}
+{Adelman-McCarthy}, J.~K., {Ag{\"u}eros}, M.~A., {Allam}, S.~S., {et~al.} 2008,
+  \apjs, 175, 297
+
 \bibitem[{{Arnett}(1982)}]{1982ApJ...253..785A}
 {Arnett}, W.~D. 1982, \apj, 253, 785
 
@@ -24,6 +53,12 @@
   {Rich}, \& {Ruhlmann-Kleider}}]{2011ApJ...741...20B}
 {Bianco}, F.~B., {Howell}, D.~A., {Sullivan}, M., {et~al.} 2011, \apj, 741, 20
 
+\bibitem[{{Bida} {et~al.}(2014){Bida}, {Dunham}, {Massey}, \&
+  {Roe}}]{2014SPIE.9147E..2NB}
+{Bida}, T.~A., {Dunham}, E.~W., {Massey}, P., \& {Roe}, H.~G. 2014, in
+  \procspie, Vol. 9147, Ground-based and Airborne Instrumentation for Astronomy
+  V, 91472N
+
 \bibitem[{{Blondin} \& {Tonry}(2007)}]{2007ApJ...666.1024B}
 {Blondin}, S., \& {Tonry}, J.~L. 2007, \apj, 666, 1024
 
@@ -31,6 +66,17 @@
   {Graham}, {Howell}, {Kolb}, {Holmes}, {Haswell}, {Burwitz}, {Rodriguez}, \&
   {Sullivan}}]{2012ApJ...744L..17B}
 {Bloom}, J.~S., {Kasen}, D., {Shen}, K.~J., {et~al.} 2012, \apjl, 744, L17
+
+\bibitem[{{Breeveld} {et~al.}(2011){Breeveld}, {Landsman}, {Holland}, {Roming},
+  {Kuin}, \& {Page}}]{2011AIPC.1358..373B}
+{Breeveld}, A.~A., {Landsman}, W., {Holland}, S.~T., {et~al.} 2011, in American
+  Institute of Physics Conference Series, Vol. 1358, American Institute of
+  Physics Conference Series, ed. J.~E. {McEnery}, J.~L. {Racusin}, \&
+  N.~{Gehrels}, 373--376
+
+\bibitem[{{Brown} {et~al.}(2012){Brown}, {Dawson}, {Harris}, {Olmstead},
+  {Milne}, \& {Roming}}]{2012ApJ...749...18B}
+{Brown}, P.~J., {Dawson}, K.~S., {Harris}, D.~W., {et~al.} 2012, \apj, 749, 18
 
 \bibitem[{{Cao} {et~al.}(2016){Cao}, {Nugent}, \&
   {Kasliwal}}]{2016PASP..128k4502C}
@@ -243,6 +289,14 @@
   {Brown}, {Milne}, \& {Nearby Supernova Factory}}]{2011ApJ...743...27T}
 {Thomas}, R.~C., {Aldering}, G., {Antilogus}, P., {et~al.} 2011, \apj, 743, 27
 
+\bibitem[{{Valenti} {et~al.}(2016){Valenti}, {Howell}, {Stritzinger}, {Graham},
+  {Hosseinzadeh}, {Arcavi}, {Bildsten}, {Jerkstrand}, {McCully}, {Pastorello},
+  {Piro}, {Sand}, {Smartt}, {Terreran}, {Baltay}, {Benetti}, {Brown},
+  {Filippenko}, {Fraser}, {Rabinowitz}, {Sullivan}, \&
+  {Yuan}}]{2016MNRAS.459.3939V}
+{Valenti}, S., {Howell}, D.~A., {Stritzinger}, M.~D., {et~al.} 2016, \mnras,
+  459, 3939
+
 \bibitem[{{Vernet} {et~al.}(2011){Vernet}, {Dekker}, {D'Odorico}, {Kaper},
   {Kjaergaard}, {Hammer}, {Randich}, {Zerbi}, {Groot}, {Hjorth}, {Guinouard},
   {Navarro}, {Adolfse}, {Albers}, {Amans}, {Andersen}, {Andersen}, {Binetruy},
@@ -257,11 +311,15 @@
   {Reinero}, {Rigal}, {Riva}, {Roelfsema}, {Royer}, {Sacco}, {Santin},
   {Schoenmaker}, {Spano}, {Sweers}, {Ter Horst}, {Tintori}, {Tromp}, {van
   Dael}, {van der Vliet}, {Venema}, {Vidali}, {Vinther}, {Vola}, {Winters},
-  {Wistisen}, {Wulterkens}, \& {Zacchei}}]{2011A&A...536A.105V}
+  {Wistisen}, {Wulterkens}, \& {Zacchei}}]{XShooter}
 {Vernet}, J., {Dekker}, H., {D'Odorico}, S., {et~al.} 2011, \aap, 536, A105
 
 \bibitem[{{Whelan} \& {Iben}(1973)}]{1973ApJ...186.1007W}
 {Whelan}, J., \& {Iben}, Jr., I. 1973, \apj, 186, 1007
+
+\bibitem[{{Zacharias} {et~al.}(2013){Zacharias}, {Finch}, {Girard}, {Henden},
+  {Bartlett}, {Monet}, \& {Zacharias}}]{2013AJ....145...44Z}
+{Zacharias}, N., {Finch}, C.~T., {Girard}, T.~M., {et~al.} 2013, \aj, 145, 44
 
 \bibitem[{{Zheng} \& {Filippenko}(2016)}]{2016arXiv161202097Z}
 {Zheng}, W., \& {Filippenko}, A.~V. 2016, ArXiv e-prints, arXiv:1612.02097
