@@ -4,8 +4,8 @@
 #
 
 OBJ = ms
-LATEX = /Library/TeX/texbin/pdflatex
-BIBTEX = /Library/TeX/texbin/bibtex
+LATEX = /usr/bin/pdflatex
+BIBTEX = /usr/bin/bibtex
 
 all:
 	for item in $(OBJ); \

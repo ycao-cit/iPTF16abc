@@ -82,13 +82,6 @@
   {Kasliwal}}]{2016PASP..128k4502C}
 {Cao}, Y., {Nugent}, P.~E., \& {Kasliwal}, M.~M. 2016, \pasp, 128, 114502
 
-\bibitem[{{Cao} {et~al.}(2015){Cao}, {Kulkarni}, {Howell}, {Gal-Yam},
-  {Kasliwal}, {Valenti}, {Johansson}, {Amanullah}, {Goobar}, {Sollerman},
-  {Taddia}, {Horesh}, {Sagiv}, {Cenko}, {Nugent}, {Arcavi}, {Surace},
-  {Wo{\'z}niak}, {Moody}, {Rebbapragada}, {Bue}, \&
-  {Gehrels}}]{2015Natur.521..328C}
-{Cao}, Y., {Kulkarni}, S.~R., {Howell}, D.~A., {et~al.} 2015, \nat, 521, 328
-
 \bibitem[{{Cenko} {et~al.}(2016){Cenko}, {Cao}, {Kasliwal}, {Miller},
   {Fremling}, {West}, {Gregg}, \& {Kulkarni}}]{2016ATel.8909....1C}
 {Cenko}, S.~B., {Cao}, Y., {Kasliwal}, M., {et~al.} 2016, The Astronomer's
@@ -160,13 +153,6 @@
 \bibitem[{{Maoz} {et~al.}(2014){Maoz}, {Mannucci}, \&
   {Nelemans}}]{2014ARA&A..52..107M}
 {Maoz}, D., {Mannucci}, F., \& {Nelemans}, G. 2014, \araa, 52, 107
-
-\bibitem[{{Marion} {et~al.}(2016){Marion}, {Brown}, {Vink{\'o}}, {Silverman},
-  {Sand}, {Challis}, {Kirshner}, {Wheeler}, {Berlind}, {Brown}, {Calkins},
-  {Camacho}, {Dhungana}, {Foley}, {Friedman}, {Graham}, {Howell}, {Hsiao},
-  {Irwin}, {Jha}, {Kehoe}, {Macri}, {Maeda}, {Mandel}, {McCully}, {Pandya},
-  {Rines}, {Wilhelmy}, \& {Zheng}}]{2016ApJ...820...92M}
-{Marion}, G.~H., {Brown}, P.~J., {Vink{\'o}}, J., {et~al.} 2016, \apj, 820, 92
 
 \bibitem[{{Miller} {et~al.}(2016){Miller}, {Laher}, {Masci}, {Surace},
   {Rebbapragada}, {Bue}, {Doran}, {Bellm}, {Cao}, {Kasliwal}, \&
@@ -246,19 +232,14 @@
 \bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{2011ApJ...737..103S}
 {Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011, \apj, 737, 103
 
-\bibitem[{{Shappee} {et~al.}(2016{\natexlab{a}}){Shappee}, {Piro}, {Stanek},
-  {Patel}, {Margutti}, {Lipunov}, \& {Pogge}}]{2016arXiv161007601S}
-{Shappee}, B.~J., {Piro}, A.~L., {Stanek}, K.~Z., {et~al.} 2016{\natexlab{a}},
-  ArXiv e-prints, arXiv:1610.07601
-
-\bibitem[{{Shappee} {et~al.}(2016{\natexlab{b}}){Shappee}, {Piro}, {Holoien},
-  {Prieto}, {Contreras}, {Itagaki}, {Burns}, {Kochanek}, {Stanek}, {Alper},
-  {Basu}, {Beacom}, {Bersier}, {Brimacombe}, {Conseil}, {Danilet}, {Dong},
-  {Falco}, {Grupe}, {Hsiao}, {Kiyota}, {Morrell}, {Nicolas}, {Phillips},
-  {Pojmanski}, {Simonian}, {Stritzinger}, {Szczygie{\l}}, {Taddia}, {Thompson},
+\bibitem[{{Shappee} {et~al.}(2016){Shappee}, {Piro}, {Holoien}, {Prieto},
+  {Contreras}, {Itagaki}, {Burns}, {Kochanek}, {Stanek}, {Alper}, {Basu},
+  {Beacom}, {Bersier}, {Brimacombe}, {Conseil}, {Danilet}, {Dong}, {Falco},
+  {Grupe}, {Hsiao}, {Kiyota}, {Morrell}, {Nicolas}, {Phillips}, {Pojmanski},
+  {Simonian}, {Stritzinger}, {Szczygie{\l}}, {Taddia}, {Thompson},
   {Thorstensen}, {Wagner}, \& {Wo{\'z}niak}}]{2016ApJ...826..144S}
-{Shappee}, B.~J., {Piro}, A.~L., {Holoien}, T.~W.-S., {et~al.}
-  2016{\natexlab{b}}, \apj, 826, 144
+{Shappee}, B.~J., {Piro}, A.~L., {Holoien}, T.~W.-S., {et~al.} 2016, \apj, 826,
+  144
 
 \bibitem[{{Silverman} \& {Filippenko}(2012)}]{2012MNRAS.425.1917S}
 {Silverman}, J.~M., \& {Filippenko}, A.~V. 2012, \mnras, 425, 1917

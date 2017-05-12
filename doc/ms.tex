@@ -6,18 +6,18 @@
 %% This is a sample manuscript marked up using the
 %% AASTeX v6.1 LaTeX 2e macros.
 %%
-%% AASTeX is now based on Alexey Vikhlinin's emulateapj.cls 
+%% AASTeX is now based on Alexey Vikhlinin's emulateapj.cls
 %% (Copyright 2000-2015).  See the classfile for details.
 
 %% AASTeX requires revtex4-1.cls (http://publish.aps.org/revtex4/) and
 %% other external packages (latexsym, graphicx, amssymb, longtable, and epsf).
-%% All of these external packages should already be present in the modern TeX 
+%% All of these external packages should already be present in the modern TeX
 %% distributions.  If not they can also be obtained at www.ctan.org.
 
 %% The first piece of markup in an AASTeX v6.x document is the \documentclass
-%% command. LaTeX will ignore any data that comes before this command. The 
+%% command. LaTeX will ignore any data that comes before this command. The
 %% documentclass can take an optional argument to modify the output style.
-%% The command below calls the preprint style  which will produce a tightly 
+%% The command below calls the preprint style  which will produce a tightly
 %% typeset, one-column, single-spaced document.  It is the default and thus
 %% does not need to be explicitly stated.
 %%
@@ -30,31 +30,31 @@
 %% can be envoked like this:
 %%
 %% \documentclass[argument]{aastex61}
-%% 
+%%
 %% where the arguement options are:
 %%
 %%  twocolumn   : two text columns, 10 point font, single spaced article.
 %%                This is the most compact and represent the final published
 %%                derived PDF copy of the accepted manuscript from the publisher
 %%  manuscript  : one text column, 12 point font, double spaced article.
-%%  preprint    : one text column, 12 point font, single spaced article.  
+%%  preprint    : one text column, 12 point font, single spaced article.
 %%  preprint2   : two text columns, 12 point font, single spaced article.
 %%  modern      : a stylish, single text column, 12 point font, article with
-%% 		  wider left and right margins. This uses the Daniel
-%% 		  Foreman-Mackey and David Hogg design.
+%%      wider left and right margins. This uses the Daniel
+%%      Foreman-Mackey and David Hogg design.
 %%
 %% Note that you can submit to the AAS Journals in any of these 6 styles.
 %%
 %% There are other optional arguments one can envoke to allow other stylistic
 %% actions. The available options are:
 %%
-%%  astrosymb    : Loads Astrosymb font and define \astrocommands. 
-%%  tighten      : Makes baselineskip slightly smaller, only works with 
+%%  astrosymb    : Loads Astrosymb font and define \astrocommands.
+%%  tighten      : Makes baselineskip slightly smaller, only works with
 %%                 the twocolumn substyle.
 %%  times        : uses times font instead of the default
 %%  linenumbers  : turn on lineno package.
 %%  trackchanges : required to see the revision mark up and print its output
-%%  longauthor   : Do not use the more compressed footnote style (default) for 
+%%  longauthor   : Do not use the more compressed footnote style (default) for
 %%                 the author/collaboration/affiliations. Instead print all
 %%                 affiliation information after each name. Creates a much
 %%                 long author list but may be desirable for short author papers
@@ -98,7 +98,7 @@
 %
 %\AuthorCollaborationLimit=3
 %
-%% Will only show Schwarz, Muench and "the AAS Journals Data Scientist 
+%% Will only show Schwarz, Muench and "the AAS Journals Data Scientist
 %% collaboration" on the front page of this example manuscript.
 %%
 %% Note that all of the author will be shown in the published article.
@@ -125,10 +125,10 @@
 \shorttitle{iPTF16abc}
 \shortauthors{Cao et al.}
 %%
-%% You can add a light gray and diagonal water-mark to the first page 
+%% You can add a light gray and diagonal water-mark to the first page
 %% with this command:
 \watermark{DRAFT}
-%% where "text", e.g. DRAFT, is the text to appear.  If the text is 
+%% where "text", e.g. DRAFT, is the text to appear.  If the text is
 %% long you can control the water-mark size with:
 %  \setwatermarkfontsize{dimension}
 %% where dimension is any recognized LaTeX dimension, e.g. pt, in, etc.
@@ -155,9 +155,9 @@
 %% one line. However, you may use \\ to force a line break if
 %% you desire. In v6.1 you can include a footnote in the title.
 
-%% A significant change from earlier AASTEX versions is in the structure for 
-%% calling author and affilations. The change was necessary to implement 
-%% autoindexing of affilations which prior was a manual process that could 
+%% A significant change from earlier AASTEX versions is in the structure for
+%% calling author and affilations. The change was necessary to implement
+%% autoindexing of affilations which prior was a manual process that could
 %% easily be tedious in large author manuscripts.
 %%
 %% The \author command is the same as before except it now takes an optional
@@ -172,9 +172,9 @@
 %% to \affiliation. AASTeX v6.1 will automatically index these in the header.
 %% When a duplicate is found its index will be the same as its previous entry.
 %%
-%% Note that \altaffilmark and \altaffiltext have been removed and thus 
+%% Note that \altaffilmark and \altaffiltext have been removed and thus
 %% can not be used to document secondary affiliations. If they are used latex
-%% will issue a specific error message and quit. Please use multiple 
+%% will issue a specific error message and quit. Please use multiple
 %% \affiliation calls for to document more than one affiliation.
 %%
 %% The new \altaffiliation can be used to indicate some secondary information
@@ -209,18 +209,18 @@
 \affil{the intermediate Palomar Transient Factory}
 
 %% Note that the \and command from previous versions of AASTeX is now
-%% depreciated in this version as it is no longer necessary. AASTeX 
+%% depreciated in this version as it is no longer necessary. AASTeX
 %% automatically takes care of all commas and "and"s between authors names.
 
 %% AASTeX 6.1 has the new \collaboration and \nocollaboration commands to
-%% provide the collaboration status of a group of authors. These commands 
+%% provide the collaboration status of a group of authors. These commands
 %% can be used either before or after the list of corresponding authors. The
 %% argument for \collaboration is the collaboration identifier. Authors are
-%% encouraged to surround collaboration identifiers with ()s. The 
+%% encouraged to surround collaboration identifiers with ()s. The
 %% \nocollaboration command takes no argument and exists to indicate that
 %% the nearby authors are not part of surrounding collaborations.
 
-%% Mark off the abstract in the ``abstract'' environment. 
+%% Mark off the abstract in the ``abstract'' environment.
 \begin{abstract}
 
   We report discovery of an extraordinarily young Type Ia supernova
@@ -237,7 +237,7 @@
 
 \end{abstract}
 
-%% Keywords should appear after the \end{abstract} command. 
+%% Keywords should appear after the \end{abstract} command.
 %% See the online documentation for the full list of available subject
 %% keywords and the rules for their use.
 \keywords{methods: observational --- supernovae: individual (iPTF16abc)}
@@ -255,73 +255,64 @@
 %% We recommend that authors also use the natbib \citep
 %% and \citet commands to identify citations.  The citations are
 %% tied to the reference list via symbolic KEYs. The KEY corresponds
-%% to the KEY in the \bibitem in the reference list below. 
+%% to the KEY in the \bibitem in the reference list below.
 
 \section{Introduction}
 \label{sec:intro}
 
 Although Type Ia supernovae (SNe Ia) have been extensively used as
-standardizable candles, their progenitor scenarios and explosion
-physics are still in debate (see a recent review by
-\citealt{2014ARA&A..52..107M}). Detailed extermely early-phase
-observations are one of the most promising avenues to further
-constrain this problem.
+standardizable candles, their progenitor systems and explosion
+mechanisms remain unclear (see a recent review by
+\citealt{2014ARA&A..52..107M}). Observations of extremely young
+events are one promising avenue to further
+investigation of this problem.
 
-While the shock breakout of a SN Ia occurs on a sub-second timescale,
-the subsequent quasi-adiabatic expanding and cooling of the unbinded
-ejecta produces thermal emissions that can be used to infer the
-original size of the exploding star
-\citep{2010ApJ...708..598P,2011ApJ...728...63R}. Comparing models of
-these cooling emissions to the earliest-phase data of SN2011fe,
-\citet{2012ApJ...744L..17B} concluded that the radius of the
+While the shock breakout of a SN Ia occurs on a minisecond timescale,
+the subsequent adiabatic cooling of the unbinded ejecta during its free
+expansion produces thermal emission, before the radioactive energy manages
+to heat up the photosphere of the ejecta. The thermal emission during this
+phase therefore be used to infer the original size of the exploding star
+\citep{2010ApJ...708..598P,2011ApJ...728...63R}. For example,
+the earliest observations of SN2011fe allowed
+\citet{2012ApJ...744L..17B} to conclude that the radius of the
 progenitor star is $\lesssim0.01\sr$ where $\sr$ is the solar
-radius. Combining this size constraint and the measured ejecta mass to
-derive the mean density of the progenitor star, we confirmed that the
-progenitor star is compact and degenerate. Admittedly, due to the
-initial small surface area of the progenitor star, the shock cooling
-emission of a SN Ia decays drastically as the ejecta expands. Given
-typical parameters of a SN Ia, this thermal emission is visible from
-events up to $\sim 10\,\textrm{Mpc}$ within one day of their explosions.
+radius and that the progenitor has to be compact and degenerate.
+However, due to the small surface area of the progenitor star,
+the cooling emission at this phase is not luminous and decays rapidly.
+As a result, this method is only applicable to events
+within $\sim 10\,\textrm{Mpc}$.
 
-Another expectation from the extremely early-phase observations of a
-SN Ia is the excess emission from collisions between SN ejecta and a
-companion star, a natural consequence from the single-degenerate
-progenitor hypothesis \citep{1973ApJ...186.1007W,2010ApJ...708.1025K}.
-In a low-velocity SN Ia iPTF14atg, \citet{2015Natur.521..328C} for the
-first time detected a strong and declining ultraviolet pulse within a
-few days of the SN explosion which is best interpreted as the
-SN-companion collision. This signature has been searched in a number
-of nearby, early-phase normal SNe Ia, but most of these studies result
-in no detection
-\citep{2010ApJ...722.1691H,2011ApJ...741...20B,2012ApJ...744...38F,
-  2012ApJ...744L..17B,2015Natur.521..332O,
-  2013ApJ...778L..15Z,2015ApJ...799..106G,2016ApJ...826..144S,
-  2015ApJS..221...22I}. The exception is SN2012cg which
-\citet{2016ApJ...820...92M} claimed detection of blue excess in the
-earliest-phase light curve and attribute it to SN-companion collision.
-However, this statement is recently challenged by
-\citet{2016arXiv161007601S}. In fact, it is not surprising that no
-SN-companion collision has been observationally confirmed, because
-only up to $\sim 10\%$ of events from the single-degenerate channel
-have the preferred binary geometry for us to see the collision
-signatures.
 
-More commonly, the only observed light curve of a SN Ia is purely
-powered by the radioactive decay of synthesized $^{56}$Ni. Since
-$^{56}$Ni atoms are synthesized, mixed and deposited into different
-layers inside the ejecta, the SN may experience a dark period after
-the SN shock breakout and before the radioactive energy diffuses to
-the photosphere \citep{2014ApJ...784...85P}. In the case of strong
-mixing, $^{56}$Ni energy can reach the photosphere rapidly. As such,
-the dark period is very short and the light curve shows a fast initial
-rise. In the opposite case, it may take up to a couple of days for
-the $^{56}$Ni energy to diffuse to the photosphere. The initial rise
-of the light curve is then moderate \citep{2016ApJ...826...96P}. To
-summarize, the initial rise of the light curve of a SN Ia conveys
-information on distribution of synthesized $^{56}$Ni. 
 
-In this paper, we report observations of an extraordinarily young SN
-Ia iPTF16abc, which was discovered by the intermediate Palomar
+If a SN Ia is born in the single degenerate (SD) channel
+\citep{1973ApJ...186.1007W}, then the SN ejecta slams into the companion and
+produces a non-thermal X-ray flash. Once the fast-moving ejecta covers the
+collision region, the collision heats up the surrounding material. The
+collisional energy is then released near the direction of the companion (about
+a few to ten percent of the $4\pi$ solid angle) as thermal emission with a
+spectrum that peaks in the UV \citep{2010ApJ...708.1025K}.
+This SN-companion collisional
+signature serves as a ``smoking gun'' for the SD channel, because it is not
+expected in the competing double-degenerate channel \ycao{REF}. This signature
+has been searched in several nearby SNe Ia and a few samples of distant
+SNe Ia \citep{2010ApJ...722.1691H,2011ApJ...741...20B,2012ApJ...744...38F,
+2012ApJ...744L..17B,2015Natur.521..332O,2013ApJ...778L..15Z,
+2015ApJ...799..106G,2016ApJ...826..144S,2015ApJS..221...22I}, only in a
+low-velocity SNe Ia was a strong and declining ultraviolet (UV) pulse seen
+within a few days of the explosion.
+
+More commonly, the observed light curve of a SN Ia is purely
+powered by the radioactive decay of synthesized $^{56}$Ni.
+Depending on the depth of the shallowest layer where $^{56}$Ni is deposited,
+the SN may experience a dark period before the radioactive energy diffuses to
+the photosphere. According to the calculation in \citet{2016ApJ...826...96P},
+strong mixing leads to a short dark period and a fast initial rise, while
+weak mixing results in a long dark period and a moderate initial rise.
+Measuring the initial rise rate of a SN Ia allows us to constrain the mixing
+level of the SN ejecta which is closely related to the explosion mechanism.
+
+In this paper, we report observations of a young SN Ia iPTF16abc within a day
+of its explosion. This SN was discovered by the intermediate Palomar
 Transient Factory on 2016 April $3.36$\footnote{all times in this
   paper are in UTC.} at $\textrm{R.A.}=13^h34^m45.49^s$,
 $\textrm{Dec.}=+13^d51^m14.3^s$ (J2000) with a $g$-band magnitude of
@@ -329,8 +320,7 @@ $21.31\pm0.27$ \citep{2016PASP..128k4502C,2016ATel.8907....1M}. The
 transient is spatially coincident with a tidal tail of the galaxy
 NGC\,5221 at 100\,Mpc. No activity was detected at the same location
 down to $g=22.1$\,mag on April $2.42$. Our spectroscopic follow-up
-compaign classified iPTF16abc as a normal SN Ia
-\citep{2016ATel.8909....1C}.
+compaign classified iPTF16abc as a normal SN Ia \citep{2016ATel.8909....1C}.
 
 This paper is organized as follows: Section \ref{sec:obs} describes
 photometric and spectroscopic observations of iPTF16abc. Section
@@ -507,7 +497,7 @@ in the profiles of the doublet.
 We also note in Figure \ref{fig:narrow_features} that the absorption
 profiles of \ion{Ca}{2}\,H$+$K are quite different from those of \ion{Na}{1}\,D
 doublet, implying that the dust compositions in the two absorption sources
-may have some difference. 
+may have some difference.
 
 
 \subsection{Classfication}
@@ -705,7 +695,7 @@ preceding dark period of about acouple of days
 \citep{2016ApJ...826..144S}. This comparison suggests that the actual
 rise time of a SN Ia between the SN explosion and the \textit{B}-band
 maximum is roughly a constant, which largely depends on the total mass
-of synthesized $^{56}$Ni. 
+of synthesized $^{56}$Ni.
 
 \subsection{Strong and Short-Lived Carbon Features}
 \label{sec:carbon}
@@ -718,13 +708,13 @@ kernel superposing on a linear term to the spectral region near
 the \ion{C}{2}\,7234 line to measure its velocity and pseudo-equivalent
 width. The velocity evolution of \ion{C}{2} is shown in the right panel
 of Figure \ref{fig:velocity_t_exp} and the pEW evolution
-in Figure \ref{fig:ew}. 
+in Figure \ref{fig:ew}.
 
 Our measurements show that the strong \ion{C}{2} absorption
 only appears in the very early phases. In the spectrum taken at
 $t=-15.8$ days, the pEW of \ion{C}{2}\,6580 is comparable to that
 of \ion{Si}{2}\,6355. Then the pEW of \ion{C}{2} decreases
-until they disappear at about $t=-10$ days. 
+until they disappear at about $t=-10$ days.
 
 \begin{figure}[!htb]
   \centering
@@ -741,7 +731,7 @@ carbon atoms. The strong and short-lived \ion{C}{2} features observed
 in the spectra of iPTF16abc show that a certain amount of carbon atoms
 exist in the outer layers of the ejecta and that $^{56}$Ni atoms are also
 strongly mixed in the same layers. This provides a third piece of evidence
-to strong mixing in the iPTF16abc ejecta. 
+to strong mixing in the iPTF16abc ejecta.
 
 Carbon signatures are seen in over $1/4$ of all normal SNe Ia before
 maxima
@@ -803,7 +793,7 @@ companion fills its Roche lobe, the companion star would have to have
 a radius of $\sim10^{14}\,\textrm{cm}\simeq10^{4}\sr$. Given that the
 mass of the companion is $\sim1\sr$, such a large radius seems unlikely.
 Therefore, we conclude that the early emission of iPTF16abc is not likely
-to originate from the SN-companion collision. 
+to originate from the SN-companion collision.
 
 \begin{figure}[!thb]
   \centering
@@ -821,20 +811,20 @@ normal Type Ia supernova iPTF16abc at one tidal tail of NGC\,5221. Our
 extraordinarily fast-response follow-up compaign of this supernova
 allows us to draw the following conclusions:
 \begin{itemize}
-\item By extrapolating the early light curve, we determine that the
-  first light of the SN light curve was only $0.18$ days before our
-  first observation.
-\item Our analysis shows that the observed early-phase light curve is
-  probably powered by radioactive decay of $^{56}$Ni, instead of SN
-  shock breakout or SN-companion collision (provided that iPTF16abc
-  is born in a single-degenerate channel).
-\item Our measurements on the spectral line velocities shows that the
-  actual explosion date of the SN is approximately equal to the time
-  of the first light of the SN light curve, indicating that
-  synthesized $^{56}$Ni atoms are mixed out into the outer layers of
-  the supernova ejecta.
-\item The strong mixing of $^{56}$Ni is also supported by strong and
-  short-lived carbon features in the earliest spectra of iPTF16abc. 
+  \item By extrapolating the early light curve, we determine that the
+    first light of the SN light curve was only $0.18$ days before our
+    first observation.
+  \item Our analysis shows that the observed early-phase light curve is
+    probably powered by radioactive decay of $^{56}$Ni, instead of SN
+    shock breakout or SN-companion collision (provided that iPTF16abc
+    is born in a single-degenerate channel).
+  \item Our measurements on the spectral line velocities shows that the
+    actual explosion date of the SN is approximately equal to the time
+    of the first light of the SN light curve, indicating that
+    synthesized $^{56}$Ni atoms are mixed out into the outer layers of
+    the supernova ejecta.
+  \item The strong mixing of $^{56}$Ni is also supported by strong and
+    short-lived carbon features in the earliest spectra of iPTF16abc.
 \end{itemize}
 
 Observations of extraordinarily young supernovae provide a ``smoking
@@ -849,7 +839,7 @@ It should also be emphasized that much of the analysis presented in
 this paper would not be possible without the fast-response and
 extensive photometric and spectroscopic follow-up compaign. With the
 great potential of discoveries in the surveys, researchers need to
-be prepared and organized for follow-up observations. 
+be prepared and organized for follow-up observations.
 
 \acknowledgements
 
