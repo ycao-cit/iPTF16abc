@@ -1,52 +1,65 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: ms.aux
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ./ms.aux
 The style file: aasjournal.bst
-Database file #1: ref.bib
-Repeated entry---line 36227 of file ref.bib
- : @article{1998A&AS..130..333T
+Database file #1: msNotes.bib
+Database file #2: ref.bib
+Repeated entry---line 36584 of file ref.bib
+ : @article{2011MNRAS.416.2607G
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 36601 of file ref.bib
+ : @article{2006AJ....132.1707C
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 36623 of file ref.bib
+ : @article{2010ApJ...712..350H
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 36690 of file ref.bib
+ : @article{2007ApJ...654L..53T
  :                             ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 55 entries,
-            3183 wiz_defined-function locations,
-            1096 strings with 30973 characters,
-and the built_in function-call counts, 35517 in all, are:
-= -- 2268
-> -- 3896
-< -- 17
-+ -- 1291
-- -- 1369
-* -- 3646
-:= -- 7027
-add.period$ -- 55
-call.type$ -- 55
-change.case$ -- 355
-chr.to.int$ -- 54
-cite$ -- 55
-duplicate$ -- 1103
-empty$ -- 1607
-format.name$ -- 1438
-if$ -- 6700
-int.to.chr$ -- 2
+You've used 64 entries,
+            3222 wiz_defined-function locations,
+            1174 strings with 34041 characters,
+and the built_in function-call counts, 38609 in all, are:
+= -- 2413
+> -- 4273
+< -- 21
++ -- 1415
+- -- 1499
+* -- 3938
+:= -- 7462
+add.period$ -- 64
+call.type$ -- 64
+change.case$ -- 340
+chr.to.int$ -- 62
+cite$ -- 64
+duplicate$ -- 1204
+empty$ -- 1868
+format.name$ -- 1579
+if$ -- 7404
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 50
-newline$ -- 169
-num.names$ -- 224
-pop$ -- 395
+missing$ -- 59
+newline$ -- 197
+num.names$ -- 260
+pop$ -- 509
 preamble$ -- 1
-purify$ -- 355
+purify$ -- 340
 quote$ -- 0
-skip$ -- 909
+skip$ -- 928
 stack$ -- 0
-substring$ -- 1170
-swap$ -- 56
+substring$ -- 1130
+swap$ -- 58
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 495
+type$ -- 576
 warning$ -- 0
-while$ -- 197
+while$ -- 229
 width$ -- 0
-write$ -- 553
-(There was 1 error message)
+write$ -- 644
+(There were 4 error messages)
