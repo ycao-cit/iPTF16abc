@@ -570,49 +570,47 @@ As our observations include especially early observations of \abc, there are upp
     \end{array}
   \right.\ ,
 \end{equation}
-where $t_0$ is the time of first light and $\alpha$ is the power-law index. To determine $t_0$ and $\alpha$ we fit the earliest observations of \abc, which were taken exclusively with P48 in the $g_\mathrm{PTF}$ filter. To determine the best fit parameters, we search a large grid over $t_0$, $\alpha$
+where $t_0$ is the time of first light, $\alpha$ is the power-law index, and $t$ is measured in the rest-frame of the SN. To determine $t_0$ and $\alpha$ we fit the earliest observations of \abc. Due to slight variations in the passbands, we fit the model to the relative flux measured in the $g_\mathrm{PTF}$-band, which is the only filter with observations prior to first light, a necessity for constraining $t_0$. 
+
+To determine the best fit parameters, we search a large grid over $t_0$, $\alpha$
 and the proportionality constant, and minimize $\chi^2$. 
 The modeling results show that the SN flux rises approximately
 linearly between
-$t=-18\,\textrm{d}$ and $t=-15\,\textrm{d}$. Figure \ref{fig:early_lc_fit} shows the best-fit result and
+$t=-18\,\textrm{d}$ and $t=-14\,\textrm{d}$. Figure \ref{fig:early_lc_fit} shows the best-fit result and
 the joint marginal distribution of $t_0$ and $\alpha$. With the
-best-fit model of $\alpha=0.96$ and $t_0=-18.4$ days, our first
+best-fit model of $\alpha=0.98$ and $t_0=-17.94$ d, our first
 detection of \abc\ occurred $\sim{0.2}\,\textrm{d}$ after 
-the SN first light.
+the SN first light. Figure~\ref{fig:early_lc_fit} additionally shows $g'$-bands observations from P60 and LCO, where we have normalized the flux assuming that the $g$ magnitudes from each instrument have the same zero-point. This assumption is incorrect (see \S\ref{sec:obs}), and, as expected, the residuals show a systematic offset between the $g_\mathrm{PTF}$-band and the $g'$-band. Nevertheless, if we ignore this systematic and fit all of the $g$-band observations simultaneous we obtain marginalized best-fit parameters that are consistent within the uncertainties with the $g_\mathrm{PTF}$-only values above. In the analysis that follows, the precise values of the best-fit parameters is not important. The critical finding here is that $\alpha \approx 1$ and $t_0 \approx -18 \, \mathrm{d}$. 
 
 \begin{figure*}[!htb]
   \centering
   \includegraphics[width=0.95\textwidth]{early_lc.pdf}
-  \caption{Broken Power low fitting to the early $g$-band light
-    curve. The best-fit model of $\alpha=0.92$ and $t_0=-18.47\,\textrm{days}$
-    and corresponding residues are shown in the top and bottom panels, respectively.
-    The joint distribution of $t_0$ and $\alpha$ is illustrated in the inset of
-    the upper panel. The solid and dashed contours represent the $68\%$ and $99.7\%$
-    confidence levels.
+  \caption{Best-fit power-law model to describe the early flux from 
+  \abc\ in the $g_\mathrm{PTF}$-band. The model flux, adopting 
+  best-fit parameters $\alpha=0.98$ and $t_0=-17.94\,\textrm{d}$, 
+  is shown as a solid black line in the top panel. The lower panel 
+  shows the model residuals, and the symbols are the same as in
+  Figure~\ref{fig:lightcurve}. The model is fit to just the 
+  $g_\mathrm{PTF}$-band observations to avoid systematic difference 
+  between the filters (see the text for further 
+  details). The joint distribution of $t_0$ and $\alpha$ is 
+  illustrated in the inset of the upper panel. The solid and 
+  dashed contours represent the $68\%$ and $99.7\%$ confidence 
+  levels.
   }
   \label{fig:early_lc_fit}
 \end{figure*}
 
-Starting around $t=-15\,\textrm{d}$, the $g$-band light curve 
-deviates from the above best-fit model and 
-rises significantly faster, indicating a
-change in the power-law index $\alpha$. In fact, between $t=-14\,\mathrm{d}$ and $t=-8\,\mathrm{d}$ the light curve is well fit by a power law of index $1.40$. In other words, the entire light curve
-before $t=-8$\,days can be approximated by a broken power-law model
-(e.g.,
-\citealt{2016arXiv161202097Z,
-  2016arXiv161202725Z}).
+% Starting around $t=-15\,\textrm{d}$, the $g$-band light curve
+% deviates from the above best-fit model and
+% rises significantly faster, indicating a
+% change in the power-law index $\alpha$. In fact, between $t=-14\,\mathrm{d}$ and $t=-8\,\mathrm{d}$ the light curve is well fit by a power law of index $1.40$. In other words, the entire light curve
+% before $t=-8$\,days can be approximated by a broken power-law model
+% (e.g.,
+% \citealt{2016arXiv161202097Z,
+%   2016arXiv161202725Z}).
 
 As previously noted, the early emission from most SNe Ia can be explained via a $f \propto t^2$ model, including SNe with extremely early observations like \abc, such as SN\,2011fe \citep{2011Natur.480..344N}. Thus, the near-linear rise in flux over the first few days after first light for \abc\ is unusual. To our knowledge this behavior has only been observed in 2 other SNe (2013dy, 2014J; \citealt{2013ApJ...778L..15Z,2014ApJ...783L..24Z}). Any model to explain the observations of \abc\ must be able to account for this unusual behavior in the days after first light.  
-
-
-% \amiller{Revisit this paragraph in context of discussion -- might need to be moved to later section} As discussed in Section \ref{sec:lc_energy}, the initial light curve
-% of \abc\ is probably purely powered by the radioactive decay of
-% $^{56}$Ni. Thus, the initial rise of the light curve depends on
-% the depth of the shallowest layer where $^{56}$Ni is deposited
-% \citep{2014ApJ...784...85P}. According to theoretical models
-% \citep{2016ApJ...826...96P}, the linearly rising light curve implies
-% strong mixing of $^{56}$Ni in the ejecta. As a result, the time lag
-% between the time of explosion and SN first light is negligible.
 
 \subsection{Expansion Velocity Fit}
 \label{sec:early_vel}
