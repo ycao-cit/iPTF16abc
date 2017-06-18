@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 JUN 2017 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUN 2017 08:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,7 +490,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 202.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 286--286
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 291--291
 [][] 
  []
 
@@ -499,68 +499,68 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 286--286
 File: logLC_with_colors.pdf Graphic file (type pdf)
 
 <use logLC_with_colors.pdf>
-Package pdftex.def Info: logLC_with_colors.pdf used on input line 370.
+Package pdftex.def Info: logLC_with_colors.pdf used on input line 375.
 (pdftex.def)             Requested size: 487.45999pt x 487.4596pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 385.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 390.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 385.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 390.
  [2]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 400.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 405.
 
 [3 <./logLC_with_colors.pdf>]
-Underfull \hbox (badness 1769) in paragraph at lines 426--431
+Underfull \hbox (badness 1769) in paragraph at lines 431--436
 []\OT1/cmr/m/n/10 The $\OML/cmm/m/it/10 g$\OT1/cmr/m/n/10 -band dis-cov-ery dat
 a and color curves of
  []
 
 
-Underfull \hbox (badness 10000) detected at line 466
+Underfull \hbox (badness 10000) detected at line 471
 $\OT1/cmr/m/n/9 1$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 467
+Underfull \hbox (badness 10000) detected at line 472
 $\OT1/cmr/m/n/9 2$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 468
+Underfull \hbox (badness 10000) detected at line 473
 $\OT1/cmr/m/n/9 3$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 469
+Underfull \hbox (badness 10000) detected at line 474
 $\OT1/cmr/m/n/9 4$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 470
+Underfull \hbox (badness 10000) detected at line 475
 $\OT1/cmr/m/n/9 5$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 471
+Underfull \hbox (badness 10000) detected at line 476
 $\OT1/cmr/m/n/9 6$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 472
+Underfull \hbox (badness 10000) detected at line 477
 $\OT1/cmr/m/n/9 7$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 473
+Underfull \hbox (badness 10000) detected at line 478
 $\OT1/cmr/m/n/9 8$
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 473--473
+Underfull \hbox (badness 2573) in paragraph at lines 478--478
  []|$[]$\OT1/cmr/m/n/9 The An-dalu-cia Faint Ob-ject Spec-tro-graph and Cam-era
  [][]$\OT1/cmtt/m/n/9 http : / / www . not . iac . es /
  []
@@ -568,59 +568,59 @@ Underfull \hbox (badness 2573) in paragraph at lines 473--473
 <spectra.pdf, id=251, 722.7pt x 867.24pt>
 File: spectra.pdf Graphic file (type pdf)
  <use spectra.pdf>
-Package pdftex.def Info: spectra.pdf used on input line 478.
+Package pdftex.def Info: spectra.pdf used on input line 483.
 (pdftex.def)             Requested size: 513.11743pt x 615.74472pt.
 
 
-LaTeX Warning: Float too large for page by 2.17583pt on input line 487.
+LaTeX Warning: Float too large for page by 2.17583pt on input line 492.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 514.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 519.
 [4] [5]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 562.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 567.
 
 [6 <./spectra.pdf>] <early_lc.pdf, id=417, 578.16pt x 433.62pt>
 File: early_lc.pdf Graphic file (type pdf)
 
 <use early_lc.pdf>
-Package pdftex.def Info: early_lc.pdf used on input line 587.
+Package pdftex.def Info: early_lc.pdf used on input line 592.
 (pdftex.def)             Requested size: 487.45999pt x 365.5947pt.
  <Chi2.pdf, id=434, 462.52798pt x 346.89601pt>
 File: Chi2.pdf Graphic file (type pdf)
 
 <use Chi2.pdf>
-Package pdftex.def Info: Chi2.pdf used on input line 648.
+Package pdftex.def Info: Chi2.pdf used on input line 653.
 (pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
  <VelocityPlot.pdf, id=435, 462.52798pt x 346.89601pt>
 File: VelocityPlot.pdf Graphic file (type pdf)
 
 <use VelocityPlot.pdf>
-Package pdftex.def Info: VelocityPlot.pdf used on input line 649.
+Package pdftex.def Info: VelocityPlot.pdf used on input line 654.
 (pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
  [7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 704.
+               Default added (so using `tbp') on input line 711.
 
 <CarbonFeature.pdf, id=464, 462.52798pt x 346.89601pt>
 File: CarbonFeature.pdf Graphic file (type pdf)
  <use CarbonFeature.pdf>
-Package pdftex.def Info: CarbonFeature.pdf used on input line 706.
+Package pdftex.def Info: CarbonFeature.pdf used on input line 713.
 (pdftex.def)             Requested size: 251.43036pt x 188.57553pt.
 
-Overfull \hbox (9.16383pt too wide) in paragraph at lines 706--707
+Overfull \hbox (9.16383pt too wide) in paragraph at lines 713--714
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 725.
+               Default added (so using `tbp') on input line 739.
 
 <pEW.pdf, id=468, 462.52798pt x 346.89601pt>
 File: pEW.pdf Graphic file (type pdf)
  <use pEW.pdf>
-Package pdftex.def Info: pEW.pdf used on input line 727.
+Package pdftex.def Info: pEW.pdf used on input line 741.
 (pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
  [8 <./early_lc.pdf>] [9 <./Chi2.pdf> <./VelocityPlot.pdf
 
@@ -637,32 +637,37 @@ ge group included in a single page
 >] [10]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 817.
+               Default added (so using `tbp') on input line 831.
 
 <iPTF16abc_Ni_lc.pdf, id=804, 433.62pt x 578.16pt>
 File: iPTF16abc_Ni_lc.pdf Graphic file (type pdf)
  <use iPTF16abc_Ni_lc.pdf>
-Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 819.
+Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 833.
 (pdftex.def)             Requested size: 246.29417pt x 328.39894pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 819--820
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 833--834
  [][] 
  []
 
-[11 <./iPTF16abc_Ni_lc.pdf>] (./ms.bbl [12]) [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 887.
+[11 <./iPTF16abc_Ni_lc.pdf>] (./ms.bbl [12] [13]) [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 901.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 887.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 887.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 901.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 901.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  ) 
 Here is how much of TeX's memory you used:
- 9138 strings out of 493089
- 130663 string characters out of 6134842
- 307528 words of memory out of 5000000
+ 9139 strings out of 493089
+ 130670 string characters out of 6134842
+ 294964 words of memory out of 5000000
  12404 multiletter control sequences out of 15000+600000
  16051 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,37p,1939b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,37p,1939b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
@@ -693,10 +698,10 @@ nts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic
 /uhvr8a.pfb>
-Output written on ms.pdf (13 pages, 965904 bytes).
+Output written on ms.pdf (14 pages, 968774 bytes).
 PDF statistics:
- 1024 PDF objects out of 1200 (max. 8388607)
- 596 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
+ 1028 PDF objects out of 1200 (max. 8388607)
+ 599 compressed objects within 6 object streams
+ 112 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

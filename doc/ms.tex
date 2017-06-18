@@ -209,18 +209,23 @@
 % \author[0000-0002-8036-8491]{Yi Cao}
 % \affil{eScience Institute and Astronomy Department, University of Washington,
 %   Seattle, WA 98195}
+% \affil{Google, Mountain View, CA 94043, USA}
 %
 % \author{B.~D.~Bue}
 % \affil{Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA}
-%
-% \author{M.~M.~Kasliwal}
-% \affil{Division of Physics, Mathematics, and Astronomy, California Institute of Technology, Pasadena, CA 91125, USA}
-%
+
 % \author{R.~Ferretti}
 % \affil{The Oskar Klein Centre, Department of Physics, AlbaNova, SE-106 91 Stockholm, Sweden}
 %
 % \author{A.~Goobar}
 % \affil{The Oskar Klein Centre, Department of Physics, AlbaNova, SE-106 91 Stockholm, Sweden}
+%
+% \author{G.~Hosseinzadeh}
+% \affil{Las Cumbres Observatory, Goleta, CA 93117, USA}
+% \affil{Physics Department, University of California, Santa Barbara, CA 93106, USA}
+%
+% \author{M.~M.~Kasliwal}
+% \affil{Division of Physics, Mathematics, and Astronomy, California Institute of Technology, Pasadena, CA 91125, USA}
 %
 % \author{R.~R.~Laher}
 % \affil{Infrared Processing and Analysis Center, California Institute of Technology, Pasadena, CA 91125, USA}
@@ -300,7 +305,7 @@ radius of the exploding star
 \citep{2010ApJ...708..598P,2011ApJ...728...63R}. Comparing models of
 this cooling emission to the earliest-phase data of SN~2011fe,
 \citet{2012ApJ...744L..17B} concluded that the explosion came from a 
-stars with $R_\ast \lesssim 0.02\sr$, where $\sr$ is the solar
+star with $R_\ast \lesssim 0.02\sr$, where $\sr$ is the solar
 radius. Combining the radius constraint with the measured ejecta 
 mass \citeauthor{2012ApJ...744L..17B} derive the mean density of the 
 progenitor star, confirming that at least some type Ia SNe come from 
@@ -651,13 +656,15 @@ of the \ion{Si}{2} Gaussian kernel.
     evolution of \ion{Si}{2}.
     \textit{Left panel:} the dashed, solid
     and dash-dotted curves show $\chi^2$ for fitting power laws with
-    indices $-0.20$, $-0.22$ and $-0.24$, respectively. The red
-    vertical line and the orange region indicate $t_0$ and its
-    3-$\sigma$ confidence interval from Section
-    \ref{sec:lc_fit}.
-    \textit{Right panel:} Observed \ion{Si}{2}\,6355
-    velocities and the best-fit power-law velocity with an index of
-    $-0.22$.}
+    indices $-0.20$, $-0.22$ and $-0.24$, respectively. The blue
+    vertical line and the orange shaded region indicate $t_0$ and its
+    99.7\% confidence interval from Section
+    \ref{sec:lc_fit}, respectively.
+    \textit{Right panel:} Observed \ion{Si}{2}\,$\lambda$6355
+    velocities (blue circles) and the best-fit power-law model
+     with an index of $-0.22$ (dashed line). Additionally the 
+     measured velocites of \ion{C}{2}\,$\lambda\lambda$6580, 7234 
+     are shown.}
   \label{fig:velocity_t_exp}
 \end{figure*}
 
@@ -705,9 +712,16 @@ where they are no longer detectible more than 1 wk after explosion.
   \centering
   \includegraphics[width=0.49\textwidth]{CarbonFeature.pdf}
   \caption{Evolution of the \ion{C}{2} features observed in the 
-  early spectra of \abc. The raw spectra are shown in grey, while 
-  the solid black lines show a smoothed version to highlight the 
-  observed spectral features.}
+  early spectra of \abc. The raw spectra are shown in orange, while 
+  the solid blue lines show the best-fit models including gaussian 
+  components for each line and a linear component for the continuum 
+  (see text for further details). The dark grey vertical lines show 
+  the measured line centers, indicating the decline in the 
+  photosphere velocity in the $\sim$wk after explosion (note that 
+  \ion{C}{2}\,$\lambda$7234 is not detected in the $-10.9$ d 
+  spectrum). The phase of each spectrum relative to 
+  $T_{B,\mathrm{max}}$ is shown to the right of each spectrum.
+  }
   \label{fig:carbon}
 \end{figure}
 
@@ -805,7 +819,7 @@ Here we consider a model that has not, as of yet, been discussed in the context 
 
 While examining observations of SN\,2011fe in the context of DD models, \citet{2014MNRAS.441..532D} find that the models are universally too faint and red at early times, $\sim$24-48 hr after explosion. These discrepancies can be somewhat improved if the newly synthesized $^{56}$Ni is artificially mixed throughout the SN ejecta (see \S\ref{sec:Ni_mixing} for further details on the importance of mixing). Instead, \citet{2014MNRAS.441..532D} find that PDD models provide a better match to observations. Briefly, the diffuse material surrounding the WD heats the outer layers of the SN ejecta leading to a steeper more luminous rise, with bluer colors in the few days after explosion. Importantly, the PDD models are nearly indistinguishable from DD models around and post peak. 
 
-Qualitatively, the PDD models provide a better match to the observations of \abc\ than DD models. In particular, PDD models provide higher luminosities and faster rise times in the days after explosion, a more rapid evolution towards blue optical colors, and the formation of strong \ion{C}{2} lines that gradually disappear in the $\sim$week after explosion. Quantitatively, there are still some short comings of the models presented in \citet{2014MNRAS.441..532D}. In particular, the power-law index for the $g$-band rise is $\alpha \approx 3$ for each of the PDD models, which is significantly more steep than $\alpha = 0.96$, which we measure for \abc. The optical colors for \abc\ are blue from our first epoch $\sim$1.7 d after explosion and remain approximately constant in the 10 d after explosion, whereas the PDD models in \citet{2014MNRAS.441..532D} either exhibit distinct color evolution (i.e.\ are not constant) or are too red in the first few days after explosion. Nevertheless, the PDD models presented in \citet{2014MNRAS.441..532D} provide several attractive explanations for the unusual features in the early behavior of \abc, and it may be possible that small adjustments to the model, e.g., additional mixing of the radioactive products from the explosion, can better match \abc.
+Qualitatively, the PDD models provide a better match to the observations of \abc\ than DD models. In particular, PDD models provide higher luminosities and faster rise times in the days after explosion, a more rapid evolution towards blue optical colors, and the formation of strong \ion{C}{2} lines that gradually disappear in the $\sim$week after explosion. Quantitatively, there are still some short comings of the models presented in \citet{2014MNRAS.441..532D}. In particular, the power-law index for the $g$-band rise is $\alpha \approx 3$ for each of the PDD models, which is significantly more steep than $\alpha = 0.98$, which we measure for \abc. The optical colors for \abc\ are blue from our first epoch $\sim$1.7 d after explosion and remain approximately constant in the 10 d after explosion, whereas the PDD models in \citet{2014MNRAS.441..532D} either exhibit distinct color evolution (i.e.\ are not constant) or are too red in the first few days after explosion. Nevertheless, the PDD models presented in \citet{2014MNRAS.441..532D} provide several attractive explanations for the unusual features in the early behavior of \abc, and it may be possible that small adjustments to the model, e.g., additional mixing of the radioactive products from the explosion, can better match \abc.
 
 \subsection{Strong $^{56}Ni$ Mixing as an Explanation for \abc}
 \label{sec:Ni_mixing}
@@ -868,17 +882,17 @@ Finally, we close by emphasizing the importance of fast-response photometric and
 
 \acknowledgements
 
-\amiller{Need to thank Rollin for chatting about \ion{C}{2}}
-\amiller{Need to thank Uli, Rahman for chatting about SALT2}
+We are deeply grateful to R.~C.~Thomas for induldging a slew of questions regarding \ion{C}{2} in SNe. Similarly, it is our pleasure to buy a beer for R.~Amanullah and U.~Feindt for discussions regarding SALT2. 
 
-% Observers: Michael West, Gemini observers, J. Cohen, Plant,J.Torres,Jang,Cunningham,Guhathakurta, Ravi, Cao, Yan, Vedantham, Kulkarni, N. Suzuki, Y. Cao, V. Ravi, Walters, Lunnan, Ho, De
+Much of the analysis presented herein would not have been possible without the help of several observers. We thank M.~West for taking the first spectrum of \abc\ as a ToO on the DCT. We also thank the Gemini service observers for executing our ToO observations. Additionally, J.~Cohen, N.~Suzuki, V.~Ravi, R.~Walters, A.~Ho, and L.~Yan helped obtain data for this paper.
 
-YC thanks supports from the postdoc fellowship in the eScience
-institute, University of Washington.
+% Observers:  Plant,J.Torres,Jang,Cunningham,Guhathakurta, Vedantham, De
 
-Part of this research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the NASA.
+AAM is funded by the Large Synoptic Survey Telescope Corporation in support of the Data Science Fellowship Program. YC thanks support from a postdoc fellowship in the eScience institute, University of Washington.
 
-DAH, CM, and GH are supported by NSF-1313484. Support for IA was provided by NASA through the Einstein Fellowship Program, grant PF6-170148. This work makes use of observations from the LCO network.
+DAH, CM, and GH are supported by NSF-1313484. Support for IA was provided by NASA through the Einstein Fellowship Program, grant PF6-170148.
+
+The Intermediate Palomar Transient Factory project is a scientific collaboration among the California Institute of Technology, Los Alamos National Laboratory, the University of Wisconsin, Milwaukee, the Oskar Klein Center, the Weizmann Institute of Science, the TANGO Program of the University System of Taiwan, and the Kavli Institute for the Physics and Mathematics of the Universe. This work was supported by the GROWTH project funded by the National Science Foundation under Grant No 1545949. Part of this research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the NASA. This work makes use of observations from the LCO network.
 
 
 \bibliographystyle{aasjournal}
