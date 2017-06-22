@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUN 2017 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUN 2017 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -601,28 +601,29 @@ Package pdftex.def Info: VelocityPlot.pdf used on input line 654.
  [7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 711.
+               Default added (so using `tbp') on input line 702.
 
-<CarbonFeature.pdf, id=464, 462.52798pt x 346.89601pt>
+<CarbonFeature.pdf, id=467, 462.52798pt x 346.89601pt>
 File: CarbonFeature.pdf Graphic file (type pdf)
  <use CarbonFeature.pdf>
-Package pdftex.def Info: CarbonFeature.pdf used on input line 713.
+Package pdftex.def Info: CarbonFeature.pdf used on input line 704.
 (pdftex.def)             Requested size: 251.43036pt x 188.57553pt.
 
-Overfull \hbox (9.16383pt too wide) in paragraph at lines 713--714
+Overfull \hbox (9.16383pt too wide) in paragraph at lines 704--705
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 739.
+               Default added (so using `tbp') on input line 730.
 
-<pEW.pdf, id=468, 462.52798pt x 346.89601pt>
+<pEW.pdf, id=471, 433.62pt x 216.81pt>
 File: pEW.pdf Graphic file (type pdf)
  <use pEW.pdf>
-Package pdftex.def Info: pEW.pdf used on input line 741.
-(pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
- [8 <./early_lc.pdf>] [9 <./Chi2.pdf> <./VelocityPlot.pdf
+Package pdftex.def Info: pEW.pdf used on input line 732.
+(pdftex.def)             Requested size: 230.90128pt x 115.4513pt.
+ [8 <./early_lc.pdf>]
+[9 <./Chi2.pdf> <./VelocityPlot.pdf
 
 pdfTeX warning: pdflatex (file ./VelocityPlot.pdf): PDF inclusion: multiple pdf
 s with page group included in a single page
@@ -637,28 +638,28 @@ ge group included in a single page
 >] [10]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 831.
+               Default added (so using `tbp') on input line 822.
 
-<iPTF16abc_Ni_lc.pdf, id=795, 433.62pt x 578.16pt>
+<iPTF16abc_Ni_lc.pdf, id=785, 433.62pt x 578.16pt>
 File: iPTF16abc_Ni_lc.pdf Graphic file (type pdf)
  <use iPTF16abc_Ni_lc.pdf>
-Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 833.
+Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 824.
 (pdftex.def)             Requested size: 246.29417pt x 328.39894pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 833--834
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 824--825
  [][] 
  []
 
 [11 <./iPTF16abc_Ni_lc.pdf>] (./ms.bbl [12] [13]) [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 901.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 892.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 901.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 901.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 892.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 892.
  ) 
 Here is how much of TeX's memory you used:
- 9139 strings out of 493089
- 130670 string characters out of 6134842
- 294964 words of memory out of 5000000
+ 9138 strings out of 493089
+ 130651 string characters out of 6134842
+ 293905 words of memory out of 5000000
  12404 multiletter control sequences out of 15000+600000
  16051 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -683,20 +684,19 @@ type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic
-/uhvr8a.pfb>
-Output written on ms.pdf (14 pages, 966128 bytes).
+blic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvet
+ic/uhvr8a.pfb>
+Output written on ms.pdf (14 pages, 957124 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
- 599 compressed objects within 6 object streams
- 112 named destinations out of 1000 (max. 500000)
+ 1006 PDF objects out of 1200 (max. 8388607)
+ 600 compressed objects within 6 object streams
+ 111 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
