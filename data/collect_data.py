@@ -123,7 +123,7 @@ def main():
                     filter_name,
                     f,
                     f_unc,
-                    magLim[hjdDet == hjd],
+                    magLim[hjdLim == hjd],
                     99,
                     "P48",
                     "CFH12K")
@@ -197,7 +197,7 @@ def main():
     # RATIR Data
     with open("lc/16abc_ratir_clean.dat", "r") as fp_txt:
         for item in fp_txt:
-            if item.startswith("t"):
+            if item.startswith("#"):
                 continue
             items = item.split("  ")
             MJD = float(items[0])
