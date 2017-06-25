@@ -103,7 +103,7 @@ def main():
     data_dict = {"g": "lc/forcepsffitdiff_d100151_f1_c11.out",
                  "R": "lc/forcepsffitdiff_d3381_f2_c10.out"}
     for filter_name, filename in data_dict.items():
-        hjdDet, magDet, magUncDet, hjdLim, magLim, hjdFlux, flux, fluxUnc = plc(filename, 57470)
+        hjdDet, magDet, magUncDet, hjdLim, magLim, hjdFlux, flux, fluxUnc = plc(filename, 2457470)
         for hjd, f, f_unc in zip(hjdFlux, flux, fluxUnc):
             if hjd < 2457470:
                 continue
