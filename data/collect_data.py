@@ -16,7 +16,7 @@ import numpy as np
 import tables
 from astropy.io import ascii
 from astropy.time import Time
-
+from makelc.ptfidelc import ptfide_light_curve as plc
 
 # define photometry columns
 class Photometry(tables.IsDescription):
@@ -102,33 +102,28 @@ def main():
     # P48
     data_dict = {"g": "lc/forcepsffitdiff_d100151_f1_c11.out",
                  "R": "lc/forcepsffitdiff_d3381_f2_c10.out"}
-    for filter_name, filename in data_dict.iteritems():
-        data = ascii.read(filename, format="ipac")
-        for item in data:
-            if item["MJD"] < 57470:
+    for filter_name, filename in data_dict.items():
+        hjdDet, magDet, magUncDet, hjdLim, magLim, hjdFlux, flux, fluxUnc = plc(filename, 57470)
+        for hjd, f, f_unc in zip(hjdFlux, flux, fluxUnc):
+            if hjd < 2457470:
                 continue
-            if item["flux"] >= 5. * item["sigflux"]:
+            if hjd in hjdDet:
                 file_object.add_photometry(
-                    item["MJD"],
+                    hjd - 2400000.5,
                     filter_name,
-                    item["flux"] * 10**(-item["zpmag"] / 2.5) * 3631,
-                    abs(item["flux"] * 10**(-item["zpmag"] / 2.5) * 3631) *
-                    ((item["sigflux"] / item["flux"])**2 +
-                     (item["zprms"] / 2.5)**2)**0.5,
-                    -2.5 * np.log10(item["flux"]) + item["zpmag"],
-                    ((2.5 * item["sigflux"] / item["flux"])**2 +
-                     item["zprms"]**2)**0.5,
+                    f,
+                    f_unc,
+                    magDet[hjdDet == hjd],
+                    magUncDet[hjdDet == hjd],
                     "P48",
                     "CFH12K")
-            else:
+            elif hjd in hjdLim:
                 file_object.add_photometry(
-                    item["MJD"],
+                    hjd - 2400000.5,
                     filter_name,
-                    item["flux"] * 10**(-item["zpmag"] / 2.5) * 3631,
-                    abs(item["flux"] * 10**(-item["zpmag"] / 2.5) * 3631) *
-                    ((item["sigflux"] / item["flux"])**2 +
-                     (item["zprms"] / 2.5)**2)**0.5,
-                    -2.5 * np.log10(item["sigflux"] * 5.) + item["zpmag"],
+                    f,
+                    f_unc,
+                    magLim[hjdDet == hjd],
                     99,
                     "P48",
                     "CFH12K")
@@ -178,7 +173,7 @@ def main():
                 flux_err,
                 mag,
                 mag_err,
-                "LCOGT-1m",
+                "LCO-1m",
                 "Sinistro")
 
     # Swift Data
@@ -199,6 +194,27 @@ def main():
                 1.0857 * float(items[4]) / float(items[3]),
                 "Swift",
                 "UVOT")
+    # RATIR Data
+    with open("lc/16abc_ratir_clean.dat", "r") as fp_txt:
+        for item in fp_txt:
+            if item.startswith("t"):
+                continue
+            items = item.split("  ")
+            MJD = float(items[0])
+            filter_name = items[1][-1]
+            mag = 25 - 2.5*np.log10(float(items[2]))
+            mag_err = 2.5/np.log(10)*float(items[3])/float(items[2])
+            flux = 10**(-0.4*mag) * 3631 # Jy
+            flux_err = flux*float(items[3])/float(items[2])
+        file_object.add_photometry(
+            MJD,
+            filter_name,
+            flux,
+            flux_err,
+            mag,
+            mag_err,
+            "SPM-1.5m",
+            "RATIR")
 
     # Spectra
     filename = "spec/16abc_20160405_DCT_v1.ascii"
