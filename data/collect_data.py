@@ -206,15 +206,15 @@ def main():
             mag_err = 2.5/np.log(10)*float(items[3])/float(items[2])
             flux = 10**(-0.4*mag) * 3631 # Jy
             flux_err = flux*float(items[3])/float(items[2])
-        file_object.add_photometry(
-            MJD,
-            filter_name,
-            flux,
-            flux_err,
-            mag,
-            mag_err,
-            "SPM-1.5m",
-            "RATIR")
+            file_object.add_photometry(
+                MJD,
+                filter_name,
+                flux,
+                flux_err,
+                mag,
+                mag_err,
+                "SPM-1.5m",
+                "RATIR")
 
     # Spectra
     filename = "spec/16abc_20160405_DCT_v1.ascii"
