@@ -553,7 +553,7 @@ NGC\,5221 and measure a redshift of $0.0234$, which we adopt for the remaining a
 \section{First Light And Explosion Time}
 \label{sec:first_light}
 
-\subsection{Light Curve Fit}
+\subsection{Time of First Light from the Early Light Curve}
 \label{sec:lc_fit}
 
 The time of first light for SNe is usually estimated by 
@@ -618,7 +618,7 @@ the SN first light. Figure~\ref{fig:early_lc_fit} additionally shows $g'$-bands 
 
 As previously noted, the early emission from most SNe Ia can be explained via a $f \propto t^2$ model, including SNe with extremely early observations like \abc, such as SN\,2011fe \citep{2011Natur.480..344N}. Thus, the near-linear rise in flux over the first few days after first light for \abc\ is unusual. To our knowledge this behavior has only been observed in 2 other SNe (2013dy, 2014J; \citealt{2013ApJ...778L..15Z,2014ApJ...783L..24Z}). Any model to explain the observations of \abc\ must be able to account for this unusual behavior in the days after first light.  
 
-\subsection{Expansion Velocity Fit}
+\subsection{Time of Explosion from the Photospheric Velocity}
 \label{sec:early_vel}
 
 As previously noted, $t_0$ does not correspond to the time of 
@@ -630,19 +630,19 @@ used to determine $t_\mathrm{exp}$ given that the ejecta begin
 expanding from the moment of explosion.  Assuming a
 constant opacity in the ejecta, \citeauthor{2014ApJ...784...85P} 
 find that the photospheric velocity evolves as
-$v_{ph}\propto(t-t_{exp})^{-0.22}$. While the photospheric velocity
+$v_{ph}\propto(t-t_\mathrm{exp})^{-0.22}$. Numerical experiments by \citet{2016ApJ...826...96P} find that the consatnt-opacity assumption strongly depends on the amount of $^{56}$Ni mixing in the SN ejecta (for a more detailed discussion of $^{56}$Ni mixing see \S\ref{sec:Ni_mixing}). As a result, the adoption of a $t^{-0.22}$ power-law model may not be valid for all SNe Ia. Nevertheless, we proceed on the assumption that \abc\ experienced strong $^{56}$Ni mixing, corresponding to the models that are best approximated as a $t^{-0.22}$ power law. We do this in part to compare with previous studies, though we caution that our derived value for $t_{exp}$ is subject to uncertainties related to ejecta mixing. 
+
+While the photospheric velocity
 is not easy to measure, line velocities of \ion{Si}{2} or \ion{Ca}{2}
 can be used as a proxy
-\citep{2014ApJ...784...85P,2016ApJ...826..144S}.
-
-In the case of \abc, the \ion{Ca}{2} IR triplet is very weak, 
+\citep{2014ApJ...784...85P,2016ApJ...826..144S}. In the case of \abc, the \ion{Ca}{2} IR triplet is very weak, 
 likely due to high temperatures in the ejecta. Thus, we
 determine the photospheric velocity from the 
 \ion{Si}{2}\,$\lambda$6355 line. Visual inspection shows no 
 sign of multi-velocity components of \ion{Si}{2}, and that 
-\ion{C}{2}\,$\lambda$6580 line overlaps the red
+the \ion{C}{2}\,$\lambda$6580 line overlaps the red
 wing of the \ion{Si}{2} line (see Figures~\ref{fig:spec_seq} and \ref{fig:carbon}). Consequently, we model the observed 
-spectra between 5,900 and 6,500\,\AA (rest-frame) as the combination 
+spectra between 5,900 and 6,500\,\AA\ (rest-frame) as the combination 
 of two gaussian kernels plus a linear baseline, which
 accounts for \ion{Si}{2}, \ion{C}{2} and the
 continuum, respectively. The expansion
@@ -670,13 +670,13 @@ of the \ion{Si}{2} Gaussian kernel.
 \end{figure*}
 
 We fit the measured velocities of \ion{Si}{2}\,$\lambda$6355 to the
-$v\propto(t-t_{exp})^{-0.22}$ model by minimizing the $\chi^2$ value and find the best-fit explosion time relative to $T_{B,\mathrm{max}}$ in the SN rest frame to be $t_{exp} = -17.45 \pm ^{0.14}_{0.16}\;\textrm{d}$, where the uncertainties represent the 95\% confidence interval (Figure \ref{fig:velocity_t_exp}). Following the analysis in \citet{2014ApJ...784...85P}, we additionally alter the power-law index to $-0.20$ and $-0.24$ to examine the sensitively of the result on the assumed power-law index. We find that this variation in the power-law index result in inferred explosion times that vary by $\approx$1 d (Figure \ref{fig:velocity_t_exp}). Given the theorhetical expectation that $v \propto t^{-0.22}$, we adopt $t_{exp} = -17.45 \pm 0.5 \; \mathrm{d}$, where the uncertainty reflects possible variations in the power-lax index (see \citealt{2014ApJ...784...85P}).
+$v\propto(t-t_{exp})^{-0.22}$ model by minimizing the $\chi^2$ value and find the best-fit explosion time relative to $T_{B,\mathrm{max}}$ in the SN rest frame to be $t_{exp} = -17.45 \pm ^{0.14}_{0.16}\;\textrm{d}$, where the uncertainties represent the 95\% confidence interval (Figure \ref{fig:velocity_t_exp}). Following the analysis in \citet{2014ApJ...784...85P}, we additionally alter the power-law index to $-0.20$ and $-0.24$ to examine the sensitivety of the result on the assumed power-law index. We find that this variation in the power-law index results in inferred explosion times that vary by $\approx$1 d (Figure \ref{fig:velocity_t_exp}). Given the analytical approximation that $v \propto t^{-0.22}$, we adopt $t_{exp} = -17.5 \pm 0.5 \; \mathrm{d}$, where the uncertainty reflects possible variations in the power-lax index (see \citealt{2014ApJ...784...85P}).
 
 Comparing our estimates for $t_{exp}$ and $t_0$ (left panel of 
 Figure \ref{fig:velocity_t_exp}), we find that 
 $t_0\lessapprox t_{exp}$.
 Since physical causality requires $t_{exp}<t_0$, we draw the qualitative
-conclusion that $t_0\simeq t_{exp}$, which is consistent to within the uncertainties.
+conclusion that $t_0\simeq t_{exp}$, which is consistent to within the uncertainties. Again, we caution that this derivation of $t_\mathrm{exp}$ relies on the assumption $v \propto t^{-0.22}$, which may not be valid for all SNe Ia.  
 
 % From $t_{exp}$, we estimate the actual rise time of \abc\ from the
 % time of explosion to \textit{B}-band maximum to be $17.95$ d.  In
