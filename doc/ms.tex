@@ -441,11 +441,13 @@ An observing log is listed in Table \ref{tab:spec_obs_log}. The spectra were red
 spectral evolution of \abc\ is illustrated in Figure
 \ref{fig:spec_seq}, which excludes high-resolution Very Large Telescope (VLT) spectra for clarity.
 
-\begin{deluxetable*}{cccccc}
+\begin{deluxetable}{cccccc}
   \tablecaption{Spectroscopic observations of \abc\ \label{tab:spec_obs_log}}
   \tablehead{
-    \colhead{Observation MJD} & \colhead{SN phase} & \colhead{Telescope} &
-    \colhead{Instrument} & \colhead{Wavelength Coverage (\AA)}
+    \colhead{Observation} & \colhead{SN} & \colhead{} &
+    \colhead{} & \colhead{Range} \\
+    \colhead{MJD} & \colhead{phase} & \colhead{Telescope} &
+    \colhead{Instrument} & \colhead{(\AA)}
   }
   \startdata
   $57483.26$ & $-15.9$ & DCT & DeVeny\tablenotemark{1} & $3301$--$7499$ \\
@@ -476,21 +478,20 @@ spectral evolution of \abc\ is illustrated in Figure
   \tablenotetext{6}{X-shooter \citep{XShooter}}
   \tablenotetext{7}{Ultraviolet and Visual Echelle Spectrograph \citep{2000SPIE.4008..534D}}
   \tablenotetext{8}{The Andalucia Faint Object Spectrograph and Camera \url{http://www.not.iac.es/instruments/alfosc}}
-\end{deluxetable*}
+\end{deluxetable}
 
 \begin{figure*}[!htb]
   \centering
   \includegraphics[width=1.0\textwidth]{spectra.pdf}
-  \caption{Observed spectral sequence of \abc. For clarity, offsets 
-  have been applied to each 
-  spectrum which are normalized by their median flux between 
-  6,000 and 7,000$\,\textrm{\AA}$. The phase of each spectrum 
+  \caption{Observed spectral sequence of \abc. The spectra are 
+  normalized by their median flux between 6,000 and 
+  7,000$\,\textrm{\AA}$.  The phase of each spectrum 
   relative to $T_{B_\mathrm{max}}$ is shown. Telluric absorption
-  bands are grayed out. The narrow \ion{Na}{1}\,D absorption is also
-  highlighted in orange.}
+  bands are grayed out. Line identifications are provided for 
+  the spectral features discussed in the text. 
+  For clarity, high-resolution spectra obtained with the VLT have been omitted (see Ferretti et al.\ 2017, submitted, for a detailed discussion of these spectra).}
   \label{fig:spec_seq}
 \end{figure*}
-
 
 \section{Reddening, Classification and Host Galaxy}
 \label{sec:usual_staff}
@@ -793,25 +794,27 @@ Figure~\ref{fig:SN-companion} additionally shows that a companion at $a = 10^{14
   \centering
   \includegraphics[width=0.48\textwidth]{companion_lc.pdf}
   \caption{Comparison of SN ejecta-companion interaction models 
-  with the early $g_\mathrm{PTF}$ light curve of \abc. 
-  Detections are shown as circles, while 3$\sigma$
-  upper limits are shown as downward facing arrows.
-  expected $g_\mathrm{PTF}$ light curve for the smallest orbital 
-  separation capable of explaining the initial detection of \abc. 
-  This model also requires $t_\mathrm{exp} \approx t_0 - 1 \; 
-  \mathrm{d}$. Assuming $t_\mathrm{exp} = t_0$, interaction with a 
-  companion at $a = 2 \times 10^{13} \; \mathrm{cm}$ matches the 
-  initial detection of \abc\ (solid line). This model 
-  significantly overestimates the UV flux detected from \abc\ 
-  $\sim$3 d after explosion (see text). The $g_\mathrm{PTF}$ 
-  observations $\sim$1--3~d after $t_0$ are well matched to 
-  companion-interaction models for $a = 10^{14} \; \mathrm{cm}$ 
-  if $t_\mathrm{exp} \approx t_0 + 0.3 \; \mathrm{d}$ (dash-dot 
-  line). This model significantly underestimates the flux at the 
-  epoch of discovery, while also overestimating the UV flux. Thus, 
-  none of these possibilities uniquely explain the early flux from 
-  \abc.
-  \amiller{Add Swift light curve and photometry to make it clear that two large companions don't explain the observations? Also -- make labels for this fig bigger}}
+  with early observations of \abc. $g_\mathrm{PTF}$ observations 
+  (green) detections and 3$\sigma$ upper limits are shown 
+  as circles and downward arrows, respectively. The initial 
+  \textit{Swift}/$UVW1$ observation (magenta) is shown as a 
+  hexagon.
+  The dashed, solid, and dash-dot lines show the expected flux 
+  for various companion interaction models in 
+  the $g_\mathrm{PTF}$ (green) and $UVW1$ (magenta) filters. The 
+  models have been adjusted to account for the distance and 
+  redenning towards \abc. Each 
+  model features a different companion semi-major axis, $a$, and 
+  time of explosion, $t_\mathrm{exp}$, as labeled in the figure 
+  legend. While models with $a \gtrsim 10^{13} \, \mathrm{cm}$ can 
+  explain the early $g_\mathrm{PTF}$ emission, they greatly 
+  overpredict the flux in the UV. If the time of explosion is 
+  $\sim$1 d prior to $t_0$, then models with $a \approx 10^{12} \, 
+  \mathrm{cm}$ can explain the initial detection \abc, but they 
+  fail to replicate the $\sim$2 mag rise in the $\sim$24 hr after 
+  explosion. Thus, SN ejecta-companion interaction models fail
+  to uniquely explain the early flux from \abc.
+  }
   \label{fig:SN-companion}
 \end{figure}
 
@@ -831,6 +834,8 @@ Qualitatively, the PDD models provide a better match to the observations of \abc
 
 \subsection{Strong $^{56}Ni$ Mixing as an Explanation for \abc}
 \label{sec:Ni_mixing}
+
+\amiller{need to mention velocities}
 
 Having ruled out other possibilities we now consider whether the unusual properties of \abc\ can be explained simply by invoking strong mixing in the SN ejecta. As previously mentioned, strong mixing can lead to a short dark phase and \ion{C}{2} absorption. Here we additionally examine if strong mixing can explain the rapid, near-linear rise in the light curve.
 
