@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUL 2017 11:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JUL 2017 13:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -581,50 +581,61 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 506.
 [5 <./spectra.pdf>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 520.
- [6] <early_lc.pdf, id=403, 578.16pt x 433.62pt>
+ [6] <early_lc.pdf, id=409, 578.16pt x 433.62pt>
 File: early_lc.pdf Graphic file (type pdf)
 
 <use early_lc.pdf>
-Package pdftex.def Info: early_lc.pdf used on input line 593.
+Package pdftex.def Info: early_lc.pdf used on input line 595.
 (pdftex.def)             Requested size: 487.45999pt x 365.5947pt.
- <Chi2.pdf, id=423, 462.52798pt x 346.89601pt>
+ <Chi2.pdf, id=429, 462.52798pt x 346.89601pt>
 File: Chi2.pdf Graphic file (type pdf)
 
 <use Chi2.pdf>
-Package pdftex.def Info: Chi2.pdf used on input line 654.
+Package pdftex.def Info: Chi2.pdf used on input line 656.
 (pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
- <VelocityPlot.pdf, id=424, 462.52798pt x 346.89601pt>
+ <VelocityPlot.pdf, id=430, 462.52798pt x 346.89601pt>
 File: VelocityPlot.pdf Graphic file (type pdf)
 
 <use VelocityPlot.pdf>
-Package pdftex.def Info: VelocityPlot.pdf used on input line 655.
+Package pdftex.def Info: VelocityPlot.pdf used on input line 657.
 (pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 703.
+               Default added (so using `tbp') on input line 705.
 
-<CarbonFeature.pdf, id=435, 462.52798pt x 346.89601pt>
+<CarbonFeature.pdf, id=441, 462.52798pt x 346.89601pt>
 File: CarbonFeature.pdf Graphic file (type pdf)
  <use CarbonFeature.pdf>
-Package pdftex.def Info: CarbonFeature.pdf used on input line 705.
+Package pdftex.def Info: CarbonFeature.pdf used on input line 707.
 (pdftex.def)             Requested size: 251.43036pt x 188.57553pt.
 
-Overfull \hbox (9.16383pt too wide) in paragraph at lines 705--706
+Overfull \hbox (9.16383pt too wide) in paragraph at lines 707--708
  [][] 
  []
 
+[7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 731.
+               Default added (so using `tbp') on input line 733.
 
-<pEW.pdf, id=439, 433.62pt x 216.81pt>
+<pEW.pdf, id=462, 433.62pt x 216.81pt>
 File: pEW.pdf Graphic file (type pdf)
  <use pEW.pdf>
-Package pdftex.def Info: pEW.pdf used on input line 733.
+Package pdftex.def Info: pEW.pdf used on input line 735.
 (pdftex.def)             Requested size: 230.90128pt x 115.4513pt.
- [7] [8 <./early_lc.pdf>]
-[9 <./Chi2.pdf> <./VelocityPlot.pdf
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 750.
+
+<16abc_11fe_colors.pdf, id=478, 462.52798pt x 346.89601pt>
+File: 16abc_11fe_colors.pdf Graphic file (type pdf)
+
+<use 16abc_11fe_colors.pdf>
+Package pdftex.def Info: 16abc_11fe_colors.pdf used on input line 752.
+(pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
+ [8 <./early_lc.pdf>] [9 <./Chi2.pdf> <./VelocityPlot.pdf
 
 pdfTeX warning: pdflatex (file ./VelocityPlot.pdf): PDF inclusion: multiple pdf
 s with page group included in a single page
@@ -636,56 +647,60 @@ fs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./pEW.pdf): PDF inclusion: multiple pdfs with pa
 ge group included in a single page
->] <companion_lc.pdf, id=733, 462.52798pt x 346.89601pt>
+> <./16abc_11fe_colors.pdf
+
+pdfTeX warning: pdflatex (file ./16abc_11fe_colors.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] <companion_lc.pdf, id=799, 462.52798pt x 346.89601pt>
 File: companion_lc.pdf Graphic file (type pdf)
 
 <use companion_lc.pdf>
-Package pdftex.def Info: companion_lc.pdf used on input line 795.
+Package pdftex.def Info: companion_lc.pdf used on input line 812.
 (pdftex.def)             Requested size: 246.29417pt x 184.72209pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 795--796
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 812--813
  [][] 
  []
 
-[10 <./companion_lc.pdf>]
+[10]
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 844.
-
-<iPTF16abc_Ni_lc.pdf, id=828, 433.62pt x 578.16pt>
-File: iPTF16abc_Ni_lc.pdf Graphic file (type pdf)
- <use iPTF16abc_Ni_lc.pdf>
-Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 846.
-(pdftex.def)             Requested size: 246.29417pt x 328.39894pt.
-
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 846--847
- [][] 
- []
-
-[11]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 875.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 842.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 875.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 842.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[12 <./iPTF16abc_Ni_lc.pdf>] (./ms.bbl [13]) [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 914.
+[11 <./companion_lc.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 864.
+
+<iPTF16abc_Ni_lc.pdf, id=908, 433.62pt x 578.16pt>
+File: iPTF16abc_Ni_lc.pdf Graphic file (type pdf)
+ <use iPTF16abc_Ni_lc.pdf>
+Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 866.
+(pdftex.def)             Requested size: 246.29417pt x 328.39894pt.
+
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 866--867
+ [][] 
+ []
+
+[12 <./iPTF16abc_Ni_lc.pdf>] [13] (./ms.bbl [14]) [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 936.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 914.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 914.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 936.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 936.
  ) 
 Here is how much of TeX's memory you used:
- 9139 strings out of 493089
- 130642 string characters out of 6134842
- 298060 words of memory out of 5000000
- 12403 multiletter control sequences out of 15000+600000
+ 9154 strings out of 493089
+ 130955 string characters out of 6134842
+ 288319 words of memory out of 5000000
+ 12412 multiletter control sequences out of 15000+600000
  16051 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,37p,1939b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,37p,1939b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
@@ -715,10 +730,10 @@ fonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on ms.pdf (14 pages, 970219 bytes).
+Output written on ms.pdf (15 pages, 987921 bytes).
 PDF statistics:
- 1053 PDF objects out of 1200 (max. 8388607)
- 615 compressed objects within 7 object streams
- 112 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1129 PDF objects out of 1200 (max. 8388607)
+ 652 compressed objects within 7 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
