@@ -37,6 +37,11 @@
 {Ahn}, C.~P., {Alexandroff}, R., {Allende Prieto}, C., {et~al.} 2014, \apjs,
   211, 17
 
+\bibitem[{{Amanullah} {et~al.}(2014){Amanullah}, {Goobar}, {Johansson},
+  {Banerjee}, {Venkataraman}, {Joshi}, {Ashok}, {Cao}, {Kasliwal}, {Kulkarni},
+  {Nugent}, {Petrushevska}, \& {Stanishev}}]{2014ApJ...788L..21A}
+{Amanullah}, R., {Goobar}, A., {Johansson}, J., {et~al.} 2014, \apjl, 788, L21
+
 \bibitem[{{Arnett}(1982)}]{1982ApJ...253..785A}
 {Arnett}, W.~D. 1982, \apj, 253, 785
 
@@ -152,6 +157,14 @@
   {Filippenko}}]{2011MNRAS.416.2607G}
 {Ganeshalingam}, M., {Li}, W., \& {Filippenko}, A.~V. 2011, \mnras, 416, 2607
 
+\bibitem[{{Goobar} {et~al.}(2014){Goobar}, {Johansson}, {Amanullah}, {Cao},
+  {Perley}, {Kasliwal}, {Ferretti}, {Nugent}, {Harris}, {Gal-Yam}, {Ofek},
+  {Tendulkar}, {Dennefeld}, {Valenti}, {Arcavi}, {Banerjee}, {Venkataraman},
+  {Joshi}, {Ashok}, {Cenko}, {Diaz}, {Fremling}, {Horesh}, {Howell},
+  {Kulkarni}, {Papadogiannakis}, {Petrushevska}, {Sand}, {Sollerman},
+  {Stanishev}, {Bloom}, {Surace}, {Dupuy}, \& {Liu}}]{2014ApJ...784L..12G}
+{Goobar}, A., {Johansson}, J., {Amanullah}, R., {et~al.} 2014, \apjl, 784, L12
+
 \bibitem[{{Goobar} {et~al.}(2015){Goobar}, {Kromer}, {Siverd}, {Stassun},
   {Pepper}, {Amanullah}, {Kasliwal}, {Sollerman}, \&
   {Taddia}}]{2015ApJ...799..106G}
@@ -199,6 +212,13 @@
 \bibitem[{{Maoz} {et~al.}(2014){Maoz}, {Mannucci}, \&
   {Nelemans}}]{2014ARA&A..52..107M}
 {Maoz}, D., {Mannucci}, F., \& {Nelemans}, G. 2014, \araa, 52, 107
+
+\bibitem[{{Marion} {et~al.}(2015){Marion}, {Sand}, {Hsiao}, {Banerjee},
+  {Valenti}, {Stritzinger}, {Vink{\'o}}, {Joshi}, {Venkataraman}, {Ashok},
+  {Amanullah}, {Binzel}, {Bochanski}, {Bryngelson}, {Burns}, {Drozdov},
+  {Fieber-Beyer}, {Graham}, {Howell}, {Johansson}, {Kirshner}, {Milne},
+  {Parrent}, {Silverman}, {Vervack}, \& {Wheeler}}]{2015ApJ...798...39M}
+{Marion}, G.~H., {Sand}, D.~J., {Hsiao}, E.~Y., {et~al.} 2015, \apj, 798, 39
 
 \bibitem[{{Marion} {et~al.}(2016){Marion}, {Brown}, {Vink{\'o}}, {Silverman},
   {Sand}, {Challis}, {Kirshner}, {Wheeler}, {Berlind}, {Brown}, {Calkins},
