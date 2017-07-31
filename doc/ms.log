@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 JUL 2017 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 JUL 2017 14:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,29 +495,6 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 291--291
  []
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-./ms.tex:336: Missing $ inserted.
-<inserted text> 
-                $
-l.336 ...MNRAS.441..532D}, as was observed in SN\;
-                                                  2013dy \citep{2013ApJ...77...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ms.tex:337: Missing $ inserted.
-<inserted text> 
-                $
-l.337 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (73.9707pt too wide) in paragraph at lines 336--337
-\OT1/cmr/m/n/10 SN$ 2013\OML/cmm/m/it/10 dy\OT1/cmr/m/n/10 ([][][][][] [][]2013
-[][])\OML/cmm/m/it/10 andSN \OT1/cmr/m/n/10 2017\OML/cmm/m/it/10 cbv\OT1/cmr/m/
-n/10 ([][][][][] [][]2017[][])\OML/cmm/m/it/10 :$ 
- []
-
 <logLC_with_colors.pdf, id=87, 578.16pt x 578.16pt>
 File: logLC_with_colors.pdf Graphic file (type pdf)
 
@@ -588,7 +565,7 @@ Underfull \hbox (badness 10000) detected at line 471
 $\OT1/cmr/m/n/9 8$
  []
 
-<spectra.pdf, id=259, 542.025pt x 650.43pt>
+<spectra.pdf, id=260, 542.025pt x 650.43pt>
 File: spectra.pdf Graphic file (type pdf)
  <use spectra.pdf>
 Package pdftex.def Info: spectra.pdf used on input line 476.
@@ -610,19 +587,19 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 512.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[6] <early_lc.pdf, id=420, 578.16pt x 433.62pt>
+[6] <early_lc.pdf, id=421, 578.16pt x 433.62pt>
 File: early_lc.pdf Graphic file (type pdf)
  <use early_lc.pdf>
 Package pdftex.def Info: early_lc.pdf used on input line 586.
 (pdftex.def)             Requested size: 487.45999pt x 365.5947pt.
 
-<Chi2.pdf, id=440, 462.52798pt x 346.89601pt>
+<Chi2.pdf, id=441, 462.52798pt x 346.89601pt>
 File: Chi2.pdf Graphic file (type pdf)
  <use Chi2.pdf>
 Package pdftex.def Info: Chi2.pdf used on input line 647.
 (pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
 
-<VelocityPlot.pdf, id=441, 462.52798pt x 346.89601pt>
+<VelocityPlot.pdf, id=442, 462.52798pt x 346.89601pt>
 File: VelocityPlot.pdf Graphic file (type pdf)
  <use VelocityPlot.pdf>
 Package pdftex.def Info: VelocityPlot.pdf used on input line 648.
@@ -633,7 +610,7 @@ Package pdftex.def Info: VelocityPlot.pdf used on input line 648.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 696.
 
-<CarbonFeature.pdf, id=469, 462.52798pt x 346.89601pt>
+<CarbonFeature.pdf, id=470, 462.52798pt x 346.89601pt>
 File: CarbonFeature.pdf Graphic file (type pdf)
  <use CarbonFeature.pdf>
 Package pdftex.def Info: CarbonFeature.pdf used on input line 698.
@@ -647,7 +624,7 @@ Overfull \hbox (9.16383pt too wide) in paragraph at lines 698--699
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 724.
 
-<pEW.pdf, id=473, 433.62pt x 216.81pt>
+<pEW.pdf, id=474, 433.62pt x 216.81pt>
 File: pEW.pdf Graphic file (type pdf)
  <use pEW.pdf>
 Package pdftex.def Info: pEW.pdf used on input line 726.
@@ -657,13 +634,18 @@ Package pdftex.def Info: pEW.pdf used on input line 726.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 741.
 
-<16abc_11fe_colors.pdf, id=559, 462.52798pt x 346.89601pt>
+<16abc_11fe_colors.pdf, id=560, 433.62pt x 361.35pt>
 File: 16abc_11fe_colors.pdf Graphic file (type pdf)
 
 <use 16abc_11fe_colors.pdf>
 Package pdftex.def Info: 16abc_11fe_colors.pdf used on input line 743.
-(pdftex.def)             Requested size: 230.90128pt x 173.17761pt.
- [9 <./Chi2.pdf> <./VelocityPlot.pdf
+(pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
+
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 743--744
+ [][] 
+ []
+
+[9 <./Chi2.pdf> <./VelocityPlot.pdf
 
 pdfTeX warning: pdflatex (file ./VelocityPlot.pdf): PDF inclusion: multiple pdf
 s with page group included in a single page
@@ -685,7 +667,8 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 752.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<companion_lc.pdf, id=767, 462.52798pt x 346.89601pt>
+[10 <./16abc_11fe_colors.pdf>]
+<companion_lc.pdf, id=822, 462.52798pt x 346.89601pt>
 File: companion_lc.pdf Graphic file (type pdf)
  <use companion_lc.pdf>
 Package pdftex.def Info: companion_lc.pdf used on input line 804.
@@ -695,12 +678,12 @@ Overfull \hbox (4.02765pt too wide) in paragraph at lines 804--805
  [][] 
  []
 
-[10 <./16abc_11fe_colors.pdf>] [11 <./companion_lc.pdf>]
+[11 <./companion_lc.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 851.
 
-<iPTF16abc_Ni_lc.pdf, id=913, 433.62pt x 578.16pt>
+<iPTF16abc_Ni_lc.pdf, id=914, 433.62pt x 578.16pt>
 File: iPTF16abc_Ni_lc.pdf Graphic file (type pdf)
  <use iPTF16abc_Ni_lc.pdf>
 Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 853.
@@ -723,13 +706,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 930.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 930.
  ) 
 Here is how much of TeX's memory you used:
- 9177 strings out of 493089
- 131539 string characters out of 6134842
- 295880 words of memory out of 5000000
- 12429 multiletter control sequences out of 15000+600000
+ 9176 strings out of 493089
+ 131531 string characters out of 6134842
+ 296991 words of memory out of 5000000
+ 12428 multiletter control sequences out of 15000+600000
  15743 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,37p,1939b,672s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,37p,1939b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texli
@@ -758,10 +741,10 @@ sfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helve
 tic/uhvr8a.pfb>
-Output written on ms.pdf (16 pages, 984580 bytes).
+Output written on ms.pdf (16 pages, 981006 bytes).
 PDF statistics:
- 1195 PDF objects out of 1200 (max. 8388607)
- 717 compressed objects within 8 object streams
+ 1196 PDF objects out of 1200 (max. 8388607)
+ 718 compressed objects within 8 object streams
  124 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
