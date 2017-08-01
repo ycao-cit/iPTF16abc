@@ -361,26 +361,21 @@ campaign classified \abc\ as a normal SN Ia
 \section{Observations}
 \label{sec:obs}
 
-\begin{figure*}[htb]
+\begin{figure}[htb]
   \centering
-  \includegraphics[width=0.95\textwidth]{logLC_with_colors.pdf}
-  \caption{Photometric evolution of \abc. \textit{Top}: The $g$-band
+  \includegraphics[width=0.48\textwidth]{logLC_with_colors.pdf}
+  \caption{The $g$-band
   light curve of \abc. Observations from different 
   telescopes are shown with different symbols. Time is measured in 
   rest-frame d relative to the time of first light, $t_0$ (see 
-  \S\ref{sec:lc_fit}). Note that the horizontal axis is shown with a linear scale 
-  for $-2 \; \mathrm{d} \le t - t_0 \le 3 \; \mathrm{d}$ and a 
-  $\log$ scale for $t - t_0 > 3 \; \mathrm{d}$. The solid curve 
-  represents the best-fit model from SALT2 
-  (\S\ref{sec:classification}). The black ticks near the
+  \S\ref{sec:lc_fit}). Note that the horizontal axis is shown with 
+  a linear scale for $-2 \; \mathrm{d} \le t - t_0 \le 3 \; 
+  \mathrm{d}$ and a $\log$ scale for $t - t_0 > 3 \; \mathrm{d}$. 
+  The black ticks near the
   bottom of the panel show epochs of spectroscopic observations.
-  \textit{Bottom}: Color curves of \abc. Each color curve is 
-  represented with a different color, with each symbol corresponding 
-  to a different instrument, as detailed in the legend. Magnitude 
-  offsets applied to each color curve are also shown.
   }
   \label{fig:lightcurve}
-\end{figure*}
+\end{figure}
 
 During the spring of 2016, the iPTF survey observed the field of \abc\ every night in either the $g_\mathrm{PTF}$- or 
 $R_\mathrm{PTF}$-band.\footnote{P48 observations of \abc\ is reported in the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ filters throughout, which are similar to the SDSS $g'$ and $r'$ filters, respectively (see \citealt{2012PASP..124..854O} for details on PTF calibration). The correction from the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ filters to SDSS $g'$ and $r'$ requires knowledge of the intrinsic source color (see Eqns.~1 and 2 in \citealt{2012PASP..124..854O}). The spectral diversity of SNe Ia in the days after explosion is poorly constrained, and as a result the color terms for \abc\ at these epochs are unknown. We proceed by assuming $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ calibration is on the AB system, which strictly speaking is incorrect, but this does not fundamentally alter any of our conclusions.} 
@@ -473,7 +468,7 @@ spectral evolution of \abc\ is illustrated in Figure
 
 \begin{figure*}[!htb]
   \centering
-  \includegraphics[width=1.0\textwidth]{spectra.pdf}
+  \includegraphics[width=0.8\textwidth]{spectra.pdf}
   \caption{Observed spectral sequence of \abc. The spectra are 
   normalized by their median flux between 6,000 and 
   7,000$\,\textrm{\AA}$.  The phase of each spectrum 
@@ -581,9 +576,9 @@ best-fit model we obtain $\alpha=0.98 \pm ^{0.16}_{0.14}$ and $t_0=-17.91 \pm ^{
 detection of \abc\ occurred $\sim{0.15}\,\textrm{d}$ after 
 the SN first light. Figure~\ref{fig:early_lc_fit} additionally shows $g'$-bands observations from P60 and LCO, where we have normalized the flux assuming that the $g$ magnitudes from each instrument have the same zero-point. This assumption is incorrect (see \S\ref{sec:obs}), and, as expected, the residuals show a systematic offset between the $g_\mathrm{PTF}$-band and the $g'$-band. Nevertheless, if we ignore this systematic and fit all of the $g$-band observations simultaneous we obtain marginalized best-fit parameters that are consistent within the uncertainties with the $g_\mathrm{PTF}$-only values above. In the analysis that follows, the precise values of the best-fit parameters is not important. The critical finding here is that $\alpha \approx 1$ and $t_0 \approx -18 \, \mathrm{d}$. 
 
-\begin{figure*}[!htb]
+\begin{figure}[!htb]
   \centering
-  \includegraphics[width=0.95\textwidth]{early_lc.pdf}
+  \includegraphics[width=0.48\textwidth]{early_lc.pdf}
   \caption{Best-fit power-law model to describe the early flux from 
   \abc\ in the $g_\mathrm{PTF}$-band. The model flux, adopting 
   best-fit parameters $\alpha=0.98$ and $t_0=-17.94\,\textrm{d}$, 
@@ -598,7 +593,7 @@ the SN first light. Figure~\ref{fig:early_lc_fit} additionally shows $g'$-bands 
   levels.
   }
   \label{fig:early_lc_fit}
-\end{figure*}
+\end{figure}
 
 % Starting around $t=-15\,\textrm{d}$, the $g$-band light curve
 % deviates from the above best-fit model and
@@ -644,21 +639,24 @@ of the \ion{Si}{2} Gaussian kernel.
 
 \begin{figure*}[!thb]
   \centering
-  \includegraphics[width=0.45\textwidth]{Chi2.pdf}
-  \includegraphics[width=0.45\textwidth]{VelocityPlot.pdf}
+  \includegraphics[width=0.48\textwidth]{Chi2.pdf}
+  \includegraphics[width=0.48\textwidth]{VelocityPlot.pdf}
   \caption{Constraints on $t_{exp}$ from fitting the velocity
     evolution of \ion{Si}{2}.
-    \textit{Left panel:} the dashed, solid
-    and dash-dotted curves show $\chi^2$ for fitting power laws with
+    \textit{Left panel:} the dashed, solid and dash-dotted curves 
+    show $\chi^2$ for fitting power laws with
     indices $-0.20$, $-0.22$ and $-0.24$, respectively. The blue
-    vertical line and the orange shaded region indicate $t_0$ and its
-    95\% confidence interval from Section
+    vertical line and the orange shaded region indicate $t_0$ and 
+    its 95\% confidence interval from Section
     \ref{sec:lc_fit}, respectively.
     \textit{Right panel:} Observed \ion{Si}{2}\,$\lambda$6355
     velocities (blue circles) and the best-fit power-law model
      with an index of $-0.22$ (dashed line). Additionally the 
      measured velocites of \ion{C}{2}\,$\lambda\lambda$6580, 7234 
-     are shown.}
+     are shown. \textit{Right inset}: Evolution of the 
+     pseudo-equivalent width of \ion{Si}{2}\,$\lambda$6355, and 
+     \ion{C}{2}\,$\lambda\lambda$6580, 7234 in the week following 
+     explosion.}
   \label{fig:velocity_t_exp}
 \end{figure*}
 
@@ -714,21 +712,11 @@ Similar to our analysis of the \ion{Si}{2}\,$\lambda$6355 line, we
 can measure velocities and pseudo-equivalent widths (pEWs) of 
 \ion{C}{2}\,$\lambda\lambda$6580, 7234. We compare the velocity 
 evolution of the \ion{C}{2} lines to \ion{Si}{2} in the right panel 
-of Figure \ref{fig:velocity_t_exp} and the pEW evolution is
-shown in Figure \ref{fig:ew}. These measurements confirm the qualitative analysis from Figure~\ref{fig:carbon}: namely, the pEW of \ion{C}{2}\,$\lambda$6580 is comparable to that
+of Figure \ref{fig:velocity_t_exp}, which also shows the pEW evolution of these lines. These measurements confirm the qualitative analysis from Figure~\ref{fig:carbon}: namely, the pEW of \ion{C}{2}\,$\lambda$6580 is comparable to that
 of \ion{Si}{2}\,$\lambda$6355 at $t \approx -16 \; \mathrm{d}$ and 
 the pEW of \ion{C}{2} 
 decreases until the feature is no longer detectable 
 around $t = -10$ d.
-
-\begin{figure}[]
-  \centering
-  \includegraphics[width=0.45\textwidth]{pEW.pdf}
-  \caption{Evolution of the pseudo-equivalent width of 
-  \ion{Si}{2}\,$\lambda$6355, and \ion{C}{2}\,$\lambda\lambda$6580, 
-  7234 in the week following explosion.}
-  \label{fig:ew}
-\end{figure}
 
 The detection of \ion{C}{2} in SNe Ia spectra is relatively rare
 as it requires both unburned carbon, which is likely only present in the outermost layers of the ejecta, and non-local thermal equilibrium effects in order to excite the ionized carbon (e.g., \citealt{2007ApJ...654L..53T}). Spectra obtained around or after $T_{B_\mathrm{max}}$ rarely show \ion{C}{2} as the photosphere has receded from the outermost ejecta, while pre-max spectra show evidence for \ion{C}{2} in $\sim$1/4 of all normal SNe Ia (e.g., \citealt{2011ApJ...732...30P,2012MNRAS.425.1917S,2011ApJ...743...27T}), but the signatures are typically weak. While we caution that the sample of normal SNe Ia with spectra taken within a few days of explosion is small, SN\,2013dy is the only other object known to have strong \ion{C}{2} features like \abc\ \citep{2013ApJ...778L..15Z}. As a counterexample, SN\,2011fe only exhibited weak \ion{C}{2} features in its first spectra
@@ -743,7 +731,8 @@ Multiband observations of \abc\ began $\sim$1.5 d after discovery, which allows 
   \includegraphics[width=0.48\textwidth]{16abc_11fe_colors.pdf}
   \caption{$(B - V)_0$ color evolution of \abc\ (shown as squares) 
     compared to SN\,2011fe (shown as stars). The $B$ and $V$ 
-    photometry are calibrated on the Vega system. The data for 
+    photometry are calibrated on the Vega system, and have been 
+    corrected for extinction. The data for 
     SN\,2011fe are from \citet{2016ApJ...820...67Z}.}
   \label{fig:B-Vcolors}
 \end{figure}
@@ -860,9 +849,12 @@ Both the PDD models and ejecta-mixing models show discrepancies with some of the
   have been corrected to $M_g$ using the distance modulus to \abc\ 
   (\S\ref{sec:host})
   and the total line-of-site reddening ($E(B-V) = 0.078 \; 
-  \mathrm{mag}$; Ferretti et al.\ 2017, submitted).
-  \textit{Bottom}: $(g' - r')_0$ vs.\ time. The observed colors have 
-  been corrected for reddening.
+  \mathrm{mag}$; Ferretti et al.\ 2017, submitted). The orange 
+  solid line shows the model with the most $^{56}$Ni mixing 
+  shifted to an explosion time of $t_0 - 0.4 \; \mathrm{d}$. This 
+  model provides a good match to the data.
+  \textit{Bottom}: $(g' - r')_0$ vs.\ time. The observed colors 
+  have been corrected for reddening.
   }
   \label{fig:Ni56LC}
 \end{figure}
@@ -923,6 +915,31 @@ DAH, CM, and GH are supported by NSF-1313484. Support for IA was provided by NAS
 
 The Intermediate Palomar Transient Factory project is a scientific collaboration among the California Institute of Technology, Los Alamos National Laboratory, the University of Wisconsin, Milwaukee, the Oskar Klein Center, the Weizmann Institute of Science, the TANGO Program of the University System of Taiwan, and the Kavli Institute for the Physics and Mathematics of the Universe. This work was supported by the GROWTH project funded by the National Science Foundation under Grant No 1545949. Part of this research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the NASA. This work makes use of observations from the LCO network.
 
+\appendix
+
+\section{Photometric Light Curves}
+
+The full photometric light curves of \abc\ are shown in Figure~\ref{fig:ugly_LC}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.48\textwidth]{lightcurve.pdf}
+  \caption{UV, optical, and NIR light curves for \abc. 
+  \textit{Top}: $BVgri$ light curves from the P48, P60, and LCO-1m 
+  telescopes. The solid lines represent the best-fit model from 
+  SALT2 (see \ref{sec:classification}).
+  \textit{Bottom}: UV and NIR light curves from the \textit{Swift} 
+  and SPM-1.5m telescopes, respectively.
+  For both panels each light curve is represented with a different 
+  color, while the different symbols correspond to different 
+  instruments, as detailed in the legends. The legends also list 
+  offsets applied to each light curve. Photometry is shown in the 
+  AB mag system, with the exception of the $BV$ bands, which are 
+  shown in the Vega system. The photometry shown has not been 
+  corrected for line-of-sight extinction.
+  }
+  \label{fig:ugly_LC}
+\end{figure}
 
 \bibliographystyle{aasjournal}
 \bibliography{ref}
