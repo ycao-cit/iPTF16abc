@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 AUG 2017 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 AUG 2017 10:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,7 +499,7 @@ Overfull \vbox (3.2502pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] <logLC_with_colors.pdf, id=95, 433.62pt x 289.08pt>
+[2] <logLC_with_colors.pdf, id=101, 433.62pt x 289.08pt>
 File: logLC_with_colors.pdf Graphic file (type pdf)
 
 <use logLC_with_colors.pdf>
@@ -528,9 +528,9 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 408.
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 434--439
-[]\OT1/cmr/m/n/10 The $\OML/cmm/m/it/10 g$\OT1/cmr/m/n/10 -band dis-cov-ery dat
-a and color curves of
+Overfull \hbox (3.64618pt too wide) in paragraph at lines 436--439
+[]\OT1/cmr/m/n/10 The $\OML/cmm/m/it/10 g$\OT1/cmr/m/n/10 -band dis-cov-ery and
+ follow-up data of iPTF16abc
  []
 
 
@@ -579,72 +579,71 @@ Underfull \hbox (badness 10000) detected at line 483
 $\OT1/cmr/m/n/9 8$
  []
 
-<spectra.pdf, id=174, 542.025pt x 650.43pt>
+<spectra.pdf, id=193, 542.025pt x 650.43pt>
 File: spectra.pdf Graphic file (type pdf)
  <use spectra.pdf>
 Package pdftex.def Info: spectra.pdf used on input line 488.
 (pdftex.def)             Requested size: 410.4955pt x 492.61494pt.
- [4 <./logLC_with_colors.pdf>]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 523.
- [5 <./spectra.pdf>]
+ [4 <./logLC_with_colors.pdf>] [5 <./spectra.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 524.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 509.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 524.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 509.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[6] <early_lc.pdf, id=389, 433.62pt x 325.215pt>
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 521.
+[6] <early_lc.pdf, id=412, 433.62pt x 325.215pt>
 File: early_lc.pdf Graphic file (type pdf)
  <use early_lc.pdf>
-Package pdftex.def Info: early_lc.pdf used on input line 598.
+Package pdftex.def Info: early_lc.pdf used on input line 596.
 (pdftex.def)             Requested size: 246.29417pt x 184.7244pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 598--599
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 596--597
  [][] 
  []
 
-[7 <./early_lc.pdf>] <Chi2.pdf, id=482, 433.62pt x 361.35pt>
+[7 <./early_lc.pdf>] <Chi2.pdf, id=510, 433.62pt x 361.35pt>
 File: Chi2.pdf Graphic file (type pdf)
  <use Chi2.pdf>
-Package pdftex.def Info: Chi2.pdf used on input line 659.
+Package pdftex.def Info: Chi2.pdf used on input line 657.
 (pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
 
-<VelocityPlot.pdf, id=483, 433.62pt x 361.35pt>
+<VelocityPlot.pdf, id=511, 433.62pt x 361.35pt>
 File: VelocityPlot.pdf Graphic file (type pdf)
  <use VelocityPlot.pdf>
-Package pdftex.def Info: VelocityPlot.pdf used on input line 660.
+Package pdftex.def Info: VelocityPlot.pdf used on input line 658.
 (pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 710.
+               Default added (so using `tbp') on input line 708.
 
-<CarbonFeature.pdf, id=494, 433.62pt x 361.35pt>
+<CarbonFeature.pdf, id=522, 433.62pt x 361.35pt>
 File: CarbonFeature.pdf Graphic file (type pdf)
  <use CarbonFeature.pdf>
-Package pdftex.def Info: CarbonFeature.pdf used on input line 712.
+Package pdftex.def Info: CarbonFeature.pdf used on input line 710.
 (pdftex.def)             Requested size: 251.43036pt x 209.528pt.
 
-Overfull \hbox (9.16383pt too wide) in paragraph at lines 712--713
+Overfull \hbox (9.16383pt too wide) in paragraph at lines 710--711
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 745.
+               Default added (so using `tbp') on input line 743.
 
-<16abc_11fe_colors.pdf, id=512, 433.62pt x 361.35pt>
+<16abc_11fe_colors.pdf, id=540, 433.62pt x 361.35pt>
 File: 16abc_11fe_colors.pdf Graphic file (type pdf)
 
 <use 16abc_11fe_colors.pdf>
-Package pdftex.def Info: 16abc_11fe_colors.pdf used on input line 747.
+Package pdftex.def Info: 16abc_11fe_colors.pdf used on input line 745.
 (pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 747--748
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 745--746
  [][] 
  []
 
@@ -660,75 +659,85 @@ fs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./16abc_11fe_colors.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] <companion_lc.pdf, id=735, 433.62pt x 361.35pt>
+>] <companion_lc.pdf, id=766, 433.62pt x 361.35pt>
 File: companion_lc.pdf Graphic file (type pdf)
  <use companion_lc.pdf>
-Package pdftex.def Info: companion_lc.pdf used on input line 809.
+Package pdftex.def Info: companion_lc.pdf used on input line 807.
 (pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 809--810
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 807--808
  [][] 
  []
 
-[10 <./companion_lc.pdf>] [11]
+[10]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 838.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 838.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[11 <./companion_lc.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 856.
+               Default added (so using `tbp') on input line 854.
 
-<iPTF16abc_Ni_lc.pdf, id=841, 433.62pt x 578.16pt>
+<iPTF16abc_Ni_lc.pdf, id=868, 433.62pt x 578.16pt>
 File: iPTF16abc_Ni_lc.pdf Graphic file (type pdf)
  <use iPTF16abc_Ni_lc.pdf>
-Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 858.
+Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 856.
 (pdftex.def)             Requested size: 246.29417pt x 328.39894pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 858--859
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 856--857
  [][] 
  []
 
 
-Overfull \hbox (4.76772pt too wide) in paragraph at lines 882--883
+Overfull \hbox (4.76772pt too wide) in paragraph at lines 880--881
 []\OT1/cmr/m/n/10 In \OMS/cmsy/m/n/10 x[][]\OT1/cmr/m/n/10 5[][] we com-pared o
 ur early ob-ser-va-tions of iPTF16abc
  []
 
 [12 <./iPTF16abc_Ni_lc.pdf>] [13]
-Overfull \hbox (0.16237pt too wide) in paragraph at lines 935--936
+Overfull \hbox (0.16237pt too wide) in paragraph at lines 933--934
 []\OT1/cmr/m/it/12 Facility: \OT1/cmr/m/n/10 DCT, Gem-ini:Gillett, Hale, Keck:I
 , Keck:II,
  []
 
 
-Overfull \hbox (9.30356pt too wide) in paragraph at lines 935--936
+Overfull \hbox (9.30356pt too wide) in paragraph at lines 933--934
 \OT1/cmr/m/n/10 LCOGT, PO:1.2m, PO:1.5m, VLT, Swift, OANSPM:HJT 
  []
 
 
 Package natbib Warning: Citation `Masci2017PASP' on page 14 undefined on input 
-line 937.
+line 935.
 
-<lightcurve.pdf, id=1003, 433.62pt x 578.16pt>
+<lightcurve.pdf, id=1028, 433.62pt x 578.16pt>
 File: lightcurve.pdf Graphic file (type pdf)
  <use lightcurve.pdf>
-Package pdftex.def Info: lightcurve.pdf used on input line 948.
+Package pdftex.def Info: lightcurve.pdf used on input line 946.
 (pdftex.def)             Requested size: 246.29417pt x 328.39894pt.
  (./ms.bbl
-[14] [15 <./lightcurve.pdf>]) [16]
+[14] [15 <./lightcurve.pdf>] [16]) [17]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 969.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 967.
 (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 969.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 969.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 967.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 967.
  ) 
 Here is how much of TeX's memory you used:
- 9190 strings out of 493089
- 131797 string characters out of 6134842
- 308131 words of memory out of 5000000
- 12437 multiletter control sequences out of 15000+600000
+ 9233 strings out of 493089
+ 132886 string characters out of 6134842
+ 302943 words of memory out of 5000000
+ 12470 multiletter control sequences out of 15000+600000
  16696 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,37p,1939b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,37p,1939b,713s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
@@ -749,20 +758,21 @@ type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb>
-Output written on ms.pdf (16 pages, 1037299 bytes).
+blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/
+uhvr8a.pfb>
+Output written on ms.pdf (17 pages, 1049554 bytes).
 PDF statistics:
- 1229 PDF objects out of 1440 (max. 8388607)
- 737 compressed objects within 8 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 1267 PDF objects out of 1440 (max. 8388607)
+ 773 compressed objects within 8 object streams
+ 136 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
