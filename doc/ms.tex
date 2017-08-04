@@ -448,6 +448,7 @@ spectral evolution of \abc\ is illustrated in Figure
 
 \begin{deluxetable}{cccccc}
   \tablecaption{Spectroscopic observations of \abc\ \label{tab:spec_obs_log}}
+  \tabletypesize{\footnotesize}
   \tablehead{
     \colhead{Observation} & \colhead{SN} & \colhead{} &
     \colhead{} & \colhead{Range} \\
@@ -460,20 +461,20 @@ spectral evolution of \abc\ is illustrated in Figure
   $57484.51$ & $-14.7$ & Keck-II & DEIMOS\tablenotemark{3} & $5500$--$8099$ \\
   $57486.51$ & $-12.7$ & Keck-II & DEIMOS\tablenotemark{3} & $5500$--$8099$ \\
   $57488.38$ & $-10.9$ & Keck-I & LRIS\tablenotemark{4} & $3055$--$10411$ \\
-  $57489.51$ & $ -9.8$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $3301$--$8999$ \\
-  $57490.40$ & $ -8.9$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $3301$--$9999$ \\
-  $57491.55$ & $ -7.8$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $3300$--$9998$ \\
+  $57489.51$ & $ -9.8$ & LCO-2m & FLOYDS\tablenotemark{5} & $3301$--$8999$ \\
+  $57490.40$ & $ -8.9$ & LCO-2m & FLOYDS\tablenotemark{5} & $3301$--$9999$ \\
+  $57491.55$ & $ -7.8$ & LCO-2m & FLOYDS\tablenotemark{5} & $3300$--$9998$ \\
   $57492.20$ & $ -7.2$ & VLT & X-shooter\tablenotemark{6} & $3300$--$24550$ \\
   $57494.00$ & $ -5.4$ & VLT & UVES\tablenotemark{7} & \\
-  $57503.32$ & $ +3.7$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $3300$--$9999$ \\
+  $57503.32$ & $ +3.7$ & LCO-2m & FLOYDS\tablenotemark{5} & $3300$--$9999$ \\
   $57506.00$ & $ +6.3$ & NOT & ALFOSC\tablenotemark{8} & $3602$--$8098$ \\
-  $57508.27$ & $ +8.5$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $3301$--$9999$ \\
+  $57508.27$ & $ +8.5$ & LCO-2m & FLOYDS\tablenotemark{5} & $3301$--$9999$ \\
   $57518.42$ & $+18.5$ & Keck-I & LRIS\tablenotemark{4} & $3071$--$10208$ \\
   $57520.03$ & $+20.0$ & VLT & X-shooter\tablenotemark{6} & $3300$--$24789$ \\
-  $57529.40$ & $+29.2$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $4000$--$8998$ \\
-  $57542.41$ & $+41.9$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $4000$--$8998$ \\
-  $57550.40$ & $+49.7$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $4001$--$8999$ \\
-  $57562.38$ & $+61.4$ & LCOGT-2m & FLOYDS\tablenotemark{5} & $4800$--$9300$ \\
+  $57529.40$ & $+29.2$ & LCO-2m & FLOYDS\tablenotemark{5} & $4000$--$8998$ \\
+  $57542.41$ & $+41.9$ & LCO-2m & FLOYDS\tablenotemark{5} & $4000$--$8998$ \\
+  $57550.40$ & $+49.7$ & LCO-2m & FLOYDS\tablenotemark{5} & $4001$--$8999$ \\
+  $57562.38$ & $+61.4$ & LCO-2m & FLOYDS\tablenotemark{5} & $4800$--$9300$ \\
   \enddata
   \tablenotetext{1}{The Deveny Spectrograph \citep{2014SPIE.9147E..2NB}}
   \tablenotetext{2}{The Gemini Multi-Object Spectrograph \citep{2004PASP..116..425H}}
@@ -566,7 +567,7 @@ early times, multiple studies have found that the early emission
 from type Ia SNe can be described as a power law in time, with 
 power-law index consistent with 2, i.e. $f \propto t^2$ (e.g., \citealt{2006AJ....132.1707C, 2010ApJ...712..350H, 2011MNRAS.416.2607G}).\footnote{Many of the studies that find $f \propto t^2$ sample SNe Ia light curves at a phase that is closer to $T_{B,\mathrm{max}}$ than the initial observations of \abc\ discussed here.}
 
-As our observations include especially early observations of \abc, there are upper limits $\sim$1 d prior to the discovery epoch, we model the early flux from \abc\ as a power law, but allow the power-lax index to vary, as opposed to fixing it at 2, to account for potential variations in the photospheric temperature during expansion:
+As our observations include especially early observations of \abc, there are upper limits $\sim$1 d prior to the discovery epoch, we model the early flux from \abc\ as a power law, but allow the power-law index to vary, as opposed to fixing it at 2, to account for potential variations in the photospheric temperature during expansion:
 \begin{equation}
   \label{eq:broken_power_law}
   f(t) \left\{
@@ -730,7 +731,7 @@ decreases until the feature is no longer detectable
 around $t = -10$ d.
 
 The detection of \ion{C}{2} in SNe Ia spectra is relatively rare
-as it requires both unburned carbon, which is likely only present in the outermost layers of the ejecta, and non-local thermal equilibrium effects in order to excite the ionized carbon (e.g., \citealt{2007ApJ...654L..53T}). Spectra obtained around or after $T_{B_\mathrm{max}}$ rarely show \ion{C}{2} as the photosphere has receded from the outermost ejecta, while pre-max spectra show evidence for \ion{C}{2} in $\sim$1/4 of all normal SNe Ia (e.g., \citealt{2011ApJ...732...30P,2012MNRAS.425.1917S,2011ApJ...743...27T}), but the signatures are typically weak. While we caution that the sample of normal SNe Ia with spectra taken within a few days of explosion is small, SN\,2013dy is the only other object known to have strong \ion{C}{2} features like \abc\ \citep{2013ApJ...778L..15Z}. As a counterexample, SN\,2011fe only exhibited weak \ion{C}{2} features in its first spectra
+as it requires both unburned carbon, which is likely only present in the outermost layers of the ejecta, and non-local thermal equilibrium effects in order to excite the ionized carbon (e.g., \citealt{2007ApJ...654L..53T}). Spectra obtained around or after $T_{B_\mathrm{max}}$ rarely show \ion{C}{2} as the photosphere has receded from the outermost ejecta, while pre-max spectra show evidence for \ion{C}{2} in $\sim$1/4 of all normal SNe Ia (e.g., \citealt{2011ApJ...732...30P,2012MNRAS.425.1917S,2011ApJ...743...27T}), but the signatures are typically weak. While we caution that the sample of SNe Ia with spectra taken within a few days of explosion is small, SNe\,2013dy and 2017cbv are the only other objects known to have strong \ion{C}{2} features like \abc\ \citep{2013ApJ...778L..15Z,2017arXiv170608990H}. As a counterexample, SN\,2011fe only exhibited weak \ion{C}{2} features in its first spectra
 \citep{2012ApJ...752L..26P}. Thus, models of \abc\ must explain the anomalously strong \ion{C}{2} absorption observed shortly after explosion.
 
 \subsection{Blue Optical Colors Shortly After Explosion}
@@ -880,7 +881,7 @@ For SN\,2011fe the initial rise is well described by a $t^2$ power law, the $(B 
 
 In the case of SN\,2012cg and SN\,2017cbv it has been argued that the early blue optical colors are indicative of interaction between the SN ejecta and a binary companion \citep{2016ApJ...820...92M,2017arXiv170608990H}. SN\,2017cbv is particularly remarkable in that the observations presented in \citet{2017arXiv170608990H} show a clearly resolved bump in the $U$, $B$, and $g'$ bands in the $\sim$5 d after explosion. In \citeauthor{2017arXiv170608990H} it is found that the bump can be explained via the combination of ejecta-companion interaction and the normal evolution of a SN Ia. A challenge for this model, similar to \abc\ (see \S\ref{sec:companion}), is that it significantly overpredicts the UV brightness of the SN compared to what is observed. Indeed, in the case of SNe\,2012cg, 2017cbv, and \abc\ the UV - optical colors are significantly redder than those observed in iPTF\,14atg. It is argued in \citet{2017arXiv170608990H} that several model assumptions, including: (i) ideal blackbody emission, (ii) a constant opacity, (iii) a simple power-law density profile for the ejecta, and (iv) spherical symmetry, may be incorrect, which could reconcile the discrepancy with the UV observations. Above, we argued for circumstellar interaction and strong $^{56}$Ni mixing as a possible explanation for \abc, and indeed \citet{2017arXiv170608990H} consider these possibilities for SN\,2017cbv as well. Seperately, several arguments against companion interaction for SN\,2012cg are presented in \citet{2016arXiv161007601S}. 
 
-Ultimately, there are arguments in favor of and against each of the possibilties to explain the early emission from SNe Ia. Moving forward, more detailed models and simulations are needed to properly explain the observed diversity. No matter the correct explanation for the early behavior of SNe\,2013dy, 2017cbv, and \abc, the strong similarities between these events suggests they reflect a common physical origin. 
+Ultimately, there are arguments in favor of and against each of the possibilties to explain the early emission from SNe Ia. Moving forward, more detailed models and simulations are needed to properly explain the observed diversity. No matter the correct explanation for the early behavior of SNe\,2013dy, 2017cbv, and \abc, the strong similarities between these events suggests that they may reflect a common physical origin. 
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -917,7 +918,7 @@ Finally, we close by emphasizing the importance of fast-response photometric and
 
 We are deeply grateful to R.~C.~Thomas for induldging a slew of questions regarding \ion{C}{2} in SNe. Similarly, it is our pleasure to buy a beer for R.~Amanullah and U.~Feindt for discussions regarding SALT2. 
 
-Much of the analysis presented herein would not have been possible without the help of several observers. We thank M.~West for taking the first spectrum of \abc\ as a ToO on the DCT. We also thank the Gemini service observers for executing our ToO observations. Additionally, J.~Cohen, N.~Suzuki, V.~Ravi, R.~Walters, A.~Ho, and L.~Yan helped obtain data for this paper.
+Much of the analysis presented herein would not have been possible without the help of several observers. We thank M.~West for taking the first spectrum of \abc\ as a ToO on the DCT. We also thank P.~GuhaThakurta, E.~C.~Cunningham, K.~A.~Plant, H.~Jang, and J.~Torres for executing a Keck ToO as part of the UC/Caltech partnership, and also the Gemini service observers for executing our ToO observations. Additionally, J.~Cohen, N.~Suzuki, V.~Ravi, R.~Walters, A.~Ho, H.~Vedanthamand, K.~De, and L.~Yan helped obtain data for this paper.
 
 % Observers:  Plant,J.Torres,Jang,Cunningham,Guhathakurta, Vedantham, De
 
