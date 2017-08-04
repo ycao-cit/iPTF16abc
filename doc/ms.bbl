@@ -93,12 +93,31 @@
   {Milne}, \& {Roming}}]{2012ApJ...749...18B}
 {Brown}, P.~J., {Dawson}, K.~S., {Harris}, D.~W., {et~al.} 2012, \apj, 749, 18
 
+\bibitem[{{Butler} {et~al.}(2012){Butler}, {Klein}, {Fox}, {Lotkin}, {Bloom},
+  {Prochaska}, {Ramirez-Ruiz}, {de Diego}, {Georgiev}, {Gonz{\'a}lez}, {Lee},
+  {Richer}, {Rom{\'a}n}, {Watson}, {Gehrels}, {Kutyrev}, {Bernstein},
+  {Alvarez}, {Cese{\~n}a}, {Clark}, {Colorado}, {C{\'o}rdova}, {Farah},
+  {Garc{\'{\i}}a}, {Guisa}, {Herrera}, {Lazo}, {L{\'o}pez}, {Luna},
+  {Mart{\'{\i}}nez}, {Murillo}, {Murillo}, {N{\'u}{\~n}ez}, {Pedrayes},
+  {Quir{\'o}s}, {Ochoa}, {Sierra}, {Moseley}, {Rapchun}, {Robinson}, {Samuel},
+  \& {Sparr}}]{2012SPIE.8446E..10B}
+{Butler}, N., {Klein}, C., {Fox}, O., {et~al.} 2012, in \procspie, Vol. 8446,
+  Ground-based and Airborne Instrumentation for Astronomy IV, 844610
+
 \bibitem[{{Cao} {et~al.}(2015){Cao}, {Kulkarni}, {Howell}, {Gal-Yam},
   {Kasliwal}, {Valenti}, {Johansson}, {Amanullah}, {Goobar}, {Sollerman},
   {Taddia}, {Horesh}, {Sagiv}, {Cenko}, {Nugent}, {Arcavi}, {Surace},
   {Wo{\'z}niak}, {Moody}, {Rebbapragada}, {Bue}, \&
   {Gehrels}}]{2015Natur.521..328C}
 {Cao}, Y., {Kulkarni}, S.~R., {Howell}, D.~A., {et~al.} 2015, \nat, 521, 328
+
+\bibitem[{{Casali} {et~al.}(2007){Casali}, {Adamson}, {Alves de Oliveira},
+  {Almaini}, {Burch}, {Chuter}, {Elliot}, {Folger}, {Foucaud}, {Hambly},
+  {Hastie}, {Henry}, {Hirst}, {Irwin}, {Ives}, {Lawrence}, {Laidlaw}, {Lee},
+  {Lewis}, {Lunney}, {McLay}, {Montgomery}, {Pickup}, {Read}, {Rees}, {Robson},
+  {Sekiguchi}, {Vick}, {Warren}, \& {Woodward}}]{2007A&A...467..777C}
+{Casali}, M., {Adamson}, A., {Alves de Oliveira}, C., {et~al.} 2007, \aap, 467,
+  777
 
 \bibitem[{{Cenko} {et~al.}(2016){Cenko}, {Cao}, {Kasliwal}, {Miller},
   {Fremling}, {West}, {Gregg}, \& {Kulkarni}}]{2016ATel.8909....1C}
@@ -190,6 +209,11 @@
 {Hayden}, B.~T., {Garnavich}, P.~M., {Kessler}, R., {et~al.}
   2010{\natexlab{b}}, \apj, 712, 350
 
+\bibitem[{{Hodgkin} {et~al.}(2009){Hodgkin}, {Irwin}, {Hewett}, \&
+  {Warren}}]{2009MNRAS.394..675H}
+{Hodgkin}, S.~T., {Irwin}, M.~J., {Hewett}, P.~C., \& {Warren}, S.~J. 2009,
+  \mnras, 394, 675
+
 \bibitem[{{Hook} {et~al.}(2004){Hook}, {J{\o}rgensen}, {Allington-Smith},
   {Davies}, {Metcalfe}, {Murowinski}, \& {Crampton}}]{2004PASP..116..425H}
 {Hook}, I.~M., {J{\o}rgensen}, I., {Allington-Smith}, J.~R., {et~al.} 2004,
@@ -209,6 +233,12 @@
 \bibitem[{{Kasen}(2010)}]{2010ApJ...708.1025K}
 {Kasen}, D. 2010, \apj, 708, 1025
 
+\bibitem[{{Kromer} {et~al.}(2016){Kromer}, {Fremling}, {Pakmor},
+  {Taubenberger}, {Amanullah}, {Cenko}, {Fransson}, {Goobar}, {Leloudas},
+  {Taddia}, {R{\"o}pke}, {Seitenzahl}, {Sim}, \&
+  {Sollerman}}]{2016MNRAS.459.4428K}
+{Kromer}, M., {Fremling}, C., {Pakmor}, R., {et~al.} 2016, \mnras, 459, 4428
+
 \bibitem[{{Law} {et~al.}(2009){Law}, {Kulkarni}, {Dekany}, {Ofek}, {Quimby},
   {Nugent}, {Surace}, {Grillmair}, {Bloom}, {Kasliwal}, {Bildsten}, {Brown},
   {Cenko}, {Ciardi}, {Croner}, {Djorgovski}, {van Eyken}, {Filippenko}, {Fox},
@@ -218,6 +248,11 @@
   {Zolkower}}]{2009PASP..121.1395L}
 {Law}, N.~M., {Kulkarni}, S.~R., {Dekany}, R.~G., {et~al.} 2009, \pasp, 121,
   1395
+
+\bibitem[{{Levanon} {et~al.}(2015){Levanon}, {Soker}, \&
+  {Garc{\'{\i}}a-Berro}}]{2015MNRAS.447.2803L}
+{Levanon}, N., {Soker}, N., \& {Garc{\'{\i}}a-Berro}, E. 2015, \mnras, 447,
+  2803
 
 \bibitem[{{Maoz} {et~al.}(2014){Maoz}, {Mannucci}, \&
   {Nelemans}}]{2014ARA&A..52..107M}
@@ -253,6 +288,11 @@
 \bibitem[{{Morozova} {et~al.}(2015){Morozova}, {Piro}, {Renzo}, {Ott},
   {Clausen}, {Couch}, {Ellis}, \& {Roberts}}]{2015ApJ...814...63M}
 {Morozova}, V., {Piro}, A.~L., {Renzo}, M., {et~al.} 2015, \apj, 814, 63
+
+\bibitem[{{Noebauer} {et~al.}(2017){Noebauer}, {Kromer}, {Taubenberger},
+  {Baklanov}, {Blinnikov}, {Sorokina}, \& {Hillebrandt}}]{2017arXiv170603613N}
+{Noebauer}, U.~M., {Kromer}, M., {Taubenberger}, S., {et~al.} 2017, ArXiv
+  e-prints, arXiv:1706.03613
 
 \bibitem[{{Nugent} {et~al.}(2011){Nugent}, {Sullivan}, {Cenko}, {Thomas},
   {Kasen}, {Howell}, {Bersier}, {Bloom}, {Kulkarni}, {Kandrashoff},
@@ -298,6 +338,14 @@
 \bibitem[{{Phillips}(1993)}]{1993ApJ...413L.105P}
 {Phillips}, M.~M. 1993, \apjl, 413, L105
 
+\bibitem[{{Phillips} {et~al.}(2013){Phillips}, {Simon}, {Morrell}, {Burns},
+  {Cox}, {Foley}, {Karakas}, {Patat}, {Sternberg}, {Williams}, {Gal-Yam},
+  {Hsiao}, {Leonard}, {Persson}, {Stritzinger}, {Thompson}, {Campillay},
+  {Contreras}, {Folatelli}, {Freedman}, {Hamuy}, {Roth}, {Shields}, {Suntzeff},
+  {Chomiuk}, {Ivans}, {Madore}, {Penprase}, {Perley}, {Pignata}, {Preston}, \&
+  {Soderberg}}]{2013ApJ...779...38P}
+{Phillips}, M.~M., {Simon}, J.~D., {Morrell}, N., {et~al.} 2013, \apj, 779, 38
+
 \bibitem[{{Piro} {et~al.}(2010){Piro}, {Chang}, \&
   {Weinberg}}]{2010ApJ...708..598P}
 {Piro}, A.~L., {Chang}, P., \& {Weinberg}, N.~N. 2010, \apj, 708, 598
@@ -341,6 +389,15 @@
   {Worseck}}]{2012ApJ...756L...7S}
 {Silverman}, J.~M., {Ganeshalingam}, M., {Cenko}, S.~B., {et~al.} 2012, \apjl,
   756, L7
+
+\bibitem[{{Skrutskie} {et~al.}(2006){Skrutskie}, {Cutri}, {Stiening},
+  {Weinberg}, {Schneider}, {Carpenter}, {Beichman}, {Capps}, {Chester},
+  {Elias}, {Huchra}, {Liebert}, {Lonsdale}, {Monet}, {Price}, {Seitzer},
+  {Jarrett}, {Kirkpatrick}, {Gizis}, {Howard}, {Evans}, {Fowler}, {Fullmer},
+  {Hurt}, {Light}, {Kopan}, {Marsh}, {McCallon}, {Tam}, {Van Dyk}, \&
+  {Wheelock}}]{2006AJ....131.1163S}
+{Skrutskie}, M.~F., {Cutri}, R.~M., {Stiening}, R., {et~al.} 2006, \aj, 131,
+  1163
 
 \bibitem[{{Starr} {et~al.}(2000){Starr}, {Luppino}, {Cuillandre}, \&
   {Isani}}]{2000SPIE.3965...58S}
