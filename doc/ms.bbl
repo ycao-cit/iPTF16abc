@@ -363,6 +363,11 @@
 \bibitem[{{Rabinak} \& {Waxman}(2011)}]{2011ApJ...728...63R}
 {Rabinak}, I., \& {Waxman}, E. 2011, \apj, 728, 63
 
+\bibitem[{{Rahmer} {et~al.}(2008){Rahmer}, {Smith}, {Velur}, {Hale}, {Law},
+  {Bui}, {Petrie}, \& {Dekany}}]{2008SPIE.7014E..4YR}
+{Rahmer}, G., {Smith}, R., {Velur}, V., {et~al.} 2008, in \procspie, Vol. 7014,
+  Ground-based and Airborne Instrumentation for Astronomy II, 70144Y
+
 \bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{2011ApJ...737..103S}
 {Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011, \apj, 737, 103
 
@@ -399,12 +404,10 @@
 {Skrutskie}, M.~F., {Cutri}, R.~M., {Stiening}, R., {et~al.} 2006, \aj, 131,
   1163
 
-\bibitem[{{Starr} {et~al.}(2000){Starr}, {Luppino}, {Cuillandre}, \&
-  {Isani}}]{2000SPIE.3965...58S}
-{Starr}, B.~M., {Luppino}, G.~A., {Cuillandre}, J.-C., \& {Isani}, S. 2000, in
-  \procspie, Vol. 3965, Sensors and Camera Systems for Scientific, Industrial,
-  and Digital Photography Applications, ed. M.~M. {Blouke}, N.~{Sampat}, G.~M.
-  {Williams}, \& T.~{Yeh}, 58--69
+\bibitem[{{Taddia} {et~al.}(2015){Taddia}, {Sollerman}, {Leloudas},
+  {Stritzinger}, {Valenti}, {Galbany}, {Kessler}, {Schneider}, \&
+  {Wheeler}}]{2015A&A...574A..60T}
+{Taddia}, F., {Sollerman}, J., {Leloudas}, G., {et~al.} 2015, \aap, 574, A60
 
 \bibitem[{{Theureau} {et~al.}(2007){Theureau}, {Hanski}, {Coudreau}, {Hallet},
   \& {Martin}}]{2007A&A...465...71T}
