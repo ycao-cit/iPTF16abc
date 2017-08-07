@@ -22,45 +22,45 @@ Repeated entry---line 36690 of file ref.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Masci2017PASP"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 77 entries,
+You've used 78 entries,
             3222 wiz_defined-function locations,
-            1274 strings with 42099 characters,
-and the built_in function-call counts, 47934 in all, are:
-= -- 2898
-> -- 5491
+            1282 strings with 42409 characters,
+and the built_in function-call counts, 48486 in all, are:
+= -- 2942
+> -- 5542
 < -- 21
-+ -- 1815
-- -- 1927
-* -- 4984
-:= -- 9326
-add.period$ -- 77
-call.type$ -- 77
-change.case$ -- 400
-chr.to.int$ -- 75
-cite$ -- 77
-duplicate$ -- 1453
-empty$ -- 2242
-format.name$ -- 2015
-if$ -- 9142
++ -- 1833
+- -- 1947
+* -- 5030
+:= -- 9427
+add.period$ -- 78
+call.type$ -- 78
+change.case$ -- 408
+chr.to.int$ -- 76
+cite$ -- 78
+duplicate$ -- 1476
+empty$ -- 2266
+format.name$ -- 2035
+if$ -- 9253
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 71
-newline$ -- 236
-num.names$ -- 312
-pop$ -- 605
+missing$ -- 72
+newline$ -- 239
+num.names$ -- 315
+pop$ -- 615
 preamble$ -- 1
-purify$ -- 400
+purify$ -- 408
 quote$ -- 0
-skip$ -- 1119
+skip$ -- 1141
 stack$ -- 0
-substring$ -- 1353
-swap$ -- 72
+substring$ -- 1362
+swap$ -- 78
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 693
+type$ -- 702
 warning$ -- 0
-while$ -- 269
+while$ -- 270
 width$ -- 0
-write$ -- 774
+write$ -- 784
 (There were 4 error messages)
