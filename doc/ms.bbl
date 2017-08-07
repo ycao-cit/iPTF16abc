@@ -31,11 +31,16 @@
 {Adelman-McCarthy}, J.~K., {Ag{\"u}eros}, M.~A., {Allam}, S.~S., {et~al.} 2008,
   \apjs, 175, 297
 
+\bibitem[{{Ahn} {et~al.}(2012){Ahn}, {Alexandroff}, {Allende Prieto},
+  {Anderson}, {Anderton}, {Andrews}, {Aubourg}, {Bailey}, {Balbinot}, {Barnes},
+  \& et~al.}]{2012ApJS..203...21A}
+{Ahn}, C.~P., {Alexandroff}, R., {Allende Prieto}, C., {et~al.} 2012, \apjs,
+  203, 21
+
 \bibitem[{{Ahn} {et~al.}(2014){Ahn}, {Alexandroff}, {Allende Prieto}, {Anders},
   {Anderson}, {Anderton}, {Andrews}, {Aubourg}, {Bailey}, {Bastien}, \&
   et~al.}]{2014ApJS..211...17A}
-{Ahn}, C.~P., {Alexandroff}, R., {Allende Prieto}, C., {et~al.} 2014, \apjs,
-  211, 17
+---. 2014, \apjs, 211, 17
 
 \bibitem[{{Amanullah} {et~al.}(2014){Amanullah}, {Goobar}, {Johansson},
   {Banerjee}, {Venkataraman}, {Joshi}, {Ashok}, {Cao}, {Kasliwal}, {Kulkarni},
@@ -47,6 +52,9 @@
 
 \bibitem[{{Bellm}(2016)}]{2016PASP..128h4501B}
 {Bellm}, E.~C. 2016, \pasp, 128, 084501
+
+\bibitem[{{Bertin} \& {Arnouts}(1996)}]{1996A&AS..117..393B}
+{Bertin}, E., \& {Arnouts}, S. 1996, \aaps, 117, 393
 
 \bibitem[{{Betoule} {et~al.}(2014){Betoule}, {Kessler}, {Guy}, {Mosher},
   {Hardin}, {Biswas}, {Astier}, {El-Hage}, {Konig}, {Kuhlmann}, {Marriner},
@@ -165,6 +173,15 @@
 {Foley}, R.~J., {Challis}, P.~J., {Filippenko}, A.~V., {et~al.} 2012, \apj,
   744, 38
 
+\bibitem[{{Fox} {et~al.}(2012){Fox}, {Kutyrev}, {Rapchun}, {Klein}, {Butler},
+  {Bloom}, {de Diego}, {Farah}, {Gehrels}, {Georgiev}, {Gonz{\'a}lez}, {Lee},
+  {Loose}, {Lotkin}, {Moseley}, {Prochaska}, {Ramirez-Ruiz}, {Richer},
+  {Robinson}, {Rom{\'a}n-Z{\'u}{\~n}iga}, {Samuel}, {Sparr}, \&
+  {Watson}}]{2012SPIE.8453E..1OF}
+{Fox}, O.~D., {Kutyrev}, A.~S., {Rapchun}, D.~A., {et~al.} 2012, in \procspie,
+  Vol. 8453, High Energy, Optical, and Infrared Detectors for Astronomy V,
+  84531O
+
 \bibitem[{{Fremling} {et~al.}(2016){Fremling}, {Sollerman}, {Taddia}, {Ergon},
   {Fraser}, {Karamehmetoglu}, {Valenti}, {Jerkstrand}, {Arcavi}, {Bufano},
   {Elias Rosa}, {Filippenko}, {Fox}, {Gal-Yam}, {Howell}, {Kotak}, {Mazzali},
@@ -253,6 +270,13 @@
   {Garc{\'{\i}}a-Berro}}]{2015MNRAS.447.2803L}
 {Levanon}, N., {Soker}, N., \& {Garc{\'{\i}}a-Berro}, E. 2015, \mnras, 447,
   2803
+
+\bibitem[{{Littlejohns} {et~al.}(2014){Littlejohns}, {Butler}, {Cucchiara},
+  {Watson}, {Kutyrev}, {Lee}, {Richer}, {Klein}, {Fox}, {Prochaska}, {Bloom},
+  {Troja}, {Ramirez-Ruiz}, {de Diego}, {Georgiev}, {Gonz{\'a}lez},
+  {Rom{\'a}n-Z{\'u}{\~n}iga}, {Gehrels}, \& {Moseley}}]{2014AJ....148....2L}
+{Littlejohns}, O.~M., {Butler}, N.~R., {Cucchiara}, A., {et~al.} 2014, \aj,
+  148, 2
 
 \bibitem[{{Maoz} {et~al.}(2014){Maoz}, {Mannucci}, \&
   {Nelemans}}]{2014ARA&A..52..107M}
@@ -462,6 +486,16 @@
   Dael}, {van der Vliet}, {Venema}, {Vidali}, {Vinther}, {Vola}, {Winters},
   {Wistisen}, {Wulterkens}, \& {Zacchei}}]{XShooter}
 {Vernet}, J., {Dekker}, H., {D'Odorico}, S., {et~al.} 2011, \aap, 536, A105
+
+\bibitem[{{Watson} {et~al.}(2012){Watson}, {Richer}, {Bloom}, {Butler},
+  {Cese{\~n}a}, {Clark}, {Colorado}, {C{\'o}rdova}, {Farah}, {Fox-Machado},
+  {Fox}, {Garc{\'{\i}}a}, {Georgiev}, {Gonz{\'a}lez}, {Guisa}, {Guti{\'e}rrez},
+  {Herrera}, {Klein}, {Kutyrev}, {Lazo}, {Lee}, {L{\'o}pez}, {Luna},
+  {Mart{\'{\i}}nez}, {Murillo}, {Murillo}, {N{\'u}{\~n}ez}, {Prochaska},
+  {Ochoa}, {Quir{\'o}s}, {Rapchun}, {Rom{\'a}n-Z{\'u}{\~n}iga}, \&
+  {Valyavin}}]{2012SPIE.8444E..5LW}
+{Watson}, A.~M., {Richer}, M.~G., {Bloom}, J.~S., {et~al.} 2012, in \procspie,
+  Vol. 8444, Ground-based and Airborne Telescopes IV, 84445L
 
 \bibitem[{{Whelan} \& {Iben}(1973)}]{1973ApJ...186.1007W}
 {Whelan}, J., \& {Iben}, Jr., I. 1973, \apj, 186, 1007

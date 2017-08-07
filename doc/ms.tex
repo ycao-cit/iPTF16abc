@@ -416,7 +416,9 @@ Astrograph Catalog \citep{2013AJ....145...44Z}, and the \textit{g'r'i'}
 magnitudes are calibrated to SDSS Data Release 6
 \citep{2008ApJS..175..297A}.
 
-The Reionization and Transients InfraRed (RATIR) camera on the autonomous 1.5\,m Harold L. Johnson Telescope at the Observatorio Astron\'{o}mico Nacional \citep{2012SPIE.8446E..10B} was used to observe \abc\ in the $r'i'ZYJH$ filters. The $r'i'Z$ filters are calibrated to SDSS, while the $JH$ filters are calibrated to the Two Micron All Sky Survey \citep{2006AJ....131.1163S}. For the $Y$-band calibration, we used an empirical relation in terms of the $J$ and $H$ magnitudes derived from the United Kingdom Infrared Telescope (UKIRT; \citealt{2007A&A...467..777C}) Wide Field Camera observations \citep{2009MNRAS.394..675H}.
+The Reionization and Transients InfraRed (RATIR) camera on the autonomous 1.5\,m Harold L. Johnson Telescope at the Observatorio Astron\'{o}mico Nacional \citep{2012SPIE.8446E..10B,2012SPIE.8444E..5LW} was used to observe \abc\ in the $r'i'ZYJH$ filters. Given the lack of a cold shutter in RATIR’s design, IR dark frames are not available. Laboratory testing, however, confirms that the dark current is negligible in both IR detectors \citep{2012SPIE.8453E..1OF}.
+
+The RATIR data were reduced, coadded, and analysed using standard CCD and IR processing techniques in \texttt{IDL}, \texttt{Python}, \texttt{SExtractor} \citep{1996A&AS..117..393B}, and \texttt{SWarp}. Aperture photometry is obtained following the methods described in \citet{2014AJ....148....2L}. The $r'i'Z$ filters are calibrated to SDSS \citep{2012ApJS..203...21A}, while the $JH$ filters are calibrated to the Two Micron All Sky Survey \citep{2006AJ....131.1163S}. For the $Y$-band calibration, we used an empirical relation in terms of the $J$ and $H$ magnitudes derived from the United Kingdom Infrared Telescope (UKIRT; \citealt{2007A&A...467..777C}) Wide Field Camera observations \citep{2009MNRAS.394..675H}.
 
 The \textit{Swift} satellite observed \abc\ on 14 epochs, beginning 
 $\sim$15 d pre-maximum light through $\sim$22 d post maximum. The SN 
@@ -922,7 +924,7 @@ The Intermediate Palomar Transient Factory project is a scientific collaboration
 
 \facility{DCT, Gemini:Gillett, Hale, Keck:I, Keck:II, LCOGT, PO:1.2\,m, PO:1.5\,m, VLT, Swift, OANSPM:HJT}
 
-\software{\texttt{PTFIDE} \citep{Masci2017PASP}, \texttt{FPipe}, \texttt{SALT2}, \texttt{SNID}, \texttt{lcogtsnpipe}, \texttt{UVOTSOURCE}}.
+\software{\texttt{PTFIDE} \citep{2017PASP..129a4002M}, \texttt{FPipe}, \texttt{SALT2}, \texttt{SNID}, \texttt{lcogtsnpipe}, \texttt{UVOTSOURCE}}.
 
 
 \appendix
