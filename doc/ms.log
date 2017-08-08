@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 AUG 2017 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 AUG 2017 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,101 +490,84 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 203.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Missing character: There is no Ã in font cmti8!
-Missing character: There is no ¼ in font cmti8!
-Missing character: There is no Ã in font cmti8!
-Missing character: There is no ¤ in font cmti8!
-Missing character: There is no Ã in font cmti8!
-Missing character: There is no ¼ in font cmti8!
-Missing character: There is no Ã in font cmti8!
-Missing character: There is no ¤ in font cmti8!
-Missing character: There is no Ã in font cmti8!
-Missing character: There is no ¼ in font cmti8!
-Missing character: There is no Ã in font cmti8!
-Missing character: There is no ¼ in font cmti8!
-
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 317--317
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 313--313
 [][] 
  []
-
-
-Overfull \vbox (1.7502pt too high) has occurred while \output is active []
-
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3] <logLC_with_colors.pdf, id=151, 433.62pt x 289.08pt>
 File: logLC_with_colors.pdf Graphic file (type pdf)
 
 <use logLC_with_colors.pdf>
-Package pdftex.def Info: logLC_with_colors.pdf used on input line 383.
+Package pdftex.def Info: logLC_with_colors.pdf used on input line 379.
 (pdftex.def)             Requested size: 246.29417pt x 164.19946pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 383--384
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 379--380
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 393.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 389.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 393.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 389.
  [4 <./logLC_with_colors.pdf>]
-Overfull \hbox (3.64618pt too wide) in paragraph at lines 438--440
+Overfull \hbox (3.64618pt too wide) in paragraph at lines 434--436
 []\OT1/cmr/m/n/10 The $\OML/cmm/m/it/10 g$\OT1/cmr/m/n/10 -band dis-cov-ery and
  follow-up data of iPTF16abc
  []
 
 
-Underfull \hbox (badness 10000) detected at line 478
+Underfull \hbox (badness 10000) detected at line 474
 $\OT1/cmr/m/n/8 1$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 479
+Underfull \hbox (badness 10000) detected at line 475
 $\OT1/cmr/m/n/8 2$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 480
+Underfull \hbox (badness 10000) detected at line 476
 $\OT1/cmr/m/n/8 3$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 481
+Underfull \hbox (badness 10000) detected at line 477
 $\OT1/cmr/m/n/8 4$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 482
+Underfull \hbox (badness 10000) detected at line 478
 $\OT1/cmr/m/n/8 5$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 483
+Underfull \hbox (badness 10000) detected at line 479
 $\OT1/cmr/m/n/8 6$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 484
+Underfull \hbox (badness 10000) detected at line 480
 $\OT1/cmr/m/n/8 7$
  []
 
 
-Underfull \hbox (badness 10000) detected at line 485
+Underfull \hbox (badness 10000) detected at line 481
 $\OT1/cmr/m/n/8 8$
  []
 
 <spectra.pdf, id=305, 542.025pt x 650.43pt>
 File: spectra.pdf Graphic file (type pdf)
  <use spectra.pdf>
-Package pdftex.def Info: spectra.pdf used on input line 490.
+Package pdftex.def Info: spectra.pdf used on input line 486.
 (pdftex.def)             Requested size: 400.23096pt x 480.2884pt.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 510.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 506.
  [5]
-Underfull \hbox (badness 5064) in paragraph at lines 543--544
+Underfull \hbox (badness 5064) in paragraph at lines 539--540
 []\OT1/cmr/m/n/10 We mea-sure the (pseudo)bolometric lu-mi-nos-ity,
  []
 
@@ -592,19 +575,19 @@ Underfull \hbox (badness 5064) in paragraph at lines 543--544
 File: early_lc.pdf Graphic file (type pdf)
 
 <use early_lc.pdf>
-Package pdftex.def Info: early_lc.pdf used on input line 595.
+Package pdftex.def Info: early_lc.pdf used on input line 591.
 (pdftex.def)             Requested size: 246.29417pt x 184.7244pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 595--596
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 591--592
  [][] 
  []
 
 [7]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 613.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 609.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 613.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 609.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -612,26 +595,26 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 <Chi2.pdf, id=493, 433.62pt x 361.35pt>
 File: Chi2.pdf Graphic file (type pdf)
  <use Chi2.pdf>
-Package pdftex.def Info: Chi2.pdf used on input line 642.
+Package pdftex.def Info: Chi2.pdf used on input line 638.
 (pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
 
 <VelocityPlot.pdf, id=494, 433.62pt x 361.35pt>
 File: VelocityPlot.pdf Graphic file (type pdf)
  <use VelocityPlot.pdf>
-Package pdftex.def Info: VelocityPlot.pdf used on input line 643.
+Package pdftex.def Info: VelocityPlot.pdf used on input line 639.
 (pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
  [8 <./early_lc.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 694.
+               Default added (so using `tbp') on input line 690.
 
 <CarbonFeature.pdf, id=574, 433.62pt x 361.35pt>
 File: CarbonFeature.pdf Graphic file (type pdf)
  <use CarbonFeature.pdf>
-Package pdftex.def Info: CarbonFeature.pdf used on input line 696.
+Package pdftex.def Info: CarbonFeature.pdf used on input line 692.
 (pdftex.def)             Requested size: 251.43036pt x 209.528pt.
 
-Overfull \hbox (9.16383pt too wide) in paragraph at lines 696--697
+Overfull \hbox (9.16383pt too wide) in paragraph at lines 692--693
  [][] 
  []
 
@@ -646,16 +629,16 @@ fs with page group included in a single page
 >]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 729.
+               Default added (so using `tbp') on input line 725.
 
 <16abc_11fe_colors.pdf, id=725, 433.62pt x 289.08pt>
 File: 16abc_11fe_colors.pdf Graphic file (type pdf)
 
 <use 16abc_11fe_colors.pdf>
-Package pdftex.def Info: 16abc_11fe_colors.pdf used on input line 731.
+Package pdftex.def Info: 16abc_11fe_colors.pdf used on input line 727.
 (pdftex.def)             Requested size: 246.29417pt x 164.19946pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 731--732
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 727--728
  [][] 
  []
 
@@ -663,71 +646,71 @@ Overfull \hbox (4.02765pt too wide) in paragraph at lines 731--732
 File: companion_lc.pdf Graphic file (type pdf)
 
 <use companion_lc.pdf>
-Package pdftex.def Info: companion_lc.pdf used on input line 793.
+Package pdftex.def Info: companion_lc.pdf used on input line 789.
 (pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 793--794
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 789--790
  [][] 
  []
 
 [11 <./companion_lc.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 839.
+               Default added (so using `tbp') on input line 835.
 
 <iPTF16abc_Ni_lc.pdf, id=911, 433.62pt x 578.16pt>
 File: iPTF16abc_Ni_lc.pdf Graphic file (type pdf)
  <use iPTF16abc_Ni_lc.pdf>
-Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 841.
+Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 837.
 (pdftex.def)             Requested size: 246.29417pt x 328.39894pt.
 
-Overfull \hbox (4.02765pt too wide) in paragraph at lines 841--842
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 837--838
  [][] 
  []
 
 
-Overfull \hbox (4.76772pt too wide) in paragraph at lines 865--866
+Overfull \hbox (4.76772pt too wide) in paragraph at lines 861--862
 []\OT1/cmr/m/n/10 In \OMS/cmsy/m/n/10 x[][]\OT1/cmr/m/n/10 4[][] we com-pared o
 ur early ob-ser-va-tions of iPTF16abc
  []
 
 [12]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 868.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 864.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 868.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 864.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 [13 <./iPTF16abc_Ni_lc.pdf>] [14]
-Overfull \hbox (0.16237pt too wide) in paragraph at lines 918--919
+Overfull \hbox (0.16237pt too wide) in paragraph at lines 914--915
 []\OT1/cmr/m/it/12 Facility: \OT1/cmr/m/n/10 DCT, Gem-ini:Gillett, Hale, Keck:I
 , Keck:II,
  []
 
 
-Overfull \hbox (9.30356pt too wide) in paragraph at lines 918--919
+Overfull \hbox (9.30356pt too wide) in paragraph at lines 914--915
 \OT1/cmr/m/n/10 LCOGT, PO:1.2m, PO:1.5m, VLT, Swift, OANSPM:HJT 
  []
 
 <lightcurve.pdf, id=1086, 433.62pt x 578.16pt>
 File: lightcurve.pdf Graphic file (type pdf)
  <use lightcurve.pdf>
-Package pdftex.def Info: lightcurve.pdf used on input line 931.
+Package pdftex.def Info: lightcurve.pdf used on input line 927.
 (pdftex.def)             Requested size: 246.29417pt x 328.39894pt.
  (./ms.bbl
 [15 <./lightcurve.pdf>] [16]) [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 952.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 948.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 952.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 952.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 948.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 948.
  ) 
 Here is how much of TeX's memory you used:
  9260 strings out of 493089
  133648 string characters out of 6134842
- 309543 words of memory out of 5000000
+ 309052 words of memory out of 5000000
  12492 multiletter control sequences out of 15000+600000
  16221 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -761,7 +744,7 @@ onts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on ms.pdf (17 pages, 1040940 bytes).
+Output written on ms.pdf (17 pages, 1040015 bytes).
 PDF statistics:
  1312 PDF objects out of 1440 (max. 8388607)
  819 compressed objects within 9 object streams
