@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 AUG 2017 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 AUG 2017 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,7 +495,7 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 322--322
  []
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] <logLC_with_colors.pdf, id=148, 433.62pt x 289.08pt>
+[2] <logLC_with_colors.pdf, id=149, 433.62pt x 289.08pt>
 File: logLC_with_colors.pdf Graphic file (type pdf)
 
 <use logLC_with_colors.pdf>
@@ -559,7 +559,7 @@ Underfull \hbox (badness 10000) detected at line 490
 $\OT1/cmr/m/n/8 8$
  []
 
-<spectra.pdf, id=301, 542.025pt x 650.43pt>
+<spectra.pdf, id=302, 542.025pt x 650.43pt>
 File: spectra.pdf Graphic file (type pdf)
  <use spectra.pdf>
 Package pdftex.def Info: spectra.pdf used on input line 495.
@@ -571,7 +571,7 @@ Underfull \hbox (badness 5064) in paragraph at lines 547--548
 []\OT1/cmr/m/n/10 We mea-sure the (pseudo)bolometric lu-mi-nos-ity,
  []
 
-[6] <early_lc.pdf, id=463, 433.62pt x 325.215pt>
+[6] <early_lc.pdf, id=464, 433.62pt x 325.215pt>
 File: early_lc.pdf Graphic file (type pdf)
  <use early_lc.pdf>
 Package pdftex.def Info: early_lc.pdf used on input line 601.
@@ -581,13 +581,13 @@ Overfull \hbox (4.02765pt too wide) in paragraph at lines 601--602
  [][] 
  []
 
-[7 <./early_lc.pdf>] <Chi2.pdf, id=557, 433.62pt x 361.35pt>
+[7 <./early_lc.pdf>] <Chi2.pdf, id=558, 433.62pt x 361.35pt>
 File: Chi2.pdf Graphic file (type pdf)
  <use Chi2.pdf>
 Package pdftex.def Info: Chi2.pdf used on input line 652.
 (pdftex.def)             Requested size: 246.29417pt x 205.24934pt.
 
-<VelocityPlot.pdf, id=558, 433.62pt x 361.35pt>
+<VelocityPlot.pdf, id=559, 433.62pt x 361.35pt>
 File: VelocityPlot.pdf Graphic file (type pdf)
  <use VelocityPlot.pdf>
 Package pdftex.def Info: VelocityPlot.pdf used on input line 653.
@@ -597,7 +597,7 @@ Package pdftex.def Info: VelocityPlot.pdf used on input line 653.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 704.
 
-<CarbonFeature.pdf, id=569, 433.62pt x 361.35pt>
+<CarbonFeature.pdf, id=570, 433.62pt x 361.35pt>
 File: CarbonFeature.pdf Graphic file (type pdf)
  <use CarbonFeature.pdf>
 Package pdftex.def Info: CarbonFeature.pdf used on input line 706.
@@ -611,7 +611,7 @@ Overfull \hbox (9.16383pt too wide) in paragraph at lines 706--707
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 739.
 
-<16abc_11fe_colors.pdf, id=589, 433.62pt x 289.08pt>
+<16abc_11fe_colors.pdf, id=590, 433.62pt x 289.08pt>
 File: 16abc_11fe_colors.pdf Graphic file (type pdf)
 
 <use 16abc_11fe_colors.pdf>
@@ -634,7 +634,7 @@ fs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./16abc_11fe_colors.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] <companion_lc.pdf, id=808, 433.62pt x 361.35pt>
+>] <companion_lc.pdf, id=809, 433.62pt x 361.35pt>
 File: companion_lc.pdf Graphic file (type pdf)
  <use companion_lc.pdf>
 Package pdftex.def Info: companion_lc.pdf used on input line 794.
@@ -649,7 +649,7 @@ Overfull \hbox (4.02765pt too wide) in paragraph at lines 794--795
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 843.
 
-<iPTF16abc_Ni_lc.pdf, id=919, 433.62pt x 578.16pt>
+<iPTF16abc_Ni_lc.pdf, id=920, 433.62pt x 578.16pt>
 File: iPTF16abc_Ni_lc.pdf Graphic file (type pdf)
  <use iPTF16abc_Ni_lc.pdf>
 Package pdftex.def Info: iPTF16abc_Ni_lc.pdf used on input line 845.
@@ -676,7 +676,7 @@ Overfull \hbox (9.30356pt too wide) in paragraph at lines 922--923
 \OT1/cmr/m/n/10 LCOGT, PO:1.2m, PO:1.5m, VLT, Swift, OANSPM:HJT 
  []
 
-<lightcurve.pdf, id=1085, 433.62pt x 578.16pt>
+<lightcurve.pdf, id=1084, 433.62pt x 578.16pt>
 File: lightcurve.pdf Graphic file (type pdf)
  <use lightcurve.pdf>
 Package pdftex.def Info: lightcurve.pdf used on input line 935.
@@ -691,7 +691,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 956.
 Here is how much of TeX's memory you used:
  9271 strings out of 493089
  133924 string characters out of 6134842
- 299335 words of memory out of 5000000
+ 299597 words of memory out of 5000000
  12500 multiletter control sequences out of 15000+600000
  16221 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -725,10 +725,10 @@ onts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on ms.pdf (17 pages, 1040544 bytes).
+Output written on ms.pdf (17 pages, 1041101 bytes).
 PDF statistics:
- 1317 PDF objects out of 1440 (max. 8388607)
- 835 compressed objects within 9 object streams
+ 1316 PDF objects out of 1440 (max. 8388607)
+ 834 compressed objects within 9 object streams
  146 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
