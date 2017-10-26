@@ -98,3 +98,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# arXiv, referee_report folders
+doc/arxiv/*
+doc/referee_report/*
