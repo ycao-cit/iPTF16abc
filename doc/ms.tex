@@ -645,7 +645,7 @@ $t=-18\,\textrm{d}$ and $t=-15\,\textrm{d}$. Figure \ref{fig:early_lc_fit}
 shows the best-fit result and the joint marginal distribution of $t_0$ and
 $\alpha$. From the best-fit model we obtain $\alpha=0.98 \pm ^{0.16}_{0.14}$
 and $t_0=-17.91 \pm ^{0.07}_{0.15}$ d, where the uncertainties represent the
-marginalized 95\% confidence intervals. Our first detection of \abc\ occurred
+marginalized 95\% confidence intervals \textit{THIS IS NOT THE CORRECT MARGINALIZED UNCERTAINTY}. Our first detection of \abc\ occurred
 $\sim$${0.15}\,\textrm{d}$ after the SN first light. In the analysis that
 follows, the precise values of the best-fit parameters are not important. The
 critical finding here is that $\alpha \approx 1$ and $t_0 \approx -18 \,
@@ -846,7 +846,7 @@ Roughly 16 d prior to $B$-band maximum, the $(B - V)_0$ color of \abc\ is $\sim$
 \label{sec:lc_energy}
 
 Relative to the nearby, normal SN\,2011fe, we have identified several distinct characteristics of the early evolution of \abc, including: (i) a near-linear photometric rise, (ii) a qualitatively short, or possibly absent, dark phase, assuming $v_\mathrm{ph} \propto t^{-0.22}$, (iii) the presence of strong \ion{C}{2} absorption, and (iv) blue and non-evolving $(B - V)_0$ color in the week after explosion. While most SNe Ia are powered purely by radioactive decay, the observed radiation shortly after explosion can also include contributions 
-from SN shock cooling or the collision of the SN ejecta with a non-degenerate companion or diffuse material. Here we consider those scenarios as a possible explanation for the early behavior of \abc. 
+from SN shock cooling or the collision of the SN ejecta with a non-degenerate companion or \textbf{nearby, unbound} material. Here we consider those scenarios as a possible explanation for the early behavior of \abc. 
 
 \subsection{SN Shock Cooling}
 
@@ -914,7 +914,7 @@ The challenges associated with each of the previously considered models lead us 
 
 The detonation of a WD with $M < 1.4 M_\odot$, which can occur if triggered by a detonation in a He surface layer that was accreted from a binary companion (known as the sub-Chandrasekhar double detonation), can produce a rapid rise and early blue optical colors (e.g., \citealt{2017arXiv170603613N}). While this qualitative behavior matches \abc, the $U-V$ colors predicted in \citet{2017arXiv170603613N} do not match our observations. In particular, the sub-Chandrasekhar double detonation model $U - V$ colors rapidly evolve from $\sim$$-0.6\,\mathrm{mag}$ $\sim$1\,d after explosion to $\sim$0.5\,mag $\sim$3\,d after explosion. We observe a steady $U - V$ color evolution from the red to the blue for \abc, however, with $U - V \approx 0.6 \, \mathrm{mag}$ $\sim$2\,d after $t_0$ and $U - V \approx 0 \, \mathrm{mag}$ $\sim$8\,d after $t_0$. As such we conclude that \abc\ is not the result of a sub-Chandrasekhar double detonation. \citet{2017arXiv170603613N} do note that their one-dimensional models may not capture the predicted asphericity for sub-Chandrasekhar double detonations, though moving away from the preferred viewing angle results in redder colors and a more gradual rise, which is not observed for \abc. 
 
-\subsection{Interaction with Diffuse Material}
+\subsection{Interaction with \textbf{Nearby, Unbound} Material}
 
 To model SN\,2011fe, \citet{2014MNRAS.441..532D} recently examined pulsational delayed-detonation (PDD) models as an explanation for some SNe Ia. Briefly, PDD models differ from ``standard'' delayed detonation (DD) models in that the expansion of the WD during the initial deflagration phase leads to the release of unbound material. Following this pulsation, the bound material contracts eventually triggering a subsequent detonation.\footnote{\citet{2014MNRAS.441..532D} note that the deflagration and detonation in their PDD models are artificially triggered.} An important consequence of this progression for PDD models is that the unbound material expands and avoids burning, unlike DD models that typically leave no unburnt material. This results in significantly more carbon in the outer layers of the SN ejecta \citep{2014MNRAS.441..532D}.
 
@@ -925,13 +925,11 @@ Qualitatively, the PDD models provide a better match to the observations of \abc
 \subsection{Strong $^{56}Ni$ Mixing in the SN Ejecta}
 \label{sec:Ni_mixing}
 
-Having examined other possibilities we now consider whether the unusual properties of \abc\ can be explained simply by invoking strong mixing in the SN ejecta. Strong mixing leads to a shorter dark phase than would otherwise be observed. Here we additionally examine whether strong mixing can explain the rapid, near-linear rise in the light curve.
-
-In Figure~\ref{fig:Ni56LC} we compare model calculations from \citet{2016ApJ...826...96P} to the observed photometry of \abc. The \citeauthor{2016ApJ...826...96P} models employ a piston driven explosion to explode a single WD progenitor model. As the piston explosion does not result in any nucleosynthesis, the distribution of $^{56}$Ni in the ejecta must be prescribed by hand, which enables a study of the effects of mixing on the resulting SN emission. Each model employs a fixed $0.5\,\sm$ of $^{56}$Ni that has been distributed throughout the ejecta via boxcar averaging (see their Figure~1). The resulting light curves are synthesized using the SuperNova Explosion Code (\texttt{SNEC}; \citealt{2015ApJ...814...63M}), as shown in Figure~\ref{fig:Ni56LC}. Broadly speaking, the results can be summarized as follows: SN with strong mixing exhibit a rapid almost linear rise and quickly develop blue colors, whereas models where the $^{56}$Ni is confined to the innermost layers of the ejecta remain very faint for days after explosion while exhibiting relatively red optical colors during this period. The fast rise and blue color of \abc\ are qualitatively consistent with the strong mixing models from \citet{2016ApJ...826...96P}, as shown in Figure~\ref{fig:Ni56LC}. In fact, if we adopt $t_\mathrm{exp} = t_0 - 0.4 \, \mathrm{d}$, we find that the model with the strongest mixing (orange line in Figure~\ref{fig:Ni56LC}) provides an excellent match to the $g$-band observations.
-
-While the models from \citet{2016ApJ...826...96P} provide a good match to the optical photometric evolution of \abc, they consistently overpredict the flux in the UV. The models shown in Figure~\ref{fig:Ni56LC} also overpredict the photospheric velocity of \abc\ by $\sim$2--3,000$\; \mathrm{km \; s}^{-1}$. These discrepancies may be accounted for following an improved treatment of line-blanketing and a reduction in the model explosion energy, respectively. Future modeling efforts may improve the match between the simulations and observations for \abc.
-
-Both the PDD models and ejecta-mixing models show discrepancies with some early observations of \abc. Nevertheless, we conclude that one, or both, of these scenarios, which feature qualitatively similar predictions, is the most likely explanation for \abc. Indeed, it may be the case that the typical sequence of photometric and spectroscopic observations of young SNe Ia can never distinguish between these two possibilities \citep{2017arXiv170603613N}.
+Having examined other possibilities we now consider whether the unusual
+properties of \abc\ can be explained simply by invoking strong mixing in the
+SN ejecta. Strong mixing leads to a shorter dark phase than would otherwise
+be observed. \textbf{We also consider} whether strong mixing can explain the
+rapid, near-linear rise in the light curve.
 
 \begin{figure}[]
   \centering
@@ -954,6 +952,42 @@ Both the PDD models and ejecta-mixing models show discrepancies with some early 
   }
   \label{fig:Ni56LC}
 \end{figure}
+
+In Figure~\ref{fig:Ni56LC} we compare model calculations from
+\citet{2016ApJ...826...96P} to the observed photometry of \abc. The
+\citeauthor{2016ApJ...826...96P} models employ a piston driven explosion to
+explode a single WD progenitor model. As the piston explosion does not result
+in any nucleosynthesis, the distribution of $^{56}$Ni in the ejecta must be
+prescribed by hand, which enables a study of the effects of mixing on the
+resulting SN emission. Each model employs a fixed $0.5\,\sm$ of $^{56}$Ni
+that has been distributed throughout the ejecta via boxcar averaging (see
+their Figure~1). The resulting light curves are synthesized using the
+SuperNova Explosion Code (\texttt{SNEC}; \citealt{2015ApJ...814...63M}), as
+shown in Figure~\ref{fig:Ni56LC}. Broadly speaking, the results can be
+summarized as follows: SN with strong mixing exhibit a rapid almost linear
+rise and quickly develop blue colors, whereas models where the $^{56}$Ni is
+confined to the innermost layers of the ejecta remain very faint for days
+after explosion while exhibiting relatively red optical colors during this
+period. The fast rise and blue color of \abc\ are qualitatively consistent
+with the strong mixing models from \citet{2016ApJ...826...96P}, as shown in
+Figure~\ref{fig:Ni56LC}. In fact, if we adopt $t_\mathrm{exp} = t_0 - 0.4 \,
+\mathrm{d}$, we find that the model with the strongest mixing (orange line in
+Figure~\ref{fig:Ni56LC}) provides an excellent match to the $g$-band
+observations.
+
+While the models from \citet{2016ApJ...826...96P} provide a good match to the
+optical photometric evolution of \abc, they consistently overpredict the flux
+in the UV. The models shown in Figure~\ref{fig:Ni56LC} also overpredict the
+photospheric velocity of \abc\ by $\sim$2--3,000$\; \mathrm{km \; s}^{-1}$.
+Future modeling efforts may improve the match between the simulations and
+observations for \abc.
+
+Both the PDD models and ejecta-mixing models show discrepancies with some
+early observations of \abc. Nevertheless, we conclude that one, or both, of
+these scenarios, which feature qualitatively similar predictions, is the most
+likely explanation for \abc. Indeed, it may be the case that the typical
+sequence of photometric and spectroscopic observations of young SNe Ia can
+never distinguish between these two possibilities \citep{2017arXiv170603613N}.
 
 \subsection{The Emerging Sample of Young SNe Ia}
 
