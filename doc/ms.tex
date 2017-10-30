@@ -550,9 +550,49 @@ is $E(B-V) = 0.0279 \, \mathrm{mag}$ \citep{2011ApJ...737..103S}. The high-resol
 \subsection{Classification}
 \label{sec:classification}
 
-Using the SuperNova IDentification (\texttt{SNID}; \citealt{2007ApJ...666.1024B}) package, 
-we find the low-resolution spectrum of \abc\ at $+18.8$\,d is best matched by normal SNe Ia. Several characteristic features of a SN
-Ia, such as \ion{Si}{2}, \ion{S}{2}, can be easily identified in the spectra of \abc\ (Figure \ref{fig:spec_seq}). From the $+3.7 \, \mathrm{d}$ LCO spectrum, we measure the pseudo-equivalent widths (pEWs) of the absorption features near 5750 and 6100 \AA, which are respectively attributed to \ion{Si}{2}\,$\lambda\lambda$6580, 7234, to be $-12 \pm 2$\,\AA\ and $-55 \pm 5$\,\AA, respectively. According to the classification scheme presented in \citet{2009PASP..121..238B}, these pEW measurements indicate that \abc\ is a shallow silicon SN, similar to the SN\,1999aa-likes.
+Using the SuperNova IDentification (\texttt{SNID};
+\citealt{2007ApJ...666.1024B}) package, we find the low-resolution spectrum of
+\abc\ at $+18.8$\,d is best matched by normal SNe Ia. Several characteristic
+features of a SN Ia, such as \ion{Si}{2}, \ion{S}{2}, can be easily identified
+in the spectra of \abc\ (Figure \ref{fig:spec_seq}). From the $+3.7 \,
+\mathrm{d}$ LCO spectrum, we measure the pseudo-equivalent widths (pEWs) of
+the absorption features near 5750 and 6100 \AA, which are respectively
+attributed to \ion{Si}{2}\,$\lambda\lambda$6580, 7234, to be $-12 \pm 2$\,\AA\
+and $-55 \pm 5$\,\AA, respectively. According to the classification scheme
+presented in \citet{2006PASP..118..560B}, these pEW measurements indicate that
+\abc\ is a shallow silicon SN, similar to the SN\,1999aa-likes
+\citep{2009PASP..121..238B}. \textbf{In Figure~\ref{fig:branch_vel}, the
+velocity evolution of \ion{Si}{2}$\,\lambda6355$ in \abc\ is compared to the
+median evolution of the four spectroscopic subclasses defined in
+\citet{2006PASP..118..560B}. The median evolution is defined using the sample
+of SNe Ia in \citet{2012AJ....143..126B}. For each SN, we interpolate the
+\ion{Si}{2} velocity, $v_{\ion{Si}{2}\,\lambda6355}$, to a fixed grid at 1\,d
+intervals. We then take the median $v_{\ion{Si}{2}\,\lambda6355}$ for each
+point on the grid, and only retain those points with at least 3 SNe (to
+prevent the early and late evolution to be defined by a single SN). The
+evolution of \ion{Si}{2} is most reminicent of the shallow-silicon subclass
+defined in \citet{2006PASP..118..560B}.}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.48\textwidth]{Branch_vel_evol.pdf}
+  \caption{\textbf{Velocity evolution of \ion{Si}{2},   
+           $v_{\ion{Si}{2}\,\lambda6355}$, for \abc\ compared to the median 
+           evolution of the four spectroscopic subclasses defined in 
+           \citet{2006PASP..118..560B}, using data from 
+           \citet{2012AJ....143..126B}. Typical uncertainties for \abc\ are 
+           $\sim$1000\,km\,s$^{-1}$ before $T_{B,\mathrm{max}}$, when the 
+           \ion{Si}{2}$\,\lambda6355}$ profile is shallow and the minimum of 
+           absorption is difficult to determine, and $\sim$300\,km\,s$^{-1}$ 
+           after $T_{B,\mathrm{max}}$. For the median curves, the typical 
+           scatter, determined via the interquartile range of the sample, is 
+           XXX $\sim$200\,km\,s$^{-1}$ XXX, around $T_{B,\mathrm{max}}$.
+           At early times, core-normal and broad-line SNe have significantly 
+           faster \ion{Si}{2} than \abc, while the declining trend of cool SNe 
+           does not match \abc.}
+  }
+  \label{fig:branch_vel}
+\end{figure}
 
 To determine the brightness and time of $B$-band maximum for 
 \abc, we fit the P60 light curves with the \texttt{sncosmo} software package.\footnote{\texttt{sncosmo} is available at
