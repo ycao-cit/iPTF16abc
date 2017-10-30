@@ -45,6 +45,10 @@
 \bibitem[{{Arnett}(1982)}]{1982ApJ...253..785A}
 {Arnett}, W.~D. 1982, \apj, 253, 785
 
+\bibitem[{{Arnett} {et~al.}(1985){Arnett}, {Branch}, \&
+  {Wheeler}}]{1985Natur.314..337A}
+{Arnett}, W.~D., {Branch}, D., \& {Wheeler}, J.~C. 1985, \nat, 314, 337
+
 \bibitem[{{Bellm}(2016)}]{2016PASP..128h4501B}
 {Bellm}, E.~C. 2016, \pasp, 128, 084501
 
@@ -80,6 +84,11 @@
 \bibitem[{{Blondin} \& {Tonry}(2007)}]{2007ApJ...666.1024B}
 {Blondin}, S., \& {Tonry}, J.~L. 2007, \apj, 666, 1024
 
+\bibitem[{{Blondin} {et~al.}(2012){Blondin}, {Matheson}, {Kirshner}, {Mandel},
+  {Berlind}, {Calkins}, {Challis}, {Garnavich}, {Jha}, {Modjaz}, {Riess}, \&
+  {Schmidt}}]{2012AJ....143..126B}
+{Blondin}, S., {Matheson}, T., {Kirshner}, R.~P., {et~al.} 2012, \aj, 143, 126
+
 \bibitem[{{Bloom} {et~al.}(2012){Bloom}, {Kasen}, {Shen}, {Nugent}, {Butler},
   {Graham}, {Howell}, {Kolb}, {Holmes}, {Haswell}, {Burwitz}, {Rodriguez}, \&
   {Sullivan}}]{2012ApJ...744L..17B}
@@ -88,6 +97,11 @@
 \bibitem[{{Branch} {et~al.}(2009){Branch}, {Chau Dang}, \&
   {Baron}}]{2009PASP..121..238B}
 {Branch}, D., {Chau Dang}, L., \& {Baron}, E. 2009, \pasp, 121, 238
+
+\bibitem[{{Branch} {et~al.}(2006){Branch}, {Dang}, {Hall}, {Ketchum},
+  {Melakayil}, {Parrent}, {Troxel}, {Casebeer}, {Jeffery}, \&
+  {Baron}}]{2006PASP..118..560B}
+{Branch}, D., {Dang}, L.~C., {Hall}, N., {et~al.} 2006, \pasp, 118, 560
 
 \bibitem[{{Breeveld} {et~al.}(2011){Breeveld}, {Landsman}, {Holland}, {Roming},
   {Kuin}, \& {Page}}]{2011AIPC.1358..373B}
@@ -438,6 +452,11 @@
   {Wheelock}}]{2006AJ....131.1163S}
 {Skrutskie}, M.~F., {Cutri}, R.~M., {Stiening}, R., {et~al.} 2006, \aj, 131,
   1163
+
+\bibitem[{{Stritzinger} {et~al.}(2006){Stritzinger}, {Leibundgut}, {Walch}, \&
+  {Contardo}}]{2006A&A...450..241S}
+{Stritzinger}, M., {Leibundgut}, B., {Walch}, S., \& {Contardo}, G. 2006, \aap,
+  450, 241
 
 \bibitem[{{Taddia} {et~al.}(2015){Taddia}, {Sollerman}, {Leloudas},
   {Stritzinger}, {Valenti}, {Galbany}, {Kessler}, {Schneider}, \&
