@@ -314,7 +314,7 @@ and (iii) the strong absorption from ionized carbon, are the result of either
 vigorous mixing of radioactive $^{56}$Ni in the SN ejecta, or ejecta
 interaction with diffuse material, or a combination of the two. In the next
 few years, dozens of very young \textit{normal} SNe Ia will be discovered, and
-observations similar to those presented here will constrain the white dwarf
+observations similar to those presented here will constrain the white dwarf    
 explosion mechanism.
 
 \end{abstract}
@@ -322,7 +322,7 @@ explosion mechanism.
 %% Keywords should appear after the \end{abstract} command. 
 %% See the online documentation for the full list of available subject
 %% keywords and the rules for their use.
-\keywords{methods: observational --- supernovae: general --- supernovae: individual (\abc)}
+\keywords{methods: observational --- surveys --- supernovae: general --- supernovae: individual (\abc)}
 
 %% From the front matter, we move on to the body of the paper.
 %% Sections are demarcated by \section and \subsection, respectively.
@@ -386,13 +386,14 @@ the SN shock breakout but before radioactive energy
 diffuses into the photosphere \citep{2014ApJ...784...85P}. The 
 duration of this dark phase is set by how the newly synthesized 
 $^{56}$Ni is mixed and deposited into different layers of the ejecta. In the case of strong mixing, the dark phase is short, or 
-non-existent, as $\gamma$-rays from the radioactive $^{56}$Ni diffuse to the photosphere rapidly. This also leads to blue optical colors and a rapid initial rise in the observed light curve. If the mixing is weak and the $^{56}$Ni is confined to the innermost layers of the ejecta, the dark phase can last for several days as the radioactive energy diffuses to the photosphere. The early evolution of such SNe results in redder colors and a more moderate rise in luminosity \citep{2016ApJ...826...96P}. Thus, the early light curves of even non-exotic Type Ia SNe convey information about their progenitor systems by constraining the distribution of synthesized $^{56}$Ni, which in turn constrains the explosion mechanism.\footnote{\citet{2015A&A...574A..60T} found that a significant dark phase is not prevalent for a sample of Type Ib/c SNe.}
+non-existent, as $\gamma$-rays from the radioactive $^{56}$Ni diffuse to the photosphere rapidly. This also leads to blue optical colors and a rapid initial rise in the observed light curve. If the mixing is weak and the $^{56}$Ni is confined to the innermost layers of the ejecta, the dark phase can last for several days. The early evolution of such SNe results in redder colors and a more moderate rise in luminosity \citep{2016ApJ...826...96P}. Thus, the early light curves of even non-exotic Type Ia SNe convey information about their progenitor systems by constraining the distribution of synthesized $^{56}$Ni, which in turn constrains the explosion mechanism.\footnote{\citet{2015A&A...574A..60T} found that a significant dark phase is not prevalent for a sample of Type Ib/c SNe.}
 
-\citet{2017arXiv170603613N} recently demonstrated that disambiguating between these different scenarios via optical photometry alone is challenging. \citeauthor{2017arXiv170603613N} further show that estimates of the time of explosion, which are critical for comparing models with observations, are often incorrect by as many as $\sim$2 d using common methods in the literature. While analytical models suggest that early spectra can be used to infer the time of explosion (e.g., \citealt{2014ApJ...784...85P}), more detailed simulations show that the photospheric evolution is not so simple \citep{2016ApJ...826...96P}. Reconciling these issues requires both a larger sample of early SNe Ia observations and more detailed models that produce synthetic light curves and spectra.
+\citet{2017arXiv170603613N} demonstrate that disambiguating between these different scenarios via optical photometry alone is challenging. \citeauthor{2017arXiv170603613N} further show that estimates of the time of explosion, which are critical for comparing models with observations, are often incorrect by as many as $\sim$2\,d using common methods in the literature. While analytical models suggest that early spectra can be used to infer the time of explosion (e.g., \citealt{2014ApJ...784...85P}), more detailed simulations show that the photospheric evolution is not so simple \citep{2016ApJ...826...96P}. Reconciling these issues requires both a larger sample of early SNe Ia observations and more detailed models that produce synthetic light curves and spectra.
 
-In this paper, we report observations of an extraordinarily young SN Ia, \abc, which was discovered by the intermediate Palomar Transient Factory (iPTF) on 2016 April $3.36$ UTC at $\textrm{R.A.}=13^h34^m45.49^s$, $\textrm{Dec.}=+13\degr51\arcmin14\farcs3$ (J2000) with a $g_\mathrm{PTF}$-band magnitude of $21.31\pm0.27$ \citep{2016ATel.8907....1M}. The transient is spatially coincident with a tidal tail of the galaxy NGC\,5221, which lies at a distance of $\sim$100\,Mpc. \abc\ is not detected to a limit of $g=22.1$\,mag on April $2.42$, less than 1 d prior to discovery, and rose by $\sim$2 mag in the 24 hr following its initial detection. Our spectroscopic follow-up
+In this paper, we report observations of an extraordinarily young SN Ia, \abc, which was discovered by the intermediate Palomar Transient Factory (iPTF) on 2016 April $3.36$ UTC at $\textrm{R.A.}=13^h34^m45.49^s$, $\textrm{Dec.}=+13\degr51\arcmin14\farcs3$ (J2000) with a $g_\mathrm{PTF}$-band magnitude of $21.31\pm0.27$ \citep{2016ATel.8907....1M}. The transient is spatially coincident with a tidal tail of the galaxy NGC\,5221, which lies at a distance of $\sim$100\,Mpc. \abc\ is not detected to a limit of $g=22.1$\,mag on April $2.42$, less than 1\,d prior to discovery, and rose by $\sim$2 mag in the 24 hr following its initial detection. Our spectroscopic follow-up
 campaign classified \abc\ as a normal SN Ia
 \citep{2016ATel.8909....1C}. Our observations and analysis show that the early evolution of \abc\ exhibited several distinct properties relative to SN\,2011fe. We interpret those differences as arising from either strong $^{56}$Ni mixing or ejecta interaction with diffuse material, or a combination of the two.
+Alongside this paper, we have released our open source analysis and all of the data utilized in this study. These are available online at \texttt{GitHub} \url{https://github.com/adamamiller/iPTF16abc}.
 
 % This paper is organized as follows: Section \ref{sec:obs} describes
 % photometric and spectroscopic observations of \abc. Section
@@ -400,8 +401,21 @@ campaign classified \abc\ as a normal SN Ia
 % in NGC\,5221. Section \ref{sec:first_light} analyzes the early
 % light curve and spectra.
 
+
 \section{Observations}
 \label{sec:obs}
+
+During the spring of 2016, the iPTF survey observed the field of \abc\ every night during dark time in either the $g_\mathrm{PTF}$ or 
+$R_\mathrm{PTF}$ band.\footnote{P48 observations of \abc\ are reported in the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ filters throughout, which are similar to the SDSS $g'$ and Mould-$R$ filters, respectively (see \citealt{2012PASP..124..854O} for details on PTF calibration). The correction from the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ filters to SDSS $g'$ and $r'$ requires knowledge of the intrinsic source color (see Eqns.~1 and 2 in \citealt{2012PASP..124..854O}). The spectral diversity of SNe Ia in the days after explosion is poorly constrained, and as a result the color terms for \abc\ at these epochs are unknown. We proceed by assuming the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ calibration is on the AB system, which strictly speaking is incorrect, but this does not fundamentally alter any of our conclusions.} 
+Survey observations were conducted with the
+CFH12K camera \citep{2008SPIE.7014E..4YR} on the Palomar Observatory 
+48-inch telescope (P48; \citealt{2009PASP..121.1395L}). Images were processed by the IPAC image
+subtraction and discovery pipeline which subtracts off the background
+galaxy light with stacked pre-SN images and performs forced
+point-spread-function (PSF) photometry at the location of the SN 
+\citep{2017PASP..129a4002M}. The
+photometry is then calibrated to the PTF photometric catalog
+\citep{2012PASP..124..854O}.
 
 \begin{figure}[htb]
   \centering
@@ -418,18 +432,6 @@ campaign classified \abc\ as a normal SN Ia
   }
   \label{fig:lightcurve}
 \end{figure}
-
-During the spring of 2016, the iPTF survey observed the field of \abc\ every night during dark time in either the $g_\mathrm{PTF}$ or 
-$R_\mathrm{PTF}$ band.\footnote{P48 observations of \abc\ are reported in the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ filters throughout, which are similar to the SDSS $g'$ and Mould-$R$ filters, respectively (see \citealt{2012PASP..124..854O} for details on PTF calibration). The correction from the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ filters to SDSS $g'$ and $r'$ requires knowledge of the intrinsic source color (see Eqns.~1 and 2 in \citealt{2012PASP..124..854O}). The spectral diversity of SNe Ia in the days after explosion is poorly constrained, and as a result the color terms for \abc\ at these epochs are unknown. We proceed by assuming the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ calibration is on the AB system, which strictly speaking is incorrect, but this does not fundamentally alter any of our conclusions.} 
-Survey observations were conducted with the
-CFH12K camera \citep{2008SPIE.7014E..4YR} on the Palomar Observatory 
-48-inch telescope (P48; \citealt{2009PASP..121.1395L}). Images were processed by the IPAC image
-subtraction and discovery pipeline which subtracts off the background
-galaxy light with stacked pre-SN images and performs forced
-point-spread-function (PSF) photometry at the location of the SN 
-\citep{2017PASP..129a4002M}. The
-photometry is then calibrated to the PTF photometric catalog
-\citep{2012PASP..124..854O}.
 
 After discovery, photometric observations in the $g'$, $r'$ and $i'$
 filters were obtained with the SED Machine 
@@ -449,7 +451,7 @@ The Reionization and Transients InfraRed (RATIR) camera on the autonomous 1.5\,m
 The RATIR data were reduced, coadded, and analyzed using standard CCD and IR processing techniques in \texttt{IDL}, \texttt{Python}, \texttt{SExtractor} \citep{1996A&AS..117..393B}, and \texttt{SWarp}. Aperture photometry is obtained following the methods described in \citet{2014AJ....148....2L}. The $r'i'Z$ filters are calibrated to SDSS \citep{2014ApJS..211...17A}, while the $JH$ filters are calibrated to the Two Micron All Sky Survey \citep{2006AJ....131.1163S}. For the $Y$-band calibration, we used an empirical relation in terms of the $J$ and $H$ magnitudes derived from the United Kingdom Infrared Telescope (UKIRT; \citealt{2007A&A...467..777C}) Wide Field Camera observations \citep{2009MNRAS.394..675H}.
 
 The \textit{Swift} satellite observed \abc\ on 14 epochs, beginning 
-$\sim$15 d pre-maximum light through $\sim$22 d post maximum. The SN 
+$\sim$15\,d pre-maximum light through $\sim$22\,d post maximum. The SN 
 flux is measured via aperture photometry on Ultraviolet-Optical
 Telescope (UVOT) images via the usual procedures in 
 \texttt{HEASoft}, including corrections for coincidence loss and 
@@ -512,7 +514,7 @@ spectral evolution of \abc\ is illustrated in Figure
 
 \begin{figure*}[!htb]
   \centering
-  \includegraphics[width=0.78\textwidth]{spectra.pdf}
+  \includegraphics[width=0.69\textwidth]{spectra.pdf}
   \caption{Observed spectral sequence of \abc. The spectra are 
   normalized by their median flux between 6,000 and 
   7,000$\,\textrm{\AA}$.  The phase of each spectrum 
@@ -543,14 +545,14 @@ NGC\,5221 and measure a redshift of $0.0234$, which we adopt for the remaining a
 A detailed study of the reddening towards \abc\ is presented in a 
 companion paper (Ferretti et al.\ 2017, submitted). Briefly, the 
 foreground Galactic extinction toward \abc\
-is $E(B-V) = 0.0279 \, \mathrm{mag}$ \citep{2011ApJ...737..103S}. The high-resolution spectra presented in Ferretti et al.\ (2017) show multiple absorption components for both the \ion{Ca}{2}\,H$+$K and \ion{Na}{1}\,D doublets. While the equivalent width (EW) of these lines is quite large, implying a large amount of extinction (e.g., \citealt{2012MNRAS.426.1465P}), Ferretti et al.\ compare the evolution of \abc\ to the well-observed normal Type Ia SN\,2011fe and find evidence for only a small amount of extinction. The empirical relation between the EW of \ion{Na}{1}\,D and extinction is known to have a large scatter, and \citet{2013ApJ...779...38P} have shown that \ion{Na}{1}\,D absorption is a poor tracer of reddening in Type Ia SNe. Thus, we instead adopt $E(B-V) = 0.05 \, \mathrm{mag}$ as the local extinction for \abc\ (Ferretti et al.\ 2017). Thus, we assume a total, Galactic $+$ host galaxy, line-of-sight extinction of $E(B-V) = 0.08 \, \mathrm{mag}$ for the remainder of our analysis.
+is $E(B-V) = 0.0279 \, \mathrm{mag}$ \citep{2011ApJ...737..103S}. The high-resolution spectra presented in Ferretti et al.\ (2017) show multiple absorption components for both the \ion{Ca}{2}\,H$+$K and \ion{Na}{1}\,D doublets. While the equivalent width (EW) of these lines is quite large, implying significant extinction (e.g., \citealt{2012MNRAS.426.1465P}), Ferretti et al.\ compare the evolution of \abc\ to the well-observed normal Type Ia SN\,2011fe and only find evidence for a small amount of extinction. The empirical relation between the EW of \ion{Na}{1}\,D and extinction is known to have a large scatter, and \citet{2013ApJ...779...38P} have shown that \ion{Na}{1}\,D absorption is a poor tracer of reddening in Type Ia SNe. Thus, we adopt $E(B-V) = 0.05 \, \mathrm{mag}$ as the local extinction for \abc\ (Ferretti et al.\ 2017). For the remainder of our analysis we assume a total, Galactic $+$ host galaxy, line-of-sight extinction of $E(B-V) = 0.08 \, \mathrm{mag}$.
 
 \subsection{Classification}
 \label{sec:classification}
 
 Using the SuperNova IDentification (\texttt{SNID}; \citealt{2007ApJ...666.1024B}) package, 
-we find the low-resolution spectrum of \abc\ at $+18.8$ d is best matched by normal SNe Ia. Several characteristic features of a SN
-Ia, such as \ion{Si}{2}, \ion{S}{2}, can be easily identified in the spectra of \abc\ (Figure \ref{fig:spec_seq}). From the $+3.7 \, \mathrm{d}$ LCO spectrum, we measure the pseudo-equivalent widths (pEWs) of the absorption features near 5750 and 6100 \AA, which are respectively attributed to \ion{Si}{2}\,$\lambda\lambda$6580, 7234, to be $-12 \pm 2$ \AA\ and $-55 \pm 5$ \AA, respectively. From these measurements, \abc\ is a shallow silicon SN, similar to the SN\,1999aa-likes, according to the classification scheme presented in \citet{2009PASP..121..238B}.
+we find the low-resolution spectrum of \abc\ at $+18.8$\,d is best matched by normal SNe Ia. Several characteristic features of a SN
+Ia, such as \ion{Si}{2}, \ion{S}{2}, can be easily identified in the spectra of \abc\ (Figure \ref{fig:spec_seq}). From the $+3.7 \, \mathrm{d}$ LCO spectrum, we measure the pseudo-equivalent widths (pEWs) of the absorption features near 5750 and 6100 \AA, which are respectively attributed to \ion{Si}{2}\,$\lambda\lambda$6580, 7234, to be $-12 \pm 2$\,\AA\ and $-55 \pm 5$\,\AA, respectively. According to the classification scheme presented in \citet{2009PASP..121..238B}, these pEW measurements indicate that \abc\ is a shallow silicon SN, similar to the SN\,1999aa-likes.
 
 To determine the brightness and time of $B$-band maximum for 
 \abc, we fit the P60 light curves with the \texttt{sncosmo} software package.\footnote{\texttt{sncosmo} is available at
@@ -620,6 +622,7 @@ than the initial observations of \abc\ discussed here.}
 As our observations include especially early observations of \abc, there are
 upper limits $\sim$1 d prior to the discovery epoch, we model the early flux
 from \abc\ as a power law, but allow the power-law index to vary:
+
 \begin{equation}
   \label{eq:broken_power_law}
   f(t) \left\{
@@ -669,21 +672,23 @@ uncertain time of explosion.
   \centering
   \includegraphics[width=0.48\textwidth]{early_lc.pdf}
   \caption{Best-fit power-law model to describe the early flux 
-  from \abc\ in the $g_\mathrm{PTF}$ band. The relative flux, 
+  from \abc\ in the $g_\mathrm{PTF}$ band. \textit{Top}: The 
+  relative flux, 
   $f_{g_\mathrm{PTF}}$, shown as green circles, is measured via 
   forced-PSF photometry at the SN location. The model flux, 
   adopting best-fit parameters $\alpha=0.98$ and 
-  $t_0=-17.94\,\textrm{d}$, is shown as a dashed black line in the 
-  top panel. Also shown is the best-fit model after fixing 
+  $t_0=-17.94\,\textrm{d}$, is shown as a dashed black line. Also 
+  shown is the best-fit model after fixing 
   $\alpha=2$ (thin, dash-dot line). 
-  The lower panel shows the observations and models following 
+  The joint distribution of $t_0$ and $\alpha$ for the best-fit 
+  power-law model is illustrated in the inset. 
+  The solid contours represent the $68\%$ and $99.7\%$ confidence 
+  levels.
+  \textit{Bottom}: 
+  The observations and models following 
   subtraction of the best-fit power-law model, $f_{\alpha = 0.98}$.
   The $t^{0.98}$ model provides a much better fit to the 
-  observations than the $t^2$ model.  
-  The joint distribution of $t_0$ and $\alpha$ for the best-fit 
-  power-law model is illustrated in the inset of the upper panel. 
-  The solid contours represent the $68\%$ and $99.7\%$ confidence 
-  levels. 
+  observations than the $t^2$ model. 
   }
   \label{fig:early_lc_fit}
 \end{figure}
@@ -733,8 +738,8 @@ determine the photospheric velocity from the
 sign of multi-velocity components of \ion{Si}{2}, and that 
 the \ion{C}{2}\,$\lambda$6580 line overlaps the red
 wing of the \ion{Si}{2} line (see Figures~\ref{fig:spec_seq} and \ref{fig:carbon}). Consequently, we model the observed 
-spectra between 5,900 and 6,500\,\AA\ (rest-frame) as the combination 
-of two Gaussian kernels plus a linear baseline, which
+spectra between 5900 and 6500\,\AA\ (rest-frame) as the 
+combination of two Gaussian kernels plus a linear baseline, which
 accounts for \ion{Si}{2}, \ion{C}{2} and the
 continuum, respectively. The expansion
 velocity of \ion{Si}{2} is measured by the central wavelength
@@ -744,7 +749,7 @@ of the \ion{Si}{2} Gaussian kernel.
   \centering
   \includegraphics[width=0.48\textwidth]{Chi2.pdf}
   \includegraphics[width=0.48\textwidth]{VelocityPlot.pdf}
-  \caption{Constraints on $t_{exp}$ from fitting the velocity
+  \caption{Constraints on $t_\mathrm{exp}$ from fitting the velocity
     evolution of \ion{Si}{2}.
     \textit{Left panel:} the dashed, solid and dash-dotted curves 
     show $\chi^2$ for fitting power laws with
@@ -765,17 +770,17 @@ of the \ion{Si}{2} Gaussian kernel.
 \end{figure*}
 
 We fit the measured velocities of \ion{Si}{2}\,$\lambda$6355 to the
-$v\propto(t-t_{exp})^{-0.22}$ model by minimizing the $\chi^2$ value and find the best-fit explosion time relative to $T_{B,\mathrm{max}}$ in the SN rest frame to be $t_{exp} = -17.45 \pm ^{0.14}_{0.16}\,\textrm{d}$, where the uncertainties represent the 95\% confidence interval (Figure \ref{fig:velocity_t_exp}). Following the analysis in \citet{2014ApJ...784...85P}, we additionally alter the power-law index to $-0.20$ and $-0.24$ to examine the sensitivity of the result on the assumed power-law index. We find that this variation in the power-law index results in a change of $t_\mathrm{exp}$ of $\approx\pm$0.5\,d (Figure \ref{fig:velocity_t_exp}). Given the analytical approximation that $v \propto t^{-0.22}$, we adopt $t_{exp} = -17.5 \pm 0.5 \; \mathrm{d}$, where the uncertainty reflects possible variations in the power-lax index (see \citealt{2014ApJ...784...85P}).
+$v\propto(t-t_\mathrm{exp})^{-0.22}$ model by minimizing the $\chi^2$ value and find the best-fit explosion time relative to $T_{B,\mathrm{max}}$ in the SN rest frame to be $t_\mathrm{exp} = -17.45 \pm ^{0.14}_{0.16}\,\textrm{d}$, where the uncertainties represent the 95\% confidence interval (Figure \ref{fig:velocity_t_exp}). Following the analysis in \citet{2014ApJ...784...85P}, we additionally alter the power-law index to $-0.20$ and $-0.24$ to examine the sensitivity of the result on the assumed power-law index. We find that this variation in the power-law index results in a change of $t_\mathrm{exp}$ of $\approx\pm$0.5\,d (Figure \ref{fig:velocity_t_exp}). Given the analytical approximation that $v \propto t^{-0.22}$, we adopt $t_\mathrm{exp} = -17.5 \pm 0.5 \; \mathrm{d}$, where the uncertainty reflects possible variations in the power-lax index (see \citealt{2014ApJ...784...85P}).
 
-Comparing our estimates for $t_{exp}$ and $t_0$ (left panel of 
+Comparing our estimates for $t_\mathrm{exp}$ and $t_0$ (left panel of 
 Figure \ref{fig:velocity_t_exp}), we find that 
-$t_0\lesssim t_{exp}$.
-Since physical causality requires $t_{exp} \le t_0$, we draw the qualitative
-conclusion that $t_0\simeq t_{exp}$, which is consistent to within the uncertainties. Again, we caution that this derivation of $t_\mathrm{exp}$ relies on the assumption $v \propto t^{-0.22}$, which may not be valid for all SNe Ia.  
+$t_0\lesssim t_\mathrm{exp}$.
+Since physical causality requires $t_\mathrm{exp} \le t_0$, we draw the qualitative
+conclusion that $t_0\simeq t_\mathrm{exp}$, which is consistent to within the uncertainties. Again, we caution that this derivation of $t_\mathrm{exp}$ relies on the assumption $v \propto t^{-0.22}$, which may not be valid for all SNe Ia.  
 
 % From $t_{exp}$, we estimate the actual rise time of \abc\ from the
 % time of explosion to \textit{B}-band maximum to be $17.95$ d.  In
-% comparison, SN2011fe has $t_0=-17.7$ d \citep{2013A&A...554A..27P}
+% comparison, SN2011fe has $t_0=-17.7$\,d \citep{2013A&A...554A..27P}
 % with a preceding dark phase of $\sim 1$ day
 % \citep{2014ApJ...784...85P}. ASASSN-14lp has $t_0=-16.94$ days with a
 % preceding dark phase of about acouple of days
@@ -804,7 +809,7 @@ strength of the \ion{C}{2} lines declines with time, and by $t \approx -10 \; \m
   (see text for further details). The dark grey vertical lines show 
   the measured line centers, indicating the decline in the 
   photosphere velocity in the $\sim$7~d after explosion (note that 
-  \ion{C}{2}\,$\lambda$7234 is not detected in the $-10.9$ d 
+  \ion{C}{2}\,$\lambda$7234 is not detected in the $-10.9$\,d 
   spectrum). The phase of each spectrum relative to 
   $T_{B,\mathrm{max}}$ is labeled.
   }
@@ -840,7 +845,7 @@ Multiband observations of \abc\ began $\sim$1.5 d after discovery, which allows 
   \label{fig:B-Vcolors}
 \end{figure}
 
-Roughly 16 d prior to $B$-band maximum, the $(B - V)_0$ color of \abc\ is $\sim$0.5 mag bluer than SN\,2011fe. Like \abc, SN\,2012cg \citep{2016ApJ...820...92M} and SN\,2017cbv \citep{2017arXiv170608990H} exhibit $(B - V)_0$ colors that are significantly bluer than SN\,2011fe at very early epochs. While there are many factors that contribute to the early optical colors of SNe Ia (see \S\ref{sec:lc_energy} below), early blue colors are often interpreted as a hallmark of interaction between the SN ejecta and a binary companion. Nevertheless, it is interesting to note that despite the blue optical colors, the $\mathrm{UV} - \mathrm{optical}$ colors of \abc, SN\,2012cg, and SN\,2017cbv are significantly redder at these early epochs than the $\mathrm{UV} - \mathrm{optical}$ colors of iPTF\,14atg \citep{2015Natur.521..328C}, the most likely candidate for SN ejecta-companion interaction. 
+Roughly 16\,d prior to $B$-band maximum, the $(B - V)_0$ color of \abc\ is $\sim$0.5 mag bluer than SN\,2011fe. Like \abc, SN\,2012cg \citep{2016ApJ...820...92M} and SN\,2017cbv \citep{2017arXiv170608990H} exhibit $(B - V)_0$ colors that are significantly bluer than SN\,2011fe at very early epochs. While there are many factors that contribute to the early optical colors of SNe Ia (see \S\ref{sec:lc_energy} below), early blue colors are often interpreted as a hallmark of interaction between the SN ejecta and a binary companion. Nevertheless, it is interesting to note that despite the blue optical colors, the $\mathrm{UV} - \mathrm{optical}$ colors of \abc, SN\,2012cg, and SN\,2017cbv are significantly redder at these early epochs than the $\mathrm{UV} - \mathrm{optical}$ colors of iPTF\,14atg \citep{2015Natur.521..328C}, the most likely candidate for SN ejecta-companion interaction. 
 
 \section{Discussion}
 \label{sec:lc_energy}
@@ -880,7 +885,7 @@ UV. The resulting \textit{g}-band emission is expected to be weak.
 
 To examine the possibility of a SN-companion signature in the early
 light curve of \abc, we employ the \citet{2010ApJ...708.1025K}
-model and assume canonical values for the ejecta mass, $1.4\,\sm$, expansion velocity, $10^{4}\,\textrm{km}\,\textrm{s}^{-1}$, and a constant opacity, $0.2\,\textrm{cm}^2\,\textrm{g}^{-1}$. We calculate the expected $g_\mathrm{PTF}$ brightness of an ejecta-companion collision at the distance of \abc\ behind a total reddening of $E(B-V) = 0.08 \, \mathrm{mag}$ using the parameterized equations in \citet{2012ApJ...749...18B}. If we assume the binary is aligned with the optimal orientation relative to the line of sight, a binary separation of $a \approx 3 \times 10^{11}\, \mathrm{cm}$ is needed to explain the initial detection of \abc, as shown in Figure~\ref{fig:SN-companion}.  The minimum binary separation capable of explaining the observed brightness at the epoch of discovery is $a \approx 10^{11} \, \mathrm{cm}$. Figure~\ref{fig:SN-companion} shows that such models peak at $g_\mathrm{PTF} \approx 21.5 \, \mathrm{mag}$, provided that $t_\mathrm{exp} \approx t_0 - 0.3 \; \mathrm{d}$. These models do not, however, match the $g_\mathrm{PTF}$ evolution for $t > t_0 + 0.5 \, \mathrm{d}$ (though it is possible that the SN photosphere dominates the companion-interaction signature at this phase). While they are otherwise compatible with the observations, we do not favor the above models as the explanation for the early flux from \abc\ because they do not explain the 2 mag rise in the $\sim$24 hr after discovery.
+model and assume canonical values for the ejecta mass, $1.4\,\sm$, expansion velocity, $10^{4}\,\textrm{km}\,\textrm{s}^{-1}$, and a constant opacity, $0.2\,\textrm{cm}^2\,\textrm{g}^{-1}$. We calculate the expected $g_\mathrm{PTF}$ brightness of an ejecta-companion collision at the distance of \abc\ behind a total reddening of $E(B-V) = 0.08 \, \mathrm{mag}$ using the parameterized equations in \citet{2012ApJ...749...18B}. If we assume the binary is aligned with the optimal orientation relative to the line of sight, a binary separation of $a \approx 3 \times 10^{11}\, \mathrm{cm}$ is needed to explain the initial detection of \abc, as shown in Figure~\ref{fig:SN-companion}.  The minimum binary separation capable of explaining the observed brightness at the epoch of discovery is $a \approx 10^{11} \, \mathrm{cm}$. Figure~\ref{fig:SN-companion} shows that such models peak at $g_\mathrm{PTF} \approx 21.5 \, \mathrm{mag}$, provided that $t_\mathrm{exp} \approx t_0 - 0.3 \, \mathrm{d}$. These models do not, however, match the $g_\mathrm{PTF}$ evolution for $t > t_0 + 0.5 \, \mathrm{d}$ (though it is possible that the SN photosphere dominates the companion-interaction signature at this phase). While they are otherwise compatible with the observations, we do not favor the above models as the explanation for the early flux from \abc\ because they do not explain the 2 mag rise in the $\sim$24 hr after discovery.
 
 \begin{figure}[!thb]
   \centering
@@ -900,8 +905,8 @@ model and assume canonical values for the ejecta mass, $1.4\,\sm$, expansion vel
   explain the early optical rise, they greatly 
   overpredict the UV flux. Models with $a \approx 10^{11} \, 
   \mathrm{cm}$ can explain the initial detection \abc, but they 
-  fail to replicate the $\sim$2 mag rise in the $\sim$24 hr after 
-  explosion.
+  fail to replicate the $\sim$2\,mag rise in the $\sim$24\,hr 
+  after explosion.
   }
   \label{fig:SN-companion}
 \end{figure}
@@ -912,15 +917,15 @@ The challenges associated with each of the previously considered models lead us 
 
 \subsection{Sub-Chandrasekhar Double Detonation}
 
-The detonation of a WD with $M < 1.4 M_\odot$, which can occur if triggered by a detonation in a He surface layer that was accreted from a binary companion (known as the sub-Chandrasekhar double detonation), can produce a rapid rise and early blue optical colors (e.g., \citealt{2017arXiv170603613N}). While this qualitative behavior matches \abc, the $U-V$ colors predicted in \citet{2017arXiv170603613N} do not match our observations. In particular, the sub-Chandrasekhar double detonation model $U - V$ colors rapidly evolve from $\sim$$-0.6\,\mathrm{mag}$ $\sim$1\,d after explosion to $\sim$0.5\,mag $\sim$3\,d after explosion. We observe a steady $U - V$ color evolution from the red to the blue for \abc, however, with $U - V \approx 0.6 \, \mathrm{mag}$ $\sim$2\,d after $t_0$ and $U - V \approx 0 \, \mathrm{mag}$ $\sim$8\,d after $t_0$. As such we conclude that \abc\ is not the result of a sub-Chandrasekhar double detonation. \citet{2017arXiv170603613N} do note that their one-dimensional models may not capture the predicted asphericity for sub-Chandrasekhar double detonations, though moving away from the preferred viewing angle results in redder colors and a more gradual rise, which is not observed for \abc. 
+The detonation of a WD with $M < 1.4 \, M_\odot$, which can occur if triggered by a He-surface-layer detonation (known as the sub-Chandrasekhar double detonation), can produce a rapid rise and early blue optical colors (e.g., \citealt{2017arXiv170603613N}). While this qualitative behavior matches \abc, the $U-V$ colors predicted in \citet{2017arXiv170603613N} do not match our observations. In particular, the sub-Chandrasekhar double detonation model $U - V$ colors rapidly evolve from $\sim$$-0.6\,\mathrm{mag}$ $\sim$1\,d after explosion to $\sim$0.5\,mag $\sim$3\,d after explosion. We observe a steady $U - V$ color evolution from the red to the blue for \abc, however, with $U - V \approx 0.6 \, \mathrm{mag}$ $\sim$2\,d after $t_0$ and $U - V \approx 0 \, \mathrm{mag}$ $\sim$8\,d after $t_0$. As such we conclude that \abc\ is not the result of a sub-Chandrasekhar double detonation. \citet{2017arXiv170603613N} note that their one-dimensional models may not capture the predicted asphericity for sub-Chandrasekhar double detonations, though moving away from the preferred viewing angle results in redder colors and a more gradual rise, which is not observed for \abc. 
 
 \subsection{Interaction with \textbf{Nearby, Unbound} Material}
 
 To model SN\,2011fe, \citet{2014MNRAS.441..532D} recently examined pulsational delayed-detonation (PDD) models as an explanation for some SNe Ia. Briefly, PDD models differ from ``standard'' delayed detonation (DD) models in that the expansion of the WD during the initial deflagration phase leads to the release of unbound material. Following this pulsation, the bound material contracts eventually triggering a subsequent detonation.\footnote{\citet{2014MNRAS.441..532D} note that the deflagration and detonation in their PDD models are artificially triggered.} An important consequence of this progression for PDD models is that the unbound material expands and avoids burning, unlike DD models that typically leave no unburnt material. This results in significantly more carbon in the outer layers of the SN ejecta \citep{2014MNRAS.441..532D}.
 
-When comparing observations of SN\,2011fe to their DD models, \citet{2014MNRAS.441..532D} find that the models are universally too faint and red at early times, $\sim$24-48 hr after explosion.  Instead, \citet{2014MNRAS.441..532D} find that PDD models provide a better match to observations. Briefly, the diffuse material surrounding the WD heats the outer layers of the SN ejecta leading to a steeper more luminous rise, with bluer colors in the few days after explosion. Importantly, the PDD models are nearly indistinguishable from DD models around and post peak. 
+When comparing observations of SN\,2011fe to their DD models, \citet{2014MNRAS.441..532D} find that the models are universally too faint and red at early times, $\sim$24--48\,hr after explosion.  Instead, \citet{2014MNRAS.441..532D} find that PDD models provide a better match to observations. Briefly, the diffuse material surrounding the WD heats the outer layers of the SN ejecta leading to a steeper more luminous rise, with bluer colors. Importantly, the PDD models are nearly indistinguishable from DD models around and post peak. 
 
-Qualitatively, the PDD models provide a better match to the observations of \abc\ than DD models. In particular, PDD models provide higher luminosities and faster rise times in the days after explosion, a more rapid evolution towards blue optical colors, and the formation of strong \ion{C}{2} lines that gradually disappear in the $\sim$week after explosion. Quantitatively, there are still some short comings of the models presented in \citet{2014MNRAS.441..532D}. In particular, the power-law index for the $g$-band rise is $\alpha \approx 3$ for each of the PDD models, which is significantly more steep than $\alpha = 0.98$, which we measure for \abc. The optical colors for \abc\ are blue from our first epoch $\sim$1.7 d after explosion and remain approximately constant in the 10 d after explosion, whereas the PDD models in \citet{2014MNRAS.441..532D} either exhibit distinct color evolution (i.e.\ are not constant) or are too red in the first few days after explosion. Nevertheless, the PDD models presented in \citet{2014MNRAS.441..532D} provide several attractive explanations for the unusual features in the early behavior of \abc, and it may be possible that small adjustments to the model (e.g., additional mixing of the radioactive material, adjustments in the explosion energy, etc.) can better match \abc.
+Qualitatively, the PDD models provide a better match to the observations of \abc\ than DD models. In particular, PDD models provide higher luminosities and faster rise times in the days after explosion, a more rapid evolution towards blue optical colors, and the formation of strong \ion{C}{2} lines that gradually disappear in the $\sim$week after explosion. Quantitatively, there are still some short comings of the models presented in \citet{2014MNRAS.441..532D}. In particular, the power-law index for the $g$-band rise is $\alpha \approx 3$ for each of the PDD models, which is significantly more steep than $\alpha = 0.98$, which we measure for \abc. The optical colors for \abc\ are blue from our first epoch $\sim$1.7\,d after explosion and remain approximately constant in the 10\,d after explosion, whereas the PDD models in \citet{2014MNRAS.441..532D} either exhibit distinct color evolution (i.e.\ are not constant) or are too red in the first few days after explosion. Nevertheless, the PDD models presented in \citet{2014MNRAS.441..532D} provide several attractive explanations for the unusual features in the early behavior of \abc, and it may be possible that small adjustments to the model (e.g., additional mixing of the radioactive material, adjustments in the explosion energy, etc.) can better match \abc.
 
 \subsection{Strong $^{56}Ni$ Mixing in the SN Ejecta}
 \label{sec:Ni_mixing}
@@ -991,13 +996,13 @@ never distinguish between these two possibilities \citep{2017arXiv170603613N}.
 
 \subsection{The Emerging Sample of Young SNe Ia}
 
-The proliferation of high-cadence, time-domain surveys has led to several SNe Ia being discovered within $\lesssim$2 d of first light in the past $\sim$decade. Observations probing the early evolution of these SNe allows us to place unique constraints on their progenitor systems and the corresponding explosion physics. This has revealed diversity in the earliest epochs after explosion and that commonly used SNe Ia templates do not match observations (e.g., \citealt{2012ApJ...744...38F}).
+The proliferation of high-cadence, time-domain surveys has led to several SNe Ia being discovered within $\lesssim$2\,d of first light in the past $\sim$decade. Observations probing the early evolution of these SNe allows us to place unique constraints on their progenitor systems and the corresponding explosion physics. This has revealed diversity in the earliest epochs after explosion and that commonly used SNe Ia templates do not match observations (e.g., \citealt{2012ApJ...744...38F}).
 
 In \S\ref{sec:first_light} we compared our early observations of \abc\ to SN\,2011fe, which has the most comprehensive observations of the young SN Ia sample. Given its normal spectroscopic and photometric evolution, SN\,2011fe has been adopted as a standard for the early evolution of SNe Ia in many studies. While a detailed quantitative analysis is beyond the scope of this study, a qualitative examination of very young SNe Ia that otherwise exhibit normal spectra and evolution at and post-peak\footnote{This definition excludes iPTF\,14atg, which was shown to be subluminous with SN\,2002es-like spectra \citep{2015Natur.521..328C}.} reveals considerable diversity. In other words, at early times SN\,2011fe may not be the norm.
 
 For SN\,2011fe the initial rise is well described by a $t^2$ power law, the $(B - V)_0$ colors evolve from the red to the blue in the $\sim$week after explosion, and the \ion{C}{2} present in the initial spectra is weak \citep{2011Natur.480..344N,2016ApJ...820...67Z,2012ApJ...752L..26P}. In contrast, \abc\ exhibits a near linear rise in flux, the $(B - V)_0$ colors are blue and roughly constant, and the \ion{C}{2} absorption is strong. Examining just these 3 qualitative features, SN\,2009ig is well matched to SN\,2011fe \citep{2012ApJ...744...38F}, while SN\,2013dy \citep{2013ApJ...778L..15Z}, SN\,2017cbv \citep{2017arXiv170608990H}, and \abc\ all bear a striking resemblance. SN\,2012cg, on the other hand, is intermediate to these two groups with weak C II and a relatively shallow early rise, like SN\,2011fe, but blue $(B - V)_0$ colors, like \abc\ \citep{2012ApJ...756L...7S,2016ApJ...820...92M}. SN\,2014J is intermediate in the other direction in that it exhibits a near linear rise \citep{2014ApJ...783L..24Z,2015ApJ...799..106G}, but the color evolution is very similar to SN\,2011fe \citep{2014ApJ...788L..21A}.\footnote{\ion{C}{2} is not detected in the spectra of SN\,2014J \citep{2014ApJ...784L..12G,2014ApJ...783L..24Z}, though the earliest spectra of SN\,2014J were obtained at a much later phase than the other SNe discussed here. \citet{2015ApJ...798...39M} find evidence for \ion{C}{1} in the NIR spectra of SN\,2014J, but this detection cannot constrain the relative strength of \ion{C}{2} and \ion{Si}{2} shortly after explosion.} That these early observations cannot be easily separated into two distinct groups suggests that it is unlikely that a single physical mechanism drives the diversity of SNe Ia at early times. 
 
-In the case of SN\,2012cg and SN\,2017cbv it has been argued that the early blue optical colors are indicative of interaction between the SN ejecta and a binary companion \citep{2016ApJ...820...92M,2017arXiv170608990H}. SN\,2017cbv is particularly remarkable in that the observations presented in \citet{2017arXiv170608990H} show a clearly resolved bump in the $U$, $B$, and $g'$ bands in the $\sim$5 d after explosion. In \citeauthor{2017arXiv170608990H} it is found that the bump can be explained via the combination of ejecta-companion interaction and the normal evolution of a SN Ia. A challenge for this model, similar to \abc\ (see \S\ref{sec:companion}), is that it significantly overpredicts the UV brightness of the SN compared to what is observed. Indeed, in the case of SNe\,2012cg, 2017cbv, and \abc\ the $\mathrm{UV} - \mathrm{optical}$ colors are significantly redder than those observed in iPTF\,14atg. It is argued in \citet{2017arXiv170608990H} that several model assumptions, including: (i) ideal blackbody emission, (ii) a constant opacity, (iii) a simple power-law density profile for the ejecta, and (iv) spherical symmetry, may be incorrect, which could reconcile the discrepancy with the UV observations. Above, we argued for circumstellar interaction and strong $^{56}$Ni mixing as a possible explanation for \abc, and indeed \citet{2017arXiv170608990H} consider these possibilities for SN\,2017cbv as well. Separately, several arguments against companion interaction for SN\,2012cg are presented in \citet{2016arXiv161007601S}. 
+In the case of SN\,2012cg and SN\,2017cbv it has been argued that the early blue optical colors are indicative of interaction between the SN ejecta and a binary companion \citep{2016ApJ...820...92M,2017arXiv170608990H}. SN\,2017cbv is particularly remarkable in that the observations presented in \citet{2017arXiv170608990H} show a clearly resolved bump in the $U$, $B$, and $g'$ bands in the $\sim$5\,d after explosion. In \citeauthor{2017arXiv170608990H} it is found that the bump can be explained via the combination of ejecta-companion interaction and the normal evolution of a SN Ia. A challenge for this model, similar to \abc\ (see \S\ref{sec:companion}), is that it significantly overpredicts the UV brightness of the SN compared to what is observed. Indeed, in the case of SNe\,2012cg, 2017cbv, and \abc\ the $\mathrm{UV} - \mathrm{optical}$ colors are significantly redder than those observed in iPTF\,14atg. It is argued in \citet{2017arXiv170608990H} that several model assumptions, including: (i) ideal blackbody emission, (ii) a constant opacity, (iii) a simple power-law density profile for the ejecta, and (iv) spherical symmetry, may be incorrect, which could reconcile the discrepancy with the UV observations. Above, we argued for circumstellar interaction and strong $^{56}$Ni mixing as a possible explanation for \abc, and indeed \citet{2017arXiv170608990H} consider these possibilities for SN\,2017cbv as well. Separately, several arguments against companion interaction for SN\,2012cg are presented in \citet{2016arXiv161007601S}. 
 
 Ultimately, there are arguments in favor of and against each of the possibilities to explain the early emission from SNe Ia. Moving forward, more detailed models and simulations are needed to properly explain the observed diversity. No matter the correct explanation for the early behavior of SNe\,2013dy, 2017cbv, and \abc, the strong similarities between these events suggests that they may reflect a common physical origin. 
 
@@ -1018,7 +1023,7 @@ campaign allowed us to draw the following conclusions:
     \item The strong and short-lived carbon features seen in the 
 earliest spectra of \abc\ can only be explained if there is incomplete burning. The pulsational delayed detonation models presented in \citet{2014MNRAS.441..532D} produce \ion{C}{2} absorption that is as strong as \ion{Si}{2} at very early phases.
 
-    \item In contrast to SN\,2011fe, $(B - V)_0$ is $\sim$0.5 mag bluer for \abc\ $\sim$2 d after $t_0$. Furthermore, the $(B - V)_0$ colors of \abc\ show no evolution over the first $\sim$7 d  of observations.
+    \item In contrast to SN\,2011fe, $(B - V)_0$ is $\sim$0.5 mag bluer for \abc\ $\sim$2\,d after $t_0$. Furthermore, the $(B - V)_0$ colors of \abc\ show no evolution over the first $\sim$7\,d  of observations.
 
     \item Finally, we show that the early light curve evolution and colors of \abc\ are well matched by the theoretical models of \citet{2016ApJ...826...96P} that include significant mixing of $^{56}$Ni into the outer layers of the SN ejecta. 
  

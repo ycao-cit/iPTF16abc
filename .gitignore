@@ -68,7 +68,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-data/.ipynb_checkpoints/
+data/.ipynb_checkpoints/*.ipynb
 
 # pyenv
 .python-version
@@ -98,3 +98,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# arXiv, referee_report folders
+doc/arxiv/*
+doc/referee_report/*
