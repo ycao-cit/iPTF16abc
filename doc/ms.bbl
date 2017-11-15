@@ -180,6 +180,11 @@
   \procspie, Vol. 4841, Instrument Design and Performance for Optical/Infrared
   Ground-based Telescopes, ed. M.~{Iye} \& A.~F.~M. {Moorwood}, 1657--1669
 
+\bibitem[{{Fink} {et~al.}(2014){Fink}, {Kromer}, {Seitenzahl},
+  {Ciaraldi-Schoolmann}, {R{\"o}pke}, {Sim}, {Pakmor}, {Ruiter}, \&
+  {Hillebrandt}}]{2014MNRAS.438.1762F}
+{Fink}, M., {Kromer}, M., {Seitenzahl}, I.~R., {et~al.} 2014, \mnras, 438, 1762
+
 \bibitem[{{Fitzpatrick}(1999)}]{1999PASP..111...63F}
 {Fitzpatrick}, E.~L. 1999, \pasp, 111, 63
 
@@ -257,9 +262,9 @@
 \bibitem[{{Hosseinzadeh} {et~al.}(2017){Hosseinzadeh}, {Sand}, {Valenti},
   {Brown}, {Howell}, {McCully}, {Kasen}, {Arcavi}, {Azalee Bostroem},
   {Tartaglia}, {Hsiao}, {Davis}, {Shahbandeh}, \&
-  {Stritzinger}}]{2017arXiv170608990H}
-{Hosseinzadeh}, G., {Sand}, D.~J., {Valenti}, S., {et~al.} 2017, ArXiv
-  e-prints, arXiv:1706.08990
+  {Stritzinger}}]{2017ApJ...845L..11H}
+{Hosseinzadeh}, G., {Sand}, D.~J., {Valenti}, S., {et~al.} 2017, \apjl, 845,
+  L11
 
 \bibitem[{{Im} {et~al.}(2015){Im}, {Choi}, {Yoon}, {Kim}, {Ehgamberdiev},
   {Monard}, \& {Sung}}]{2015ApJS..221...22I}
@@ -339,9 +344,13 @@
   786
 
 \bibitem[{{Noebauer} {et~al.}(2017){Noebauer}, {Kromer}, {Taubenberger},
-  {Baklanov}, {Blinnikov}, {Sorokina}, \& {Hillebrandt}}]{2017arXiv170603613N}
-{Noebauer}, U.~M., {Kromer}, M., {Taubenberger}, S., {et~al.} 2017, ArXiv
-  e-prints, arXiv:1706.03613
+  {Baklanov}, {Blinnikov}, {Sorokina}, \& {Hillebrandt}}]{2017MNRAS.472.2787N}
+{Noebauer}, U.~M., {Kromer}, M., {Taubenberger}, S., {et~al.} 2017, \mnras,
+  472, 2787
+
+\bibitem[{{Nomoto} {et~al.}(1984){Nomoto}, {Thielemann}, \&
+  {Yokoi}}]{1984ApJ...286..644N}
+{Nomoto}, K., {Thielemann}, F.-K., \& {Yokoi}, K. 1984, \apj, 286, 644
 
 \bibitem[{{Nugent} {et~al.}(2011){Nugent}, {Sullivan}, {Cenko}, {Thomas},
   {Kasen}, {Howell}, {Bersier}, {Bloom}, {Kulkarni}, {Kandrashoff},
@@ -417,8 +426,20 @@
 {Rahmer}, G., {Smith}, R., {Velur}, V., {et~al.} 2008, in \procspie, Vol. 7014,
   Ground-based and Airborne Instrumentation for Astronomy II, 70144Y
 
+\bibitem[{{Sasdelli} {et~al.}(2017){Sasdelli}, {Hillebrandt}, {Kromer},
+  {Ishida}, {R{\"o}pke}, {Sim}, {Pakmor}, {Seitenzahl}, \&
+  {Fink}}]{2017MNRAS.466.3784S}
+{Sasdelli}, M., {Hillebrandt}, W., {Kromer}, M., {et~al.} 2017, \mnras, 466,
+  3784
+
 \bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{2011ApJ...737..103S}
 {Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011, \apj, 737, 103
+
+\bibitem[{{Seitenzahl} {et~al.}(2013){Seitenzahl}, {Ciaraldi-Schoolmann},
+  {R{\"o}pke}, {Fink}, {Hillebrandt}, {Kromer}, {Pakmor}, {Ruiter}, {Sim}, \&
+  {Taubenberger}}]{2013MNRAS.429.1156S}
+{Seitenzahl}, I.~R., {Ciaraldi-Schoolmann}, F., {R{\"o}pke}, F.~K., {et~al.}
+  2013, \mnras, 429, 1156
 
 \bibitem[{{Shappee} {et~al.}(2016{\natexlab{a}}){Shappee}, {Piro}, {Stanek},
   {Patel}, {Margutti}, {Lipunov}, \& {Pogge}}]{2016arXiv161007601S}

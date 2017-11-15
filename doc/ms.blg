@@ -1,6 +1,10 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ./ms.aux
+White space in argument---line 38 of file ./ms.aux
+ : \citation{2014MNRAS.441..532D,2016ApJ...826...96P,2017MNRAS.466.3784S,2017MNRAS.
+ :                                                                                  472.2787N}
+I'm skipping whatever remains of this command
 The style file: aasjournal.bst
 Database file #1: msNotes.bib
 Database file #2: ref.bib
@@ -21,45 +25,45 @@ Repeated entry---line 36690 of file ref.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 89 entries,
+You've used 93 entries,
             3222 wiz_defined-function locations,
-            1367 strings with 46740 characters,
-and the built_in function-call counts, 54629 in all, are:
-= -- 3370
-> -- 6144
+            1404 strings with 48095 characters,
+and the built_in function-call counts, 56652 in all, are:
+= -- 3525
+> -- 6309
 < -- 24
-+ -- 2030
-- -- 2162
-* -- 5619
-:= -- 10564
-add.period$ -- 89
-call.type$ -- 89
-change.case$ -- 463
-chr.to.int$ -- 87
-cite$ -- 89
-duplicate$ -- 1704
-empty$ -- 2592
-format.name$ -- 2262
-if$ -- 10472
++ -- 2083
+- -- 2222
+* -- 5808
+:= -- 10936
+add.period$ -- 93
+call.type$ -- 93
+change.case$ -- 481
+chr.to.int$ -- 91
+cite$ -- 93
+duplicate$ -- 1774
+empty$ -- 2710
+format.name$ -- 2326
+if$ -- 10884
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 81
-newline$ -- 272
-num.names$ -- 359
-pop$ -- 704
+missing$ -- 85
+newline$ -- 284
+num.names$ -- 375
+pop$ -- 731
 preamble$ -- 1
-purify$ -- 463
+purify$ -- 481
 quote$ -- 0
-skip$ -- 1322
+skip$ -- 1385
 stack$ -- 0
-substring$ -- 1547
+substring$ -- 1647
 swap$ -- 106
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 801
+type$ -- 837
 warning$ -- 0
-while$ -- 308
+while$ -- 323
 width$ -- 0
-write$ -- 894
-(There were 4 error messages)
+write$ -- 934
+(There were 5 error messages)
