@@ -674,7 +674,6 @@ shallow-silicon subclass.}
   \centering
   \includegraphics[width=0.48\textwidth]{Branch_vel_evol.pdf}
   \caption{
-  
   \textbf{Velocity evolution of \ion{Si}{2},
   $v_{\mathrm{Si\,II}\,\lambda6355}$, for \abc\ compared to the median
   evolution of the four spectroscopic subclasses defined in
@@ -687,7 +686,6 @@ shallow-silicon subclass.}
   is $\sim$700\,km\,s$^{-1}$, around $T_{B,\mathrm{max}}$. At early times,
   core-normal and broad-line SNe have significantly faster \ion{Si}{2} than
   \abc, while the declining trend of cool SNe does not match \abc.} }
-  
   \label{fig:branch_vel}
 \end{figure}
 
@@ -706,7 +704,7 @@ principle component $x_1 = 0.96 \pm 0.15$, and the color term $c = 0.033 \pm
 0.029$. The best-fit model also gives an unreddened apparent peak magnitude of
 $m^*_{B}=15.80 \pm 0.04 \,\textrm{mag}$ in the SN rest frame. In the following
 sections, we adopt $\textrm{MJD}_\mathrm{max}=57499.54$ as the time of
-$B$-band maximum, $T_{B_\mathrm{max}}$, and phase $t=0$.
+$B$-band maximum, $T_{B,_\mathrm{max}}$, and phase $t=0$.
 
 We measure the (pseudo)bolometric luminosity, $L_{UVOIR}$, of \abc\ at peak
 via trapezoidal integration of the reddening-corrected flux from the UV,
@@ -753,13 +751,13 @@ flux and $t$ is the time since explosion. Despite \textbf{these simplified assum
 early emission from Type Ia SNe can be described as a power law in time, with
 power-law index consistent with 2, i.e. $f \propto t^2$ (e.g.,
 \citealt{2006AJ....132.1707C, 2010ApJ...712..350H,
-2011MNRAS.416.2607G}).\footnote{Many of the studies that find $f \propto t^2$
-sample SNe Ia light curves at a phase that is closer to $T_{B,\mathrm{max}}$
-than the initial observations of \abc\ discussed here.}
+2011MNRAS.416.2607G}).\footnote{Many of these studies
+sample SNe Ia light curves at phases closer to $T_{B,\mathrm{max}}$
+than our initial observations of \abc.}
 
-As our observations include especially early observations of \abc, there are
-upper limits $\sim$1 d prior to the discovery epoch, we model the early flux
-from \abc\ as a power law, but allow the power-law index to vary:
+As our observations include especially early observations of \abc, the SN is
+not detected $\sim$1\,d prior to discovery, we model the early flux from \abc\
+as a power law:
 
 \begin{equation}
   \label{eq:broken_power_law}
@@ -770,24 +768,25 @@ from \abc\ as a power law, but allow the power-law index to vary:
     \end{array}
   \right.\ ,
 \end{equation}
+% 
 where $t_0$ is the time of first light, $\alpha$ is the power-law index, and
 $t$ is measured in the SN rest-frame. \textbf{We allow $\alpha$ to vary to
-find the best match to the data, and later show that models with $\alpha = 2$
-do not explain the data.} To determine $t_0$ and $\alpha$ we fit the earliest
-observations of \abc. Due to slight variations in the passbands, we fit the
-model only to the relative flux measured in the $g_\mathrm{PTF}$-band, which
+find the best match to the data, and later show that $\alpha = 2$ is not
+compatible with the observations.} To determine $t_0$ and $\alpha$ we fit the
+earliest observations of \abc. Due to slight variations in the passbands, the
+model is fit only to the relative $g_\mathrm{PTF}$-band flux. $g_\mathrm{PTF}$
 is the only filter with observations prior to first light, a necessity for
 constraining $t_0$.
 
 To determine the best fit parameters, we search a large grid over $t_0$,
 $\alpha$, and the proportionality constant, and minimize $\chi^2$. The
 modeling results show that the SN flux rises approximately linearly between
-$t=-18\,\textrm{d}$ and $t=-15\,\textrm{d}$. Figure \ref{fig:early_lc_fit}
+$t=-18\,\mathrm{d}$ and $t=-15\,\mathrm{d}$. Figure \ref{fig:early_lc_fit}
 shows the best-fit result and the joint marginal distribution of $t_0$ and
 $\alpha$. From the best-fit model we obtain $\alpha=0.98 \pm ^{0.16}_{0.14}$
 and $t_0=-17.91 \pm ^{0.07}_{0.15}$ d, where the uncertainties represent the
 marginalized 95\% confidence intervals. Our first detection of \abc\ occurred
-$\sim$${0.15}\,\textrm{d}$ after the SN first light. In the analysis that
+$\sim$${0.15}\,\textrm{d}$ after $t_0$. In the analysis that
 follows, the precise values of the best-fit parameters are not important. The
 critical finding here is that $\alpha \approx 1$ and $t_0 \approx -18 \,
 \mathrm{d}$.
@@ -803,153 +802,129 @@ $t_\mathrm{rise}$, of SNe Ia is challenging as there may be a dark phase
 following explosion \citep{2014ApJ...784...85P}. Nevertheless, to be
 consistent with previous studies (e.g., \citealt{2011MNRAS.416.2607G}), here
 we find $t_\mathrm{rise} = 17.91\pm _{0.07}^{0.15}$ d based on our fit for
-$t_0$. We caution that this measurement may be underestimated due to the
-uncertain time of explosion.
+$t_0$. We caution, \textbf{however, that $t_0$ corresponds to the time when \abc\ was first detectable by P48 and not the time of explosion.}
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.48\textwidth]{early_lc.pdf}
-  \caption{Best-fit power-law model to describe the early flux 
-  from \abc\ in the $g_\mathrm{PTF}$ band. \textit{Top}: The 
-  relative flux, 
-  $f_{g_\mathrm{PTF}}$, shown as green circles, is measured via 
-  forced-PSF photometry at the SN location. The model flux, 
-  adopting best-fit parameters $\alpha=0.98$ and 
-  $t_0=-17.94\,\textrm{d}$, is shown as a dashed black line. Also 
-  shown is the best-fit model after fixing 
-  $\alpha=2$ (thin, dash-dot line). 
-  The joint distribution of $t_0$ and $\alpha$ for the best-fit 
-  power-law model is illustrated in the inset. 
-  The solid contours represent the $68\%$ and $99.7\%$ confidence 
-  levels.
-  \textit{Bottom}: 
-  The observations and models following 
-  subtraction of the best-fit power-law model, $f_{\alpha = 0.98}$.
-  The $t^{0.98}$ model provides a much better fit to the 
-  observations than the $t^2$ model. 
-  }
+  \caption{
+  Best-fit $f \propto t^\alpha$ model to describe the early flux from \abc\ in
+  the $g_\mathrm{PTF}$ band. \textit{Top}: The relative flux,
+  $f_{g_\mathrm{PTF}}$, shown as green circles, is measured via forced-PSF
+  photometry. The model flux, adopting best-fit parameters $\alpha=0.98$ and
+  $t_0=-17.91\,\textrm{d}$, is shown as a thick, dashed line. Also shown is
+  the best-fit model after fixing $\alpha=2$ (thin, dash-dot line). The inset
+  shows the joint distribution of $t_0$ and $\alpha$ for the best-fit
+  power-law model. The solid contours represent the $68\%$ and $99.7\%$
+  confidence levels. \textit{Bottom}: The observations and models following
+  subtraction of the best-fit power-law model, $f_{\alpha = 0.98}$. The
+  $t^{0.98}$ model provides a much better fit to the observations than the
+  $t^2$ model.}
   \label{fig:early_lc_fit}
 \end{figure}
 
-Simulations presented in \citet{2017MNRAS.472.2787N} show that the flux from
-SNe Ia explosion models does not evolve as a power law in time. Despite this
-non-power-law evolution, \citet{2017MNRAS.472.2787N} show that $f \propto
-t^\alpha$ models produce good formal fits to simulated observations. The $f
-\propto t^\alpha$ fits to the \citeauthor{2017MNRAS.472.2787N}\ models result
-in glaring errors to the estimated explosion times. Despite the caution
-advised in \citet{2017MNRAS.472.2787N}, we proceed with the power-law fits
-from above for several reasons. (1) Our primary aim with the fit is to
-characterize $\alpha$ for \abc\ compared to SN\,2011fe (see below). (2) The
-errors in the estimated explosion times from \citeauthor{2017MNRAS.472.2787N}
-increase the later the first observation of the SN is obtained.
-\citeauthor{2017MNRAS.472.2787N} only present fits to observations that start
-$>$2\,d after explosion, whereas the discovery epoch for \abc\ is likely much
-earlier than that (see \S\ref{sec:early_vel}). (3) We do not use the fits to
-estimate the time of explosion, $t_0$ instead is an estimate of the time of
-first light. \textbf{Finally,} (4) Pre-discovery upper limits, which are not
-included in \citeauthor{2017MNRAS.472.2787N}, provide additional strong
-constraints on the time of first light.
-
 Unlike \abc, the early emission from SN\,2011fe is well fit by a $f \propto
-t^2$ model \citep{2011Natur.480..344N}. Thus, the near-linear rise in flux
-over the first few days after first light for \abc\ is distinct compared to
-SN\,2011fe. To our knowledge this behavior has only been observed in 2 other
-SNe (2013dy, 2014J;
+t^2$ model \citep{2011Natur.480..344N}. Thus, the near-linear flux evolution
+observed in \abc\ is distinct compared to SN\,2011fe. To our knowledge this
+behavior has only been observed in 2 other SNe (2013dy, 2014J;
 \citealt{2013ApJ...778L..15Z,2014ApJ...783L..24Z,2015ApJ...799..106G}). Any
 model to explain the observations of \abc\ must account for this near-linear
 rise in the days after first light.
 
+As a brief aside, we note that simulations presented in
+\citet{2017MNRAS.472.2787N} show that SNe Ia explosion models do not evolve as
+a power law in time. \textbf{\citeauthor{2017MNRAS.472.2787N}\ demonstrate
+that $f \propto t^\alpha$ fits to simulated light curves result in glaring
+errors to the estimated explosion times. While caution is advised in
+\citet{2017MNRAS.472.2787N}, we note that our primary aim with the power-law
+fit is to characterize $\alpha$ for \abc\ compared to SN\,2011fe.}
+
 \subsection{Time of Explosion from the Photospheric Velocity}
 \label{sec:early_vel}
 
-The potential dark phase following shock breakout, where SNe Ia are not luminous because the energy deposition from radioactive decay has not had sufficient time to diffuse to the photosphere, means that the explosion time $t_\mathrm{exp} \ne t_0$ in some cases. \citet{2014ApJ...784...85P} suggest that measurements of the photospheric velocity be used to determine $t_\mathrm{exp}$ given that the ejecta begin expanding from the moment of explosion.  Assuming a constant opacity in the ejecta, \citeauthor{2014ApJ...784...85P} 
-find that the photospheric velocity evolves as
-$v_\mathrm{ph}\propto(t-t_\mathrm{exp})^{-0.22}$. Numerical experiments by \citet{2016ApJ...826...96P} find that the constant-opacity assumption strongly depends on the amount of $^{56}$Ni mixing in the SN ejecta (for a more detailed discussion of $^{56}$Ni mixing see \S\ref{sec:Ni_mixing}). As a result, the adoption of a $t^{-0.22}$ power-law model may not be valid for all SNe Ia. Nevertheless, we proceed on the assumption that \abc\ experienced strong $^{56}$Ni mixing, corresponding to the models that are best approximated as a $t^{-0.22}$ power law. We do this in part to compare with previous studies, though we caution that the inferred value of $t_{exp}$ is subject to uncertainties related to ejecta mixing. 
+\textbf{Given that the time of explosion $t_\mathrm{exp}$ is not constrained
+by $t_0$ (see above),} \citet{2014ApJ...784...85P} suggest that measurements
+of the photospheric velocity can determine $t_\mathrm{exp}$ given that the
+ejecta begin expanding from the moment of explosion. Assuming a constant
+opacity in the ejecta, \citeauthor{2014ApJ...784...85P} find that the
+photospheric velocity evolves as
+$v_\mathrm{ph}\propto(t-t_\mathrm{exp})^{-0.22}$. Numerical experiments by
+\citet{2016ApJ...826...96P} find that the constant-opacity assumption strongly
+depends on the amount of $^{56}$Ni mixing in the SN ejecta. As a result, the
+adoption of a $t^{-0.22}$ power-law model may not be valid for all SNe Ia.
+Nevertheless, we proceed on the assumption that \abc\ experienced strong
+$^{56}$Ni mixing \textbf{(see \S\ref{sec:Ni_mixing})}, corresponding to the
+models that are best approximated as a $t^{-0.22}$ power law. We do this in
+part to compare with previous studies, though we caution that the inferred
+value of $t_{exp}$ is subject to uncertainties related to ejecta mixing.
 
-While the photospheric velocity
-is not easy to measure, line velocities of \ion{Si}{2} or \ion{Ca}{2}
-can be used as a proxy
-\citep{2014ApJ...784...85P,2016ApJ...826..144S}. In the case of \abc, the \ion{Ca}{2} IR triplet is very weak, 
-likely due to high temperatures in the ejecta. Thus, we
-determine the photospheric velocity from the 
-\ion{Si}{2}\,$\lambda$6355 line. Visual inspection shows no 
-sign of multi-velocity components of \ion{Si}{2}, and that 
-the \ion{C}{2}\,$\lambda$6580 line overlaps the red
-wing of the \ion{Si}{2} line (see Figures~\ref{fig:spec_seq} and \ref{fig:carbon}). Consequently, we model the observed 
-spectra between 5900 and 6500\,\AA\ (rest-frame) as the 
-combination of two Gaussian kernels plus a linear baseline, which
-accounts for \ion{Si}{2}, \ion{C}{2} and the
-continuum, respectively. The expansion
-velocity of \ion{Si}{2} is measured by the central wavelength
-of the \ion{Si}{2} Gaussian kernel.
+While the photospheric velocity is not easy to measure, line velocities of
+\ion{Si}{2} or \ion{Ca}{2} can be used as a proxy
+\citep{2014ApJ...784...85P,2016ApJ...826..144S}. In the case of \abc, the
+\ion{Ca}{2} IR triplet is very weak, likely due to high temperatures in the
+ejecta. Thus, we determine the photospheric velocity from the
+\ion{Si}{2}\,$\lambda$6355 line. Visual inspection shows no sign of
+multi-velocity components of \ion{Si}{2}, and that the
+\ion{C}{2}\,$\lambda$6580 line overlaps the red wing of the \ion{Si}{2} line
+(see Figures~\ref{fig:spec_seq} and \ref{fig:carbon}). Consequently, we model
+the observed spectra between 5900 and 6500\,\AA\ (rest-frame) as the
+combination of two Gaussian kernels plus a linear baseline, which accounts for
+\ion{Si}{2}, \ion{C}{2} and the continuum, respectively. The expansion
+velocity of \ion{Si}{2} is measured by the central wavelength of the
+\ion{Si}{2} Gaussian kernel.
 
 \begin{figure*}[!thb]
   \centering
   \includegraphics[width=0.48\textwidth]{Chi2.pdf}
   \includegraphics[width=0.48\textwidth]{VelocityPlot.pdf}
-  \caption{Constraints on $t_\mathrm{exp}$ from fitting the velocity
-    evolution of \ion{Si}{2}.
-    \textit{Left panel:} the dashed, solid and dash-dotted curves 
-    show $\chi^2$ for fitting power laws with
-    indices $-0.20$, $-0.22$ and $-0.24$, respectively. The blue
-    vertical line and the orange shaded region indicate $t_0$ and 
-    its 95\% confidence interval from Section
-    \ref{sec:lc_fit}, respectively.
-    \textit{Right panel:} Observed \ion{Si}{2}\,$\lambda$6355
-    velocities (blue circles) and the best-fit power-law model
-     with an index of $-0.22$ (dashed line). Additionally, the 
-     measured velocities of \ion{C}{2}\,$\lambda\lambda$6580, 7234 
-     are shown. Typical uncertainties are smaller than the size of 
-     the points. \textit{Right inset}: Evolution of the 
-     pseudo-equivalent width of \ion{Si}{2}\,$\lambda$6355, and 
-     \ion{C}{2}\,$\lambda\lambda$6580, 7234 in the $\sim$7~d    
-     following explosion.}
+  \caption{
+  Constraints on $t_\mathrm{exp}$ from the velocity evolution of \ion{Si}{2}.
+  \textit{Left panel:} the dashed, solid and dash-dotted curves show $\chi^2$
+  for fitting power laws with indices $-0.20$, $-0.22$ and $-0.24$,
+  respectively. The blue vertical line and the orange shaded region indicate
+  $t_0$ and its 95\% confidence interval from Section \ref{sec:lc_fit},
+  respectively. \textit{Right panel:} Observed \ion{Si}{2}\,$\lambda$6355
+  velocities (blue circles) and the best-fit power-law model with an index of
+  $-0.22$ (dashed line). \textbf{For comparison}, the measured velocities of
+  \ion{C}{2}\,$\lambda\lambda$6580, 7234 are also shown. Typical uncertainties
+  are smaller than the size of the points. \textit{Right inset}: Evolution of
+  the pseudo-equivalent width of \ion{Si}{2}\,$\lambda$6355, and
+  \ion{C}{2}\,$\lambda\lambda$6580, 7234 in the $\sim$7\,d following 
+  explosion.}
   \label{fig:velocity_t_exp}
 \end{figure*}
 
 We fit the measured velocities of \ion{Si}{2}\,$\lambda$6355 to the
-$v\propto(t-t_\mathrm{exp})^{-0.22}$ model by minimizing the $\chi^2$ value
-and find the best-fit explosion time relative to $T_{B,\mathrm{max}}$ in the
-SN rest frame to be $t_\mathrm{exp} = -17.45 \pm ^{0.14}_{0.16}\,\textrm{d}$,
-where the uncertainties represent the 95\% confidence interval (Figure
-\ref{fig:velocity_t_exp}). Following the analysis in
-\citet{2014ApJ...784...85P}, we additionally alter the power-law index to
+$v_\mathrm{ph}\propto(t-t_\mathrm{exp})^{-0.22}$ model by minimizing the
+$\chi^2$ value and find the best-fit explosion time relative to
+$T_{B,\mathrm{max}}$ in the SN rest frame to be $t_\mathrm{exp} = -17.45 \pm
+^{0.14}_{0.16}\,\textrm{d}$, where the uncertainties represent the 95\%
+confidence interval (Figure \ref{fig:velocity_t_exp}). Following the analysis
+in \citet{2014ApJ...784...85P}, we additionally alter the power-law index to
 $-0.20$ and $-0.24$ to examine the sensitivity of the result on the assumed
-power-law index. We find that this variation in the power-law index results in
-a change of $t_\mathrm{exp}$ of $\approx\pm$0.5\,d (Figure
-\ref{fig:velocity_t_exp}). Given the analytical approximation that $v \propto
-t^{-0.22}$, we adopt $t_\mathrm{exp} = -17.5 \pm 0.5 \; \mathrm{d}$, where the
-uncertainty reflects possible variations in the power-lax index (see
-\citealt{2014ApJ...784...85P}).
+value of $-0.22$. We find that this variation in the power-law index results
+in a change of $t_\mathrm{exp}$ of $\approx\pm$0.5\,d (Figure
+\ref{fig:velocity_t_exp}). Given the analytical approximation that
+$v_\mathrm{ph} \propto t^{-0.22}$, we adopt $t_\mathrm{exp} = -17.5 \pm 0.5 \;
+\mathrm{d}$, where the uncertainty reflects possible variations in the
+power-lax index (see \citealt{2014ApJ...784...85P}).
 
-Comparing our estimates for $t_\mathrm{exp}$ and $t_0$ (left panel of Figure
-\ref{fig:velocity_t_exp}), we find that $t_0\lesssim t_\mathrm{exp}$. Since
-physical causality requires $t_\mathrm{exp} \le t_0$, we draw the qualitative
-conclusion that $t_0\simeq t_\mathrm{exp}$, which is consistent to within the
-uncertainties. Again, we caution that this derivation of $t_\mathrm{exp}$
-relies on the assumption $v \propto t^{-0.22}$, which may not be valid for all
+Comparing our estimates for $t_\mathrm{exp}$ and $t_0$
+(Figure~\ref{fig:velocity_t_exp}), we find that $t_0\lesssim t_\mathrm{exp}$.
+Since physical causality requires $t_\mathrm{exp} \le t_0$, we draw the
+qualitative conclusion that $t_0\simeq t_\mathrm{exp}$, which is consistent to
+within the uncertainties. This derivation of $t_\mathrm{exp}$ relies on the
+assumption $v_\mathrm{ph} \propto t^{-0.22}$, which may not be valid for all
 SNe Ia.
-
-% From $t_{exp}$, we estimate the actual rise time of \abc\ from the
-% time of explosion to \textit{B}-band maximum to be $17.95$ d.  In
-% comparison, SN2011fe has $t_0=-17.7$\,d \citep{2013A&A...554A..27P}
-% with a preceding dark phase of $\sim 1$ day
-% \citep{2014ApJ...784...85P}. ASASSN-14lp has $t_0=-16.94$ days with a
-% preceding dark phase of about acouple of days
-% \citep{2016ApJ...826..144S}. This comparison suggests that the actual
-% rise time of a SN Ia between the SN explosion and the \textit{B}-band
-% maximum is roughly a constant, which largely depends on the total mass
-% of synthesized $^{56}$Ni.\ycao{I am not convinced by this last sentence}
 
 \subsection{Strong and Short-Lived Carbon Features}
 \label{sec:carbon}
 
-The early spectra of \abc\ exhibit unusually strong absorption due to
-\ion{C}{2} $\lambda\lambda$6580, 7234. We highlight the evolution of these
-spectral features in Figure~\ref{fig:carbon}. From these spectra we see that
+The early spectra of \abc\ exhibit unusually strong \ion{C}{2} $\lambda\lambda$6580, 7234 absorption. The evolution of these
+spectral features is highlighted in Figure~\ref{fig:carbon}, which shows that
 \ion{C}{2}\,$\lambda$6580 is as strong as \ion{Si}{2}\,$\lambda$6355 at $t
-\approx -15 \; \mathrm{d}$. The strength of the \ion{C}{2} lines declines with
-time, and by $t \approx -10 \; \mathrm{d}$ \ion{C}{2} is no longer detectable.
+\approx -15 \, \mathrm{d}$. The strength of the \ion{C}{2} lines declines with
+time, and by $t \approx -10 \, \mathrm{d}$ \ion{C}{2} is no longer detectable.
 
 \begin{figure}[]
   \centering
@@ -957,10 +932,9 @@ time, and by $t \approx -10 \; \mathrm{d}$ \ion{C}{2} is no longer detectable.
   \caption{
   Evolution of the \ion{C}{2} features observed in the early spectra of \abc.
   The raw spectra are shown in orange, while the solid blue lines show the
-  best-fit models including Gaussian components for each line and a linear
-  component for the continuum (see text for further details). The dark grey
-  vertical lines show the measured line centers, indicating the decline in the
-  photosphere velocity in the $\sim$7~d after explosion (note that
+  best-fit models (see text for further details). The dark grey vertical lines
+  show the measured line centers, \textbf{and clearly show} the decline in the
+  photosphere velocity in the $\sim$7~d after explosion (
   \ion{C}{2}\,$\lambda$7234 is not detected in the $-10.9$\,d spectrum). The
   phase of each spectrum relative to $T_{B,\mathrm{max}}$ is labeled.
   }
@@ -969,35 +943,52 @@ time, and by $t \approx -10 \; \mathrm{d}$ \ion{C}{2} is no longer detectable.
 
 Similar to our analysis of the \ion{Si}{2}\,$\lambda$6355 line, we can measure
 velocities and pEWs of \ion{C}{2}\,$\lambda\lambda$6580, 7234. We compare the
-velocity evolution of the \ion{C}{2} lines to \ion{Si}{2} in the right panel
-of Figure \ref{fig:velocity_t_exp}, which also shows the pEW evolution of
-these lines. These measurements confirm the qualitative analysis from
-Figure~\ref{fig:carbon}: namely, the pEW of \ion{C}{2}\,$\lambda$6580 is
-comparable to that of \ion{Si}{2}\,$\lambda$6355 at $t \approx -16 \;
-\mathrm{d}$ and the pEW of \ion{C}{2} decreases until the feature is no longer
-detectable around $t = -10$ d.
+velocity evolution of \ion{C}{2} to \ion{Si}{2} in the right panel of Figure
+\ref{fig:velocity_t_exp}, which also shows the pEWs of these lines. These
+measurements confirm the qualitative analysis from Figure~\ref{fig:carbon}:
+namely, the \textbf{strength} of \ion{C}{2}\,$\lambda$6580 is \textbf{similar
+to} \ion{Si}{2}\,$\lambda$6355 at $t \approx -16 \, \mathrm{d}$ before
+decreasing and eventually disappearing around $t = -10$ d.
 
-The detection of \ion{C}{2} in SN Ia spectra is relatively rare
-as it requires both unburned carbon, which is likely only present in the outermost layers of the ejecta, and non-local thermal equilibrium effects in order to excite the ionized carbon (e.g., \citealt{2007ApJ...654L..53T}). Spectra obtained around or after $T_{B_\mathrm{max}}$ rarely show \ion{C}{2} as the photosphere has receded from the outermost ejecta, while pre-max spectra show evidence for \ion{C}{2} in $\sim$1/4 of all normal SNe Ia (e.g., \citealt{2011ApJ...732...30P,2012MNRAS.425.1917S,2011ApJ...743...27T}), but the signatures are typically weak. While we caution that the sample of SNe Ia with spectra taken within a few days of explosion is small, SNe\,2013dy and 2017cbv are the only other objects known to have strong \ion{C}{2} features like \abc\ \citep{2013ApJ...778L..15Z,2017ApJ...845L..11H}. As a counterexample, SN\,2011fe only exhibited weak \ion{C}{2} features in its first spectra
-\citep{2012ApJ...752L..26P}. Thus, models of \abc\ must explain the strong \ion{C}{2} absorption observed shortly after explosion.
+The detection of \ion{C}{2} in SN Ia spectra is relatively rare as it requires
+both unburned carbon, which is likely only present in the outermost layers of
+the ejecta, and non-local thermal equilibrium effects in order to excite the
+ionized carbon (e.g., \citealt{2007ApJ...654L..53T}). Spectra obtained around
+or after $T_{B,_\mathrm{max}}$ rarely show \ion{C}{2} as the photosphere has
+receded from the outermost ejecta, while pre-max spectra show evidence for
+weak \ion{C}{2} absorption in $\sim$1/4 of all normal SNe Ia (e.g.,
+\citealt{2011ApJ...732...30P,2011ApJ...743...27T,2012MNRAS.425.1917S}). While
+the sample of SNe Ia with spectra taken within a few days of explosion is
+small, SNe\,2013dy and 2017cbv are the only other objects known to have strong
+\ion{C}{2} features like \abc\
+\citep{2013ApJ...778L..15Z,2017ApJ...845L..11H}. As a counterexample,
+SN\,2011fe only exhibited weak \ion{C}{2} features in its first spectra
+\citep{2012ApJ...752L..26P}. Thus, models of \abc\ must explain the strong
+\ion{C}{2} absorption observed shortly after explosion.
 
 \subsection{Blue Optical Colors Shortly After Explosion}
 
-Multiband observations of \abc\ began $\sim$1.5 d after discovery, which allows us to trace its color evolution starting $\sim$1.7 d after $t_0$. In Figure~\ref{fig:B-Vcolors} we compare the $(B - V)_0$ color evolution of \abc\ and SN\,2011fe, where the observations of SN\,2011fe are taken from \citet{2016ApJ...820...67Z}. For both SNe the colors have been corrected for the total inferred reddening along the line of sight. Interestingly, \abc\ has a nearly flat color evolution up to 10\,d before $T_{B,\mathrm{max}}$, while SN\,2011fe exhibits red colors initially before evolving to the blue.
+Multiband observations of \abc\ began $\sim$1.5\,d after discovery, which
+allows us to trace its color evolution starting $\sim$1.7\,d after $t_0$. In
+Figure~\ref{fig:B-Vcolors} we compare the $(B - V)_0$ color evolution of \abc\
+to observations of SN\,2011fe \citep{2016ApJ...820...67Z}. For both SNe the
+colors have been corrected for the total inferred reddening along the line of
+sight. Interestingly, \abc\ has a nearly flat color evolution up to $t \approx
+-10$\,d, while SN\,2011fe initially exhibits red colors before evolving to the
+blue.
 
 \begin{figure}[]
   \centering
   \includegraphics[width=0.48\textwidth]{16abc_11fe_colors.pdf}
-  \caption{$(B - V)_0$ color evolution of \abc\ (shown as squares) 
-    compared to SN\,2011fe (shown as stars). The $B$ and $V$ 
-    photometry are calibrated on the Vega system, and have been 
-    corrected for extinction. The data for 
+  \caption{$(B - V)_0$ color evolution of \abc\ (squares) 
+    compared to SN\,2011fe (stars). The $B$ and $V$ photometry are calibrated
+    on the Vega system, and have been corrected for extinction. The data for
     SN\,2011fe are from \citet{2016ApJ...820...67Z}.}
   \label{fig:B-Vcolors}
 \end{figure}
 
-Roughly 16\,d prior to $B$-band maximum, the $(B - V)_0$ color of \abc\ is
-$\sim$0.5 mag bluer than SN\,2011fe. Like \abc, SN\,2012cg
+Roughly 16\,d prior to $T_{B,_\mathrm{max}}$, the $(B - V)_0$ color of \abc\ is
+$\sim$0.5\,mag bluer than SN\,2011fe. Like \abc, SN\,2012cg
 \citep{2016ApJ...820...92M} and SN\,2017cbv \citep{2017ApJ...845L..11H}
 exhibit $(B - V)_0$ colors that are significantly bluer than SN\,2011fe at
 very early epochs. While there are many factors that contribute to the early
