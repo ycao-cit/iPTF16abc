@@ -464,72 +464,98 @@ available online at \texttt{GitHub}
 \section{Observations}
 \label{sec:obs}
 
-During the spring of 2016, the iPTF survey observed the field of \abc\ every night during dark time in either the $g_\mathrm{PTF}$ or 
-$R_\mathrm{PTF}$ band.\footnote{P48 observations of \abc\ are reported in the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ filters throughout, which are similar to the SDSS $g'$ and Mould-$R$ filters, respectively (see \citealt{2012PASP..124..854O} for details on PTF calibration). The correction from the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ filters to SDSS $g'$ and $r'$ requires knowledge of the intrinsic source color (see Eqns.~1 and 2 in \citealt{2012PASP..124..854O}). The spectral diversity of SNe Ia in the days after explosion is poorly constrained, and as a result the color terms for \abc\ at these epochs are unknown. We proceed by assuming the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$ calibration is on the AB system, which strictly speaking is incorrect, but this does not fundamentally alter any of our conclusions.} 
-Survey observations were conducted with the
-CFH12K camera \citep{2008SPIE.7014E..4YR} on the Palomar Observatory 
-48-inch telescope (P48; \citealt{2009PASP..121.1395L}). Images were processed by the IPAC image
-subtraction and discovery pipeline which subtracts off the background
-galaxy light with stacked pre-SN images and performs forced
-point-spread-function (PSF) photometry at the location of the SN 
-\citep{2017PASP..129a4002M}. The
-photometry is then calibrated to the PTF photometric catalog
-\citep{2012PASP..124..854O}.
+During the spring of 2016, the iPTF survey observed the field of \abc\ every
+night during dark time in either the $g_\mathrm{PTF}$ or $R_\mathrm{PTF}$
+band.\footnote{P48 observations of \abc\ are reported in the $g_\mathrm{PTF}$
+and $R_\mathrm{PTF}$ filters throughout, which are similar to the SDSS $g'$
+and Mould-$R$ filters, respectively (see \citealt{2012PASP..124..854O} for
+details on PTF calibration). The correction from the $g_\mathrm{PTF}$ and
+$R_\mathrm{PTF}$ filters to SDSS $g'$ and $r'$ requires knowledge of the
+intrinsic source color (see Eqns.~1 and 2 in \citealt{2012PASP..124..854O}).
+The spectral diversity of SNe Ia in the days after explosion is poorly
+constrained, and as a result the color terms for \abc\ at these epochs are
+unknown. We proceed by assuming the $g_\mathrm{PTF}$ and $R_\mathrm{PTF}$
+calibration is on the AB system, which strictly speaking is incorrect, but
+this does not fundamentally alter any of our conclusions.} Survey observations
+were conducted with the CFH12K camera \citep{2008SPIE.7014E..4YR} on the
+Palomar Observatory 48-inch telescope (P48; \citealt{2009PASP..121.1395L}).
+Images were processed by the IPAC image-subtraction pipeline, which subtracts
+background galaxy light \textbf{using deep} pre-SN images, and performs forced
+point-spread-function (PSF) photometry at the location of the SN
+\citep{2017PASP..129a4002M}. The photometry is then calibrated to the PTF
+photometric catalog \citep{2012PASP..124..854O}.
 
-\begin{figure}[htb]
-  \centering
-  \includegraphics[width=0.48\textwidth]{logLC_with_colors.pdf}
-  \caption{The $g$-band
-  light curve of \abc. Observations from different 
-  telescopes are shown with different symbols. Time is measured in 
-  rest-frame days relative to the time of first light, $t_0$ (see 
-  \S\ref{sec:lc_fit}). Note that the horizontal axis is shown with 
-  a linear scale for $-2 \; \mathrm{d} \le t - t_0 \le 3 \; 
-  \mathrm{d}$ and a $\log$ scale for $t - t_0 > 3 \; \mathrm{d}$. 
-  The black ticks near the
-  bottom of the panel show epochs of spectroscopic observations.
-  }
-  \label{fig:lightcurve}
+\begin{figure}[htb] 
+    \centering
+    \includegraphics[width=0.48\textwidth]{logLC_with_colors.pdf} 
+    \caption{
+    The $g$-band light curve of \abc. Observations from different telescopes
+    are shown with different symbols. Time is measured in rest-frame days
+    relative to $t_0$ (see \S\ref{sec:lc_fit}). Note that the horizontal axis
+    is shown with a linear scale for $-2 \; \mathrm{d} \le t - t_0 \le 3 \;
+    \mathrm{d}$ and a $\log$ scale for $t - t_0 > 3 \; \mathrm{d}$.
+    \textbf{Vertical} black ticks show epochs of spectroscopic observations. }
+    \label{fig:lightcurve} 
 \end{figure}
 
-After discovery, photometric observations in the $g'$, $r'$ and $i'$
-filters were obtained with the SED Machine 
-(SEDm; Blagorodnova et al.\ 2017, in prep.) mounted on the Palomar Observatory 
-60-inch telescope (P60). We utilized the Fremling Automated Pipeline (\texttt{FPipe}; \citealt{2016A&A...593A..68F}) to subtract galaxy light from the SEDm images using archival Sloan Digital Sky Survey (SDSS) images as a reference. This pipeline then performed forced-PSF photometry at the location of \abc, which is calibrated to the SDSS catalog \citep{2014ApJS..211...17A}.
+After discovery, $g'$, $r'$ and $i'$-band \textbf{photometry was} obtained
+with the SED Machine (SEDm; \citealt{2017arXiv171002917B}) mounted on the
+Palomar Observatory 60-inch telescope (P60). We utilized the Fremling
+Automated Pipeline (\texttt{FPipe}; \citealt{2016A&A...593A..68F}) to subtract
+galaxy light from the SEDm images using archival Sloan Digital Sky Survey
+(SDSS) images as a reference. This pipeline then performed forced-PSF
+photometry at the location of \abc, which is calibrated to the SDSS catalog
+\citep{2014ApJS..211...17A}.
 
-Photometric observations in the $BVg'r'i'$ filters were conducted by the Las Cumbres Observatory (LCO) 1-m
-telescope network.  PSF photometry was measured on these images using
-the \texttt{lcogtsnpipe} pipeline \citep{2016MNRAS.459.3939V}. The
-\textit{BV} magnitudes are calibrated to the Fourth USNO CCD
-Astrograph Catalog \citep{2013AJ....145...44Z}, and the \textit{g'r'i'}
-magnitudes are calibrated to SDSS Data Release 6
-\citep{2008ApJS..175..297A}.
+\textbf{The Las Cumbres Observatory (LCO) 1-m telescope network obtained
+$BVg'r'i'$ photometry.} PSF photometry was measured on these images using the
+\texttt{lcogtsnpipe} pipeline \citep{2016MNRAS.459.3939V}. The \textit{BV}
+magnitudes are calibrated to the Fourth USNO CCD Astrograph Catalog
+\citep{2013AJ....145...44Z}, and the \textit{g'r'i'} magnitudes are calibrated
+to SDSS Data Release 6 \citep{2008ApJS..175..297A}.
 
-The Reionization and Transients InfraRed (RATIR) camera on the autonomous 1.5\,m Harold L. Johnson Telescope at the Observatorio Astron\'{o}mico Nacional \citep{2012SPIE.8446E..10B,2012SPIE.8444E..5LW} was used to observe \abc\ in the $r'i'ZYJH$ filters. By design, RATIR lacks a cold shutter, which means IR dark frames are not available. Laboratory testing, however, confirms that the dark current is negligible in both IR detectors \citep{2012SPIE.8453E..1OF}.
+The Reionization and Transients InfraRed (RATIR) camera on the autonomous
+1.5\,m Harold L. Johnson Telescope
+\citep{2012SPIE.8446E..10B,2012SPIE.8444E..5LW} was used to observe \abc\ in
+the $r'i'ZYJH$ filters. By design, RATIR lacks a cold shutter, which means IR
+dark frames are not available. Laboratory testing, however, confirms that the
+dark current is negligible in both IR detectors \citep{2012SPIE.8453E..1OF}.
 
-The RATIR data were reduced, coadded, and analyzed using standard CCD and IR processing techniques in \texttt{IDL}, \texttt{Python}, \texttt{SExtractor} \citep{1996A&AS..117..393B}, and \texttt{SWarp}. Aperture photometry is obtained following the methods described in \citet{2014AJ....148....2L}. The $r'i'Z$ filters are calibrated to SDSS \citep{2014ApJS..211...17A}, while the $JH$ filters are calibrated to the Two Micron All Sky Survey \citep{2006AJ....131.1163S}. For the $Y$-band calibration, we used an empirical relation in terms of the $J$ and $H$ magnitudes derived from the United Kingdom Infrared Telescope (UKIRT; \citealt{2007A&A...467..777C}) Wide Field Camera observations \citep{2009MNRAS.394..675H}.
+The RATIR data were reduced, coadded, and analyzed using standard CCD and IR
+processing techniques in \texttt{IDL}, \texttt{Python}, \texttt{SExtractor}
+\citep{1996A&AS..117..393B}, and \texttt{SWarp}. Aperture photometry is
+obtained following the methods described in \citet{2014AJ....148....2L}. The
+$r'i'Z$ filters are calibrated to SDSS \citep{2014ApJS..211...17A}, while the
+$JH$ filters are calibrated to the Two Micron All Sky Survey
+\citep{2006AJ....131.1163S}. For the $Y$-band calibration, we used an
+empirical relation in terms of the $J$ and $H$ magnitudes derived from the
+United Kingdom Infrared Telescope (UKIRT; \citealt{2007A&A...467..777C}) Wide
+Field Camera observations \citep{2009MNRAS.394..675H}.
 
-The \textit{Swift} satellite observed \abc\ on 14 epochs, beginning 
-$\sim$15\,d pre-maximum light through $\sim$22\,d post maximum. The SN 
-flux is measured via aperture photometry on Ultraviolet-Optical
-Telescope (UVOT) images via the usual procedures in 
-\texttt{HEASoft}, including corrections for coincidence loss and 
-aperture loss. The image counts
-are converted to physical fluxes using the latest calibration
-\citep{2011AIPC.1358..373B}. There are no pre-SN UVOT images at the 
-SN location in the \textit{Swift} archive.  Visual inspection of the
-UVOT images suggests negligible host-galaxy contamination in our 
-UVOT flux measurements. No X-ray emission is detected from \abc\ by the \textit{Swift} X-ray Telescope (XRT).
+The \textit{Swift} satellite observed \abc\ on 14 epochs, beginning
+$\sim$15\,d pre-maximum light through $\sim$22\,d post maximum. The SN flux is
+measured via aperture photometry on Ultraviolet-Optical Telescope (UVOT)
+images via the usual procedures in \texttt{HEASoft}, including corrections for
+coincidence loss and aperture loss. The image counts are converted to physical
+fluxes using the latest calibration \citep{2011AIPC.1358..373B}. There are no
+pre-SN UVOT images at the SN location in the \textit{Swift} archive. Visual
+inspection of the UVOT images suggests negligible host-galaxy contamination in
+our UVOT flux measurements. No X-ray emission is detected from \abc\ by the
+\textit{Swift} X-ray Telescope (XRT).
 
-The $g$-band discovery and follow-up data of \abc\ are 
-illustrated in Figure~\ref{fig:lightcurve}.  The photometry is shown in the AB system. As previously noted the color terms necessary to convert $g_\mathrm{PTF}$ to the AB system are unknown and assumed to be zero.
+The $g$-band discovery and follow-up data of \abc\ are illustrated in
+Figure~\ref{fig:lightcurve}. The photometry is shown in the AB system. As
+previously noted the color terms necessary to convert $g_\mathrm{PTF}$ to the
+AB system are unknown and assumed to be zero.
 
-Spectroscopic observations of \abc\ were taken with a variety
-of telescopes and instruments over multiple epochs spanning from a
-couple of days after discovery to two months after $B$-band maximum. 
-An observing log is listed in Table \ref{tab:spec_obs_log}. The spectra were reduced using standard routines in \texttt{IDL}/\texttt{Python}/\texttt{Matlab}. The optical
-spectral evolution of \abc\ is illustrated in Figure
-\ref{fig:spec_seq}, which excludes high-resolution Very Large Telescope (VLT) spectra for clarity.
+Spectroscopic observations of \abc\ were taken with a variety of telescopes
+and instruments over multiple epochs \textbf{beginning $\sim$2\,d} after
+discovery \textbf{and ending $\sim$2} months after $B$-band maximum. An
+observing log is listed in Table \ref{tab:spec_obs_log}. The spectra were
+reduced using standard procedures in
+\texttt{IDL}/\texttt{Python}/\texttt{Matlab}. The optical spectral evolution
+of \abc\ is illustrated in Figure \ref{fig:spec_seq}, which excludes
+high-resolution Very Large Telescope (VLT) spectra for clarity.
 
 \begin{deluxetable}{cccccc}
   \tablecaption{Spectroscopic observations of \abc\ \label{tab:spec_obs_log}}
@@ -574,13 +600,14 @@ spectral evolution of \abc\ is illustrated in Figure
 \begin{figure*}[!htb]
   \centering
   \includegraphics[width=0.69\textwidth]{spectra.pdf}
-  \caption{Observed spectral sequence of \abc. The spectra are 
-  normalized by their median flux between 6,000 and 
-  7,000$\,\textrm{\AA}$.  The phase of each spectrum 
-  relative to \textbf{the time of $B$-band maximum} is shown. Telluric absorption
-  bands are grayed out. Line identifications are provided for 
-  the spectral features discussed in the text. 
-  For clarity, high-resolution spectra obtained with the VLT have been omitted (see Ferretti et al.\ 2017, submitted, for a detailed discussion of these spectra).}
+  \caption{
+  Observed spectral sequence of \abc. The spectra are normalized by their
+  median flux between 6000 and 7000$\,\textrm{\AA}$. The phase of each
+  spectrum relative to \textbf{the time of $B$-band maximum} is shown.
+  Telluric absorption bands are grayed out. Line identifications are provided
+  for the spectral features discussed in the text. For clarity,
+  high-resolution spectra obtained with the VLT have been omitted (see
+  \citealt{2017A&A...606A.111F} for a detailed discussion of these spectra).}
   \label{fig:spec_seq}
 \end{figure*}
 
@@ -602,9 +629,9 @@ NGC\,5221 and measure a redshift of $0.0234$, which we adopt for the remaining a
 \label{sec:reddening}
 
 A detailed study of the reddening towards \abc\ is presented in a 
-companion paper (Ferretti et al.\ 2017, submitted). Briefly, the 
+companion paper \citep{2017A&A...606A.111F}. Briefly, the 
 foreground Galactic extinction toward \abc\
-is $E(B-V) = 0.0279 \, \mathrm{mag}$ \citep{2011ApJ...737..103S}. The high-resolution spectra presented in Ferretti et al.\ (2017) show multiple absorption components for both the \ion{Ca}{2}\,H$+$K and \ion{Na}{1}\,D doublets. While the equivalent width (EW) of these lines is quite large, implying significant extinction (e.g., \citealt{2012MNRAS.426.1465P}), Ferretti et al.\ compare the evolution of \abc\ to the well-observed normal Type Ia SN\,2011fe and only find evidence for a small amount of extinction. The empirical relation between the EW of \ion{Na}{1}\,D and extinction is known to have a large scatter, and \citet{2013ApJ...779...38P} have shown that \ion{Na}{1}\,D absorption is a poor tracer of reddening in Type Ia SNe. Thus, we adopt $E(B-V) = 0.05 \, \mathrm{mag}$ as the local extinction for \abc\ (Ferretti et al.\ 2017). For the remainder of our analysis we assume a total, Galactic $+$ host galaxy, line-of-sight extinction of $E(B-V) = 0.08 \, \mathrm{mag}$.
+is $E(B-V) = 0.0279 \, \mathrm{mag}$ \citep{2011ApJ...737..103S}. The high-resolution spectra presented in \citet{2017A&A...606A.111F} show multiple absorption components for both the \ion{Ca}{2}\,H$+$K and \ion{Na}{1}\,D doublets. While the equivalent width (EW) of these lines is quite large, implying significant extinction (e.g., \citealt{2012MNRAS.426.1465P}), \citeauthor{2017A&A...606A.111F} compare the evolution of \abc\ to the well-observed normal Type Ia SN\,2011fe and only find evidence for a small amount of extinction. The empirical relation between the EW of \ion{Na}{1}\,D and extinction is known to have a large scatter, and \citet{2013ApJ...779...38P} have shown that \ion{Na}{1}\,D absorption is a poor tracer of reddening in Type Ia SNe. Thus, we adopt $E(B-V) = 0.05 \, \mathrm{mag}$ as the local extinction for \abc\ \citep{2017A&A...606A.111F}. For the remainder of our analysis we assume a total, Galactic $+$ host galaxy, line-of-sight extinction of $E(B-V) = 0.08 \, \mathrm{mag}$.
 
 \subsection{Classification}
 \label{sec:classification}
