@@ -81,6 +81,13 @@
   \procspie, Vol. 9147, Ground-based and Airborne Instrumentation for Astronomy
   V, 91472N
 
+\bibitem[{{Blagorodnova} {et~al.}(2017){Blagorodnova}, {Neill}, {Walters},
+  {Kulkarni}, {Fremling}, {Ben-Ami}, {Dekany}, {Fucik}, {Konidaris}, {Nash},
+  {Ngeow}, {Ofek}, {O' Sullivan}, {Quimby}, {Ritter}, \&
+  {Vyhmeister}}]{2017arXiv171002917B}
+{Blagorodnova}, N., {Neill}, J.~D., {Walters}, R., {et~al.} 2017, ArXiv
+  e-prints, arXiv:1710.02917
+
 \bibitem[{{Blondin} \& {Tonry}(2007)}]{2007ApJ...666.1024B}
 {Blondin}, S., \& {Tonry}, J.~L. 2007, \apj, 666, 1024
 
@@ -179,6 +186,11 @@
 {Faber}, S.~M., {Phillips}, A.~C., {Kibrick}, R.~I., {et~al.} 2003, in
   \procspie, Vol. 4841, Instrument Design and Performance for Optical/Infrared
   Ground-based Telescopes, ed. M.~{Iye} \& A.~F.~M. {Moorwood}, 1657--1669
+
+\bibitem[{{Ferretti} {et~al.}(2017){Ferretti}, {Amanullah}, {Goobar},
+  {Petrushevska}, {Borthakur}, {Bulla}, {Fox}, {Freeland}, {Fremling},
+  {Hangard}, \& {Hayes}}]{2017A&A...606A.111F}
+{Ferretti}, R., {Amanullah}, R., {Goobar}, A., {et~al.} 2017, \aap, 606, A111
 
 \bibitem[{{Fink} {et~al.}(2014){Fink}, {Kromer}, {Seitenzahl},
   {Ciaraldi-Schoolmann}, {R{\"o}pke}, {Sim}, {Pakmor}, {Ruiter}, \&
@@ -426,12 +438,6 @@
 {Rahmer}, G., {Smith}, R., {Velur}, V., {et~al.} 2008, in \procspie, Vol. 7014,
   Ground-based and Airborne Instrumentation for Astronomy II, 70144Y
 
-\bibitem[{{Sasdelli} {et~al.}(2017){Sasdelli}, {Hillebrandt}, {Kromer},
-  {Ishida}, {R{\"o}pke}, {Sim}, {Pakmor}, {Seitenzahl}, \&
-  {Fink}}]{2017MNRAS.466.3784S}
-{Sasdelli}, M., {Hillebrandt}, W., {Kromer}, M., {et~al.} 2017, \mnras, 466,
-  3784
-
 \bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{2011ApJ...737..103S}
 {Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011, \apj, 737, 103
 
@@ -478,11 +484,6 @@
   {Contardo}}]{2006A&A...450..241S}
 {Stritzinger}, M., {Leibundgut}, B., {Walch}, S., \& {Contardo}, G. 2006, \aap,
   450, 241
-
-\bibitem[{{Taddia} {et~al.}(2015){Taddia}, {Sollerman}, {Leloudas},
-  {Stritzinger}, {Valenti}, {Galbany}, {Kessler}, {Schneider}, \&
-  {Wheeler}}]{2015A&A...574A..60T}
-{Taddia}, F., {Sollerman}, J., {Leloudas}, G., {et~al.} 2015, \aap, 574, A60
 
 \bibitem[{{Theureau} {et~al.}(2007){Theureau}, {Hanski}, {Coudreau}, {Hallet},
   \& {Martin}}]{2007A&A...465...71T}
