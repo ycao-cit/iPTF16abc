@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 NOV 2017 07:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 NOV 2017 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,7 +495,7 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 342--342
  []
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] <logLC_with_colors.pdf, id=173, 433.62pt x 325.215pt>
+[2] <logLC_with_colors.pdf, id=172, 433.62pt x 325.215pt>
 File: logLC_with_colors.pdf Graphic file (type pdf)
 
 <use logLC_with_colors.pdf>
@@ -555,7 +555,7 @@ Underfull \hbox (badness 10000) detected at line 601
 $\OT1/cmr/m/n/8 8$
  []
 
-<spectra.pdf, id=315, 542.025pt x 650.43pt>
+<spectra.pdf, id=314, 542.025pt x 650.43pt>
 File: spectra.pdf Graphic file (type pdf)
  <use spectra.pdf>
 Package pdftex.def Info: spectra.pdf used on input line 606.
@@ -568,7 +568,7 @@ Overfull \hbox (1.30814pt too wide) in paragraph at lines 637--651
 6abc
  []
 
-[4] [5 <./spectra.pdf>] <Branch_vel_evol.pdf, id=437, 433.62pt x 289.08pt>
+[4] [5 <./spectra.pdf>] <Branch_vel_evol.pdf, id=436, 433.62pt x 289.08pt>
 File: Branch_vel_evol.pdf Graphic file (type pdf)
 
 <use Branch_vel_evol.pdf>
@@ -581,7 +581,7 @@ Underfull \hbox (badness 5064) in paragraph at lines 713--726
 []\OT1/cmr/m/n/10 We mea-sure the (pseudo)bolometric lu-mi-nos-ity,
  []
 
-[6 <./Branch_vel_evol.pdf>] <early_lc.pdf, id=571, 433.62pt x 325.215pt>
+[6 <./Branch_vel_evol.pdf>] <early_lc.pdf, id=570, 433.62pt x 325.215pt>
 File: early_lc.pdf Graphic file (type pdf)
 
 <use early_lc.pdf>
@@ -590,13 +590,13 @@ Package pdftex.def Info: early_lc.pdf used on input line 813.
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 860.
  [7 <./early_lc.pdf>]
-<Chi2.pdf, id=650, 433.62pt x 325.215pt>
+<Chi2.pdf, id=649, 433.62pt x 325.215pt>
 File: Chi2.pdf Graphic file (type pdf)
  <use Chi2.pdf>
 Package pdftex.def Info: Chi2.pdf used on input line 882.
 (pdftex.def)             Requested size: 242.10493pt x 181.57825pt.
 
-<VelocityPlot.pdf, id=651, 433.62pt x 325.215pt>
+<VelocityPlot.pdf, id=650, 433.62pt x 325.215pt>
 File: VelocityPlot.pdf Graphic file (type pdf)
  <use VelocityPlot.pdf>
 Package pdftex.def Info: VelocityPlot.pdf used on input line 883.
@@ -606,7 +606,7 @@ Package pdftex.def Info: VelocityPlot.pdf used on input line 883.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 933.
 
-<CarbonFeature.pdf, id=662, 433.62pt x 361.35pt>
+<CarbonFeature.pdf, id=661, 433.62pt x 361.35pt>
 File: CarbonFeature.pdf Graphic file (type pdf)
  <use CarbonFeature.pdf>
 Package pdftex.def Info: CarbonFeature.pdf used on input line 935.
@@ -616,7 +616,7 @@ Package pdftex.def Info: CarbonFeature.pdf used on input line 935.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 984.
 
-<16abc_11fe_colors.pdf, id=682, 433.62pt x 289.08pt>
+<16abc_11fe_colors.pdf, id=681, 433.62pt x 289.08pt>
 File: 16abc_11fe_colors.pdf Graphic file (type pdf)
 
 <use 16abc_11fe_colors.pdf>
@@ -640,7 +640,7 @@ fs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./16abc_11fe_colors.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] <companion_lc.pdf, id=901, 433.62pt x 325.215pt>
+>] <companion_lc.pdf, id=900, 433.62pt x 325.215pt>
 File: companion_lc.pdf Graphic file (type pdf)
  <use companion_lc.pdf>
 Package pdftex.def Info: companion_lc.pdf used on input line 1075.
@@ -651,7 +651,7 @@ Package pdftex.def Info: companion_lc.pdf used on input line 1075.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1133.
 
-<compare_Noebauer.pdf, id=978, 433.62pt x 578.16pt>
+<compare_Noebauer.pdf, id=977, 433.62pt x 578.16pt>
 File: compare_Noebauer.pdf Graphic file (type pdf)
  <use compare_Noebauer.pdf>
 Package pdftex.def Info: compare_Noebauer.pdf used on input line 1135.
@@ -665,7 +665,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <9> not available
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1202.
 
-<compare_Dessart.pdf, id=1080, 433.62pt x 578.16pt>
+<compare_Dessart.pdf, id=1079, 433.62pt x 578.16pt>
 File: compare_Dessart.pdf Graphic file (type pdf)
  <use compare_Dessart.pdf>
 Package pdftex.def Info: compare_Dessart.pdf used on input line 1204.
@@ -680,7 +680,7 @@ w-[]n . oca . eu / supernova / snia /
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1246.
 
-<compare_Piro.pdf, id=1101, 433.62pt x 578.16pt>
+<compare_Piro.pdf, id=1100, 433.62pt x 578.16pt>
 File: compare_Piro.pdf Graphic file (type pdf)
  <use compare_Piro.pdf>
 Package pdftex.def Info: compare_Piro.pdf used on input line 1248.
@@ -713,7 +713,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 1458--1459
 \OT1/cmr/m/n/10 LCOGT, PO:1.2m, PO:1.5m, NOT, VLT, Swift,
  []
 
-<lightcurve2.pdf, id=1354, 794.97pt x 325.215pt>
+<lightcurve2.pdf, id=1353, 794.97pt x 325.215pt>
 File: lightcurve2.pdf Graphic file (type pdf)
  <use lightcurve2.pdf>
 Package pdftex.def Info: lightcurve2.pdf used on input line 1471.
@@ -728,7 +728,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1492.
 Here is how much of TeX's memory you used:
  9347 strings out of 493089
  135523 string characters out of 6134842
- 315065 words of memory out of 5000000
+ 315040 words of memory out of 5000000
  12556 multiletter control sequences out of 15000+600000
  17756 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -766,10 +766,10 @@ amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/he
 lvetic/uhvr8a.pfb>
-Output written on ms.pdf (18 pages, 1214758 bytes).
+Output written on ms.pdf (18 pages, 1214446 bytes).
 PDF statistics:
- 1608 PDF objects out of 1728 (max. 8388607)
- 943 compressed objects within 10 object streams
+ 1607 PDF objects out of 1728 (max. 8388607)
+ 942 compressed objects within 10 object streams
  159 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
