@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 NOV 2017 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 NOV 2017 07:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -713,8 +713,8 @@ Overfull \hbox (0.16237pt too wide) in paragraph at lines 1459--1460
  []
 
 
-Overfull \hbox (9.30356pt too wide) in paragraph at lines 1459--1460
-\OT1/cmr/m/n/10 LCOGT, PO:1.2m, PO:1.5m, VLT, Swift, OANSPM:HJT 
+Underfull \hbox (badness 2608) in paragraph at lines 1459--1460
+\OT1/cmr/m/n/10 LCOGT, PO:1.2m, PO:1.5m, NOT, VLT, Swift,
  []
 
 <lightcurve2.pdf, id=1354, 794.97pt x 325.215pt>
@@ -732,7 +732,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1493.
 Here is how much of TeX's memory you used:
  9347 strings out of 493089
  135523 string characters out of 6134842
- 315049 words of memory out of 5000000
+ 315065 words of memory out of 5000000
  12556 multiletter control sequences out of 15000+600000
  17756 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -770,7 +770,7 @@ amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/he
 lvetic/uhvr8a.pfb>
-Output written on ms.pdf (18 pages, 1214503 bytes).
+Output written on ms.pdf (18 pages, 1214765 bytes).
 PDF statistics:
  1608 PDF objects out of 1728 (max. 8388607)
  943 compressed objects within 10 object streams
